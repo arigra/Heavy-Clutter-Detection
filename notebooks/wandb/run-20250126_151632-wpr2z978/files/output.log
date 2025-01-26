@@ -1,0 +1,12 @@
+
+torch.Size([4, 1, 28, 28]) torch.Size([4, 1, 28, 28]) torch.Size([4])
+Device: cuda
+  0%|          | 0/80 [00:00<?, ?it/s]
+torch.Size([4, 1, 28, 28]) torch.Size([4, 1, 28, 28]) torch.Size([4])
+  0%|          | 0/80 [00:00<?, ?it/s]
+Device: cuda
+torch.Size([4, 1, 28, 28]) torch.Size([4, 1, 28, 28]) torch.Size([4])
+  0%|          | 0/80 [00:00<?, ?it/s]
+Device: cuda
+torch.Size([4, 1, 28, 28]) torch.Size([4, 1, 28, 28]) torch.Size([4])
+Device: cuda
