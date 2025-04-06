@@ -1,0 +1,12 @@
+Normalizing dataset: 100%|██████████| 550/550 [00:01<00:00, 299.87it/s]
+Normalizing dataset: 100%|██████████| 55/55 [00:00<00:00, 282.45it/s]
+SCNR (dB): tensor(-5.1352)
+SCNR (dB): tensor(-5.1352)
+Normalizing dataset: 100%|██████████| 550/550 [00:00<00:00, 766.64it/s]
+Normalizing dataset: 100%|██████████| 55/55 [00:00<00:00, 796.25it/s]
+SCNR (dB): tensor(-5.1352)
+SCNR (dB): tensor(-5.1352)
+Normalizing dataset: 100%|██████████| 550/550 [00:00<00:00, 774.80it/s]
+Normalizing dataset: 100%|██████████| 55/55 [00:00<00:00, 779.06it/s]
+SCNR (dB): tensor(-5.1352)
+SCNR (dB): tensor(-5.1352)

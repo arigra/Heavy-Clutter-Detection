@@ -1,0 +1,53 @@
+2025-04-06 12:25:20,152 INFO    MainThread:9103 [wandb_init.py:_log_setup():523] Logging user logs to /Users/arigranevich/Developer/Research/Diffusion/finalDiffusion/wandb/run-20250406_122520-ulmf2j4d/logs/debug.log
+2025-04-06 12:25:20,152 INFO    MainThread:9103 [wandb_init.py:_log_setup():524] Logging internal logs to /Users/arigranevich/Developer/Research/Diffusion/finalDiffusion/wandb/run-20250406_122520-ulmf2j4d/logs/debug-internal.log
+2025-04-06 12:25:20,152 INFO    MainThread:9103 [wandb_init.py:init():641] calling init triggers
+2025-04-06 12:25:20,152 INFO    MainThread:9103 [wandb_init.py:init():647] wandb.init called with sweep_config: {}
+config: {'SNR': 10, 'CNR': 15, 'max_lr': 0.001, 'beta_end': 0.02, 'final_lr': 1e-05, 'num_heads': 8, 'beta_start': 0.0001, 'num_layers': 6, 'batch_size': 16, 'num_epochs': 600, 'num_workers': 4, 'weight_decay': 0.0001, 'warmup_steps': 4000, 'dataset_size': 500, 'time_emb_dim': 256, 'learning_rate': 1e-05, 'scheduler_type': 'linear', 'number_of_noise_steps': 2000}
+2025-04-06 12:25:20,152 INFO    MainThread:9103 [wandb_init.py:init():669] wandb.init() called when a run is still active
+2025-04-06 12:25:20,152 INFO    MainThread:9103 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-06 12:25:20,152 INFO    MainThread:9103 [wandb_init.py:_pause_backend():434] pausing backend
+2025-04-06 12:25:20,155 INFO    MainThread:9103 [wandb_init.py:_resume_backend():439] resuming backend
+2025-04-06 12:25:21,672 INFO    MainThread:9103 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-06 12:25:21,672 INFO    MainThread:9103 [wandb_init.py:_pause_backend():434] pausing backend
+2025-04-06 12:25:21,675 INFO    MainThread:9103 [wandb_init.py:_resume_backend():439] resuming backend
+2025-04-06 12:25:25,919 INFO    MainThread:9103 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-06 12:25:25,919 INFO    MainThread:9103 [wandb_init.py:_pause_backend():434] pausing backend
+2025-04-06 12:25:25,924 INFO    MainThread:9103 [wandb_init.py:_resume_backend():439] resuming backend
+2025-04-06 12:25:25,986 INFO    MainThread:9103 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-06 12:25:25,987 INFO    MainThread:9103 [wandb_init.py:_pause_backend():434] pausing backend
+2025-04-06 12:26:14,695 INFO    MainThread:9103 [wandb_init.py:_resume_backend():439] resuming backend
+2025-04-06 12:26:14,701 INFO    MainThread:9103 [wandb_init.py:_log_setup():523] Logging user logs to /Users/arigranevich/Developer/Research/Diffusion/finalDiffusion/wandb/run-20250406_122614-x9dap6n2/logs/debug.log
+2025-04-06 12:26:14,701 INFO    MainThread:9103 [wandb_init.py:_log_setup():524] Logging internal logs to /Users/arigranevich/Developer/Research/Diffusion/finalDiffusion/wandb/run-20250406_122614-x9dap6n2/logs/debug-internal.log
+2025-04-06 12:26:14,701 INFO    MainThread:9103 [wandb_init.py:init():641] calling init triggers
+2025-04-06 12:26:14,701 INFO    MainThread:9103 [wandb_init.py:init():647] wandb.init called with sweep_config: {}
+config: {'SNR': 10, 'CNR': 15, 'max_lr': 0.001, 'beta_end': 0.02, 'final_lr': 1e-05, 'num_heads': 8, 'beta_start': 0.0001, 'num_layers': 6, 'batch_size': 16, 'num_epochs': 600, 'noise_steps': 2000, 'num_workers': 4, 'weight_decay': 0.0001, 'warmup_steps': 4000, 'dataset_size': 500, 'time_emb_dim': 256, 'learning_rate': 1e-05, 'scheduler_type': 'linear'}
+2025-04-06 12:26:14,701 INFO    MainThread:9103 [wandb_init.py:init():669] wandb.init() called when a run is still active
+2025-04-06 12:26:14,702 INFO    MainThread:9103 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-06 12:26:14,702 INFO    MainThread:9103 [wandb_init.py:_pause_backend():434] pausing backend
+2025-04-06 12:26:17,815 INFO    MainThread:9103 [wandb_init.py:_resume_backend():439] resuming backend
+2025-04-06 12:26:17,885 INFO    MainThread:9103 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-06 12:26:17,886 INFO    MainThread:9103 [wandb_init.py:_pause_backend():434] pausing backend
+2025-04-06 12:26:25,655 INFO    MainThread:9103 [wandb_init.py:_resume_backend():439] resuming backend
+2025-04-06 12:26:25,656 INFO    MainThread:9103 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-06 12:26:25,657 INFO    MainThread:9103 [wandb_init.py:_pause_backend():434] pausing backend
+2025-04-06 12:26:25,660 INFO    MainThread:9103 [wandb_init.py:_resume_backend():439] resuming backend
+2025-04-06 12:26:25,661 INFO    MainThread:9103 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-06 12:26:25,661 INFO    MainThread:9103 [wandb_init.py:_pause_backend():434] pausing backend
+2025-04-06 12:26:25,665 INFO    MainThread:9103 [wandb_init.py:_resume_backend():439] resuming backend
+2025-04-06 12:26:25,668 INFO    MainThread:9103 [wandb_init.py:_log_setup():523] Logging user logs to /Users/arigranevich/Developer/Research/Diffusion/finalDiffusion/wandb/run-20250406_122625-m79mu3sm/logs/debug.log
+2025-04-06 12:26:25,668 INFO    MainThread:9103 [wandb_init.py:_log_setup():524] Logging internal logs to /Users/arigranevich/Developer/Research/Diffusion/finalDiffusion/wandb/run-20250406_122625-m79mu3sm/logs/debug-internal.log
+2025-04-06 12:26:25,668 INFO    MainThread:9103 [wandb_init.py:init():641] calling init triggers
+2025-04-06 12:26:25,668 INFO    MainThread:9103 [wandb_init.py:init():647] wandb.init called with sweep_config: {}
+config: {'SNR': 10, 'CNR': 15, 'max_lr': 0.001, 'beta_end': 0.02, 'final_lr': 1e-05, 'num_heads': 8, 'beta_start': 0.0001, 'num_layers': 6, 'batch_size': 16, 'num_epochs': 600, 'noise_steps': 2000, 'num_workers': 4, 'weight_decay': 0.0001, 'warmup_steps': 4000, 'dataset_size': 500, 'time_emb_dim': 256, 'learning_rate': 1e-05, 'scheduler_type': 'linear'}
+2025-04-06 12:26:25,668 INFO    MainThread:9103 [wandb_init.py:init():669] wandb.init() called when a run is still active
+2025-04-06 12:26:25,668 INFO    MainThread:9103 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-06 12:26:25,669 INFO    MainThread:9103 [wandb_init.py:_pause_backend():434] pausing backend
+2025-04-06 12:26:25,672 INFO    MainThread:9103 [wandb_init.py:_resume_backend():439] resuming backend
+2025-04-06 12:26:27,182 INFO    MainThread:9103 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-06 12:26:27,182 INFO    MainThread:9103 [wandb_init.py:_pause_backend():434] pausing backend
+2025-04-06 12:26:27,185 INFO    MainThread:9103 [wandb_init.py:_resume_backend():439] resuming backend
+2025-04-06 12:26:31,303 INFO    MainThread:9103 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-06 12:26:31,303 INFO    MainThread:9103 [wandb_init.py:_pause_backend():434] pausing backend
+2025-04-06 12:26:31,309 INFO    MainThread:9103 [wandb_init.py:_resume_backend():439] resuming backend
+2025-04-06 12:26:31,366 INFO    MainThread:9103 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-06 12:26:31,366 INFO    MainThread:9103 [wandb_init.py:_pause_backend():434] pausing backend

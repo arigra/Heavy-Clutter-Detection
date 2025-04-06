@@ -1,0 +1,18 @@
+{"time":"2025-04-06T15:23:23.780656+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/Users/arigranevich/Developer/Research/Diffusion/finalDiffusion/wandb/run-20250406_152323-vus4hmqt/logs/debug-core.log"}
+{"time":"2025-04-06T15:23:23.889358+03:00","level":"INFO","msg":"created new stream","id":"vus4hmqt"}
+{"time":"2025-04-06T15:23:23.889399+03:00","level":"INFO","msg":"stream: started","id":"vus4hmqt"}
+{"time":"2025-04-06T15:23:23.889445+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"vus4hmqt"}
+{"time":"2025-04-06T15:23:23.889455+03:00","level":"INFO","msg":"handler: started","stream_id":"vus4hmqt"}
+{"time":"2025-04-06T15:23:23.889483+03:00","level":"INFO","msg":"sender: started","stream_id":"vus4hmqt"}
+{"time":"2025-04-06T15:23:24.163565+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-06T15:23:24.229704+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-06T15:23:24.232926+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-06T15:23:25.822911+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-06T15:23:25.826418+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-06T15:23:30.791844+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-06T15:23:30.795909+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-06T15:23:31.325205+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-06T15:23:31.329164+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-06T15:23:38.072561+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-06T15:23:40.994326+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-06T15:25:16.61331+03:00","level":"INFO","msg":"Pausing system monitor"}

@@ -1,0 +1,14 @@
+{"time":"2025-04-06T12:28:53.574368+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/Users/arigranevich/Developer/Research/Diffusion/finalDiffusion/wandb/run-20250406_122853-5e4v7isl/logs/debug-core.log"}
+{"time":"2025-04-06T12:28:53.681571+03:00","level":"INFO","msg":"created new stream","id":"5e4v7isl"}
+{"time":"2025-04-06T12:28:53.681607+03:00","level":"INFO","msg":"stream: started","id":"5e4v7isl"}
+{"time":"2025-04-06T12:28:53.681638+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"5e4v7isl"}
+{"time":"2025-04-06T12:28:53.681652+03:00","level":"INFO","msg":"sender: started","stream_id":"5e4v7isl"}
+{"time":"2025-04-06T12:28:53.681624+03:00","level":"INFO","msg":"handler: started","stream_id":"5e4v7isl"}
+{"time":"2025-04-06T12:28:53.951493+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-06T12:28:54.011317+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-06T12:28:54.014523+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-06T12:28:55.544584+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-06T12:28:55.548146+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-06T12:29:00.381311+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-06T12:29:00.386385+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-06T12:30:58.986865+03:00","level":"INFO","msg":"Pausing system monitor"}

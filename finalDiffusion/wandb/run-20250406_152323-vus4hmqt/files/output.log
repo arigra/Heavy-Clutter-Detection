@@ -1,0 +1,6 @@
+Normalizing dataset: 100%|██████████| 550/550 [00:00<00:00, 715.89it/s]
+Normalizing dataset: 100%|██████████| 55/55 [00:00<00:00, 778.06it/s]
+SCNR (dB): tensor(-5.1352)
+SCNR (dB): tensor(-5.1352)
+/Users/arigranevich/Developer/Research/Diffusion/finalDiffusion/utils/inference.py:45: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  cond_diffusion.load_state_dict(torch.load(checkpoint_path, map_location=device))
