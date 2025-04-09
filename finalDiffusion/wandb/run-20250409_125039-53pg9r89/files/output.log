@@ -1,0 +1,8 @@
+Normalizing dataset: 100%|██████████| 550/550 [00:00<00:00, 749.50it/s]
+Normalizing dataset: 100%|██████████| 55/55 [00:00<00:00, 591.60it/s]
+/home/hawk/.local/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 1/400: Train Loss = 7.7864 | Val Loss = 8.3215
+   [Generation Metrics] MSE: 356039936.0000 | PSNR: -74.03 dB
+   --> Best MSE model saved.
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)

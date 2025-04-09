@@ -1,0 +1,15 @@
+
+
+
+
+
+Normalizing dataset: 100%|██████████| 5500/5500 [00:09<00:00, 588.23it/s]
+Normalizing dataset:  48%|████▊     | 266/550 [00:00<00:00, 618.05it/s]wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+Normalizing dataset: 100%|██████████| 550/550 [00:00<00:00, 687.72it/s]
+/home/hawk/.local/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)

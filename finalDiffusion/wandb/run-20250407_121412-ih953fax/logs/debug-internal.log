@@ -1,0 +1,675 @@
+2025-04-07 12:14:12,190 INFO    StreamThr :1807074 [internal.py:wandb_internal():85] W&B internal server running at pid: 1807074, started at: 2025-04-07 12:14:12.189498
+2025-04-07 12:14:12,193 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status
+2025-04-07 12:14:12,201 INFO    WriterThread:1807074 [datastore.py:open_for_write():87] open: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/run-ih953fax.wandb
+2025-04-07 12:14:12,201 DEBUG   SenderThread:1807074 [sender.py:send():379] send: header
+2025-04-07 12:14:12,210 DEBUG   SenderThread:1807074 [sender.py:send():379] send: run
+2025-04-07 12:14:12,712 INFO    SenderThread:1807074 [dir_watcher.py:__init__():211] watching files in: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files
+2025-04-07 12:14:12,712 INFO    SenderThread:1807074 [sender.py:_start_run_threads():1188] run started: ih953fax with start time 1744017252.188843
+2025-04-07 12:14:12,720 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: check_version
+2025-04-07 12:14:12,720 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: check_version
+2025-04-07 12:14:13,065 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: run_start
+2025-04-07 12:14:13,076 DEBUG   HandlerThread:1807074 [system_info.py:__init__():26] System info init
+2025-04-07 12:14:13,076 DEBUG   HandlerThread:1807074 [system_info.py:__init__():41] System info init done
+2025-04-07 12:14:13,076 INFO    HandlerThread:1807074 [system_monitor.py:start():194] Starting system monitor
+2025-04-07 12:14:13,076 INFO    SystemMonitor:1807074 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-04-07 12:14:13,077 INFO    HandlerThread:1807074 [system_monitor.py:probe():214] Collecting system info
+2025-04-07 12:14:13,077 INFO    SystemMonitor:1807074 [interfaces.py:start():188] Started cpu monitoring
+2025-04-07 12:14:13,078 INFO    SystemMonitor:1807074 [interfaces.py:start():188] Started disk monitoring
+2025-04-07 12:14:13,078 INFO    SystemMonitor:1807074 [interfaces.py:start():188] Started gpu monitoring
+2025-04-07 12:14:13,079 INFO    SystemMonitor:1807074 [interfaces.py:start():188] Started memory monitoring
+2025-04-07 12:14:13,080 INFO    SystemMonitor:1807074 [interfaces.py:start():188] Started network monitoring
+2025-04-07 12:14:13,088 DEBUG   HandlerThread:1807074 [system_info.py:probe():152] Probing system
+2025-04-07 12:14:13,090 DEBUG   HandlerThread:1807074 [system_info.py:_probe_git():137] Probing git
+2025-04-07 12:14:13,097 DEBUG   HandlerThread:1807074 [system_info.py:_probe_git():145] Probing git done
+2025-04-07 12:14:13,097 DEBUG   HandlerThread:1807074 [system_info.py:probe():200] Probing system done
+2025-04-07 12:14:13,098 DEBUG   HandlerThread:1807074 [system_monitor.py:probe():223] {'os': 'Linux-6.8.0-52-generic-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2025-04-07T09:14:13.088203', 'startedAt': '2025-04-07T09:14:12.180364', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/arigra/Heavy-Clutter-Detection.git', 'commit': '18b10e19656126a5a79cdf5f12d96f04b43df4a7'}, 'email': 'ari.granevich@gmail.com', 'root': '/home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection', 'host': 'hawk-Z790-GAMING-X', 'username': 'hawk', 'executable': '/bin/python3', 'cpu_count': 20, 'cpu_count_logical': 28, 'cpu_freq': {'current': 2123.53575, 'min': 800.0, 'max': 5000.0}, 'cpu_freq_per_core': [{'current': 4524.55, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 1700.473, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 2700.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 2700.0, 'min': 800.0, 'max': 5600.0}, {'current': 800.0, 'min': 800.0, 'max': 5600.0}, {'current': 2700.0, 'min': 800.0, 'max': 5600.0}, {'current': 2241.44, 'min': 800.0, 'max': 5600.0}, {'current': 2700.0, 'min': 800.0, 'max': 5500.0}, {'current': 1702.701, 'min': 800.0, 'max': 5500.0}, {'current': 2700.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 2703.385, 'min': 800.0, 'max': 4300.0}, {'current': 4147.853, 'min': 800.0, 'max': 4300.0}, {'current': 2985.443, 'min': 800.0, 'max': 4300.0}, {'current': 3899.348, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 2707.012, 'min': 800.0, 'max': 4300.0}, {'current': 2818.691, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 2745.333, 'min': 800.0, 'max': 4300.0}, {'current': 2712.337, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 2679.166, 'min': 800.0, 'max': 4300.0}], 'disk': {'/': {'total': 1832.2072448730469, 'used': 1104.9048156738281}}, 'gpu': 'NVIDIA GeForce RTX 4090', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4090', 'memory_total': 25757220864}], 'memory': {'total': 62.62469482421875}}
+2025-04-07 12:14:13,098 INFO    HandlerThread:1807074 [system_monitor.py:probe():224] Finished collecting system info
+2025-04-07 12:14:13,098 INFO    HandlerThread:1807074 [system_monitor.py:probe():227] Publishing system info
+2025-04-07 12:14:13,099 INFO    HandlerThread:1807074 [system_monitor.py:probe():229] Finished publishing system info
+2025-04-07 12:14:13,104 DEBUG   SenderThread:1807074 [sender.py:send():379] send: files
+2025-04-07 12:14:13,104 INFO    SenderThread:1807074 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2025-04-07 12:14:13,200 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: python_packages
+2025-04-07 12:14:13,200 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: python_packages
+2025-04-07 12:14:13,240 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-07 12:14:13,241 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:13,241 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: pause
+2025-04-07 12:14:13,241 INFO    HandlerThread:1807074 [handler.py:handle_request_pause():724] stopping system metrics thread
+2025-04-07 12:14:13,241 INFO    HandlerThread:1807074 [system_monitor.py:finish():203] Stopping system monitor
+2025-04-07 12:14:13,241 INFO    HandlerThread:1807074 [interfaces.py:finish():200] Joined cpu monitor
+2025-04-07 12:14:13,241 INFO    HandlerThread:1807074 [interfaces.py:finish():200] Joined disk monitor
+2025-04-07 12:14:13,241 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: stop_status
+2025-04-07 12:14:13,241 DEBUG   SystemMonitor:1807074 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-04-07 12:14:13,242 DEBUG   SystemMonitor:1807074 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-04-07 12:14:13,242 DEBUG   SystemMonitor:1807074 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-04-07 12:14:13,274 INFO    HandlerThread:1807074 [interfaces.py:finish():200] Joined gpu monitor
+2025-04-07 12:14:13,274 INFO    HandlerThread:1807074 [interfaces.py:finish():200] Joined memory monitor
+2025-04-07 12:14:13,274 INFO    HandlerThread:1807074 [interfaces.py:finish():200] Joined network monitor
+2025-04-07 12:14:13,275 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: resume
+2025-04-07 12:14:13,275 INFO    HandlerThread:1807074 [handler.py:handle_request_resume():715] starting system metrics thread
+2025-04-07 12:14:13,275 INFO    HandlerThread:1807074 [system_monitor.py:start():194] Starting system monitor
+2025-04-07 12:14:13,275 INFO    SystemMonitor:1807074 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-04-07 12:14:13,275 INFO    SystemMonitor:1807074 [interfaces.py:start():188] Started cpu monitoring
+2025-04-07 12:14:13,275 INFO    SystemMonitor:1807074 [interfaces.py:start():188] Started disk monitoring
+2025-04-07 12:14:13,275 INFO    SystemMonitor:1807074 [interfaces.py:start():188] Started gpu monitoring
+2025-04-07 12:14:13,275 INFO    SystemMonitor:1807074 [interfaces.py:start():188] Started memory monitoring
+2025-04-07 12:14:13,276 INFO    SystemMonitor:1807074 [interfaces.py:start():188] Started network monitoring
+2025-04-07 12:14:13,484 DEBUG   SenderThread:1807074 [sender.py:send():379] send: telemetry
+2025-04-07 12:14:13,484 DEBUG   SenderThread:1807074 [sender.py:send():379] send: stats
+2025-04-07 12:14:13,712 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/wandb-metadata.json
+2025-04-07 12:14:13,712 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/requirements.txt
+2025-04-07 12:14:13,842 INFO    wandb-upload_0:1807074 [upload_job.py:push():130] Uploaded file /tmp/tmpw77i_av7wandb/7lt7icdh-wandb-metadata.json
+2025-04-07 12:14:14,203 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:15,204 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:16,204 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:17,204 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:17,485 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:14:18,204 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:19,204 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:20,204 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:21,204 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:22,204 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:23,201 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:14:23,204 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:24,204 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:25,204 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:26,204 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:27,204 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:28,200 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-07 12:14:28,201 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: stop_status
+2025-04-07 12:14:28,241 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:28,418 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:14:29,205 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:30,205 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:31,205 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:32,205 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:33,205 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:34,201 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:14:34,205 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:35,205 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:36,205 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:37,205 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:38,205 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:39,205 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:40,201 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:14:40,205 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:41,205 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:42,205 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:43,201 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-07 12:14:43,201 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: stop_status
+2025-04-07 12:14:43,241 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:44,206 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:45,206 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:45,509 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:14:46,206 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:46,717 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/config.yaml
+2025-04-07 12:14:47,206 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:48,206 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:49,206 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:50,206 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:51,202 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:14:51,206 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:52,206 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:53,206 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:54,206 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:55,206 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:56,206 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:57,202 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:14:57,206 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:58,201 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-07 12:14:58,201 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: stop_status
+2025-04-07 12:14:58,241 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:14:59,207 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:00,207 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:01,207 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:02,207 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:02,457 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:15:03,207 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:04,207 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:05,207 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:06,207 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:07,207 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:08,202 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:15:08,207 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:09,207 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:10,207 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:11,207 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:12,207 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:13,201 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-07 12:15:13,201 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: stop_status
+2025-04-07 12:15:13,241 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:13,276 DEBUG   SystemMonitor:1807074 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-04-07 12:15:13,407 DEBUG   SenderThread:1807074 [sender.py:send():379] send: stats
+2025-04-07 12:15:13,407 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:15:14,208 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:15,208 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:16,208 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:17,208 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:18,208 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:19,202 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:15:19,208 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:20,208 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:21,208 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:22,208 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:23,208 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:24,202 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:15:24,208 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:25,208 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:26,208 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:27,209 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:28,201 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-07 12:15:28,201 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: stop_status
+2025-04-07 12:15:28,241 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:29,209 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:29,473 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:15:30,209 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:31,209 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:32,209 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:33,209 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:34,209 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:35,202 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:15:35,209 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:36,209 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:36,724 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:15:37,209 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:38,209 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:38,724 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:15:39,209 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:40,209 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:40,298 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:15:40,724 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:15:41,209 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:42,210 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:42,725 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:15:43,201 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-07 12:15:43,201 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: stop_status
+2025-04-07 12:15:43,210 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:43,418 DEBUG   SenderThread:1807074 [sender.py:send():379] send: stats
+2025-04-07 12:15:44,210 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:44,725 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:15:45,210 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:45,309 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:15:46,210 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:46,725 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:15:47,210 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:48,210 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:48,726 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:15:49,210 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:50,210 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:50,378 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:15:50,726 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:15:51,210 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:52,210 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:52,726 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:15:53,210 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:54,210 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:54,727 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:15:55,210 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:55,429 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:15:56,211 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:56,727 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:15:57,211 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:58,201 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-07 12:15:58,201 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: stop_status
+2025-04-07 12:15:58,211 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:15:58,727 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:15:59,211 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:00,211 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:00,437 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:16:00,728 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:01,211 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:02,211 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:02,728 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:03,211 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:04,211 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:04,728 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:05,211 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:05,510 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:16:06,211 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:06,729 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:07,211 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:08,211 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:08,729 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:09,211 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:10,211 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:10,597 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:16:10,729 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:11,211 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:12,212 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:12,730 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:13,201 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-07 12:16:13,201 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: stop_status
+2025-04-07 12:16:13,212 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:13,392 DEBUG   SenderThread:1807074 [sender.py:send():379] send: stats
+2025-04-07 12:16:14,212 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:14,730 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:15,212 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:15,711 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:16:16,212 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:16,730 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:17,212 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:18,212 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:18,731 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:19,212 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:20,212 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:20,731 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:20,795 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:16:21,212 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:22,212 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:22,731 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:23,212 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:24,215 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:24,732 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:25,214 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:25,857 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:16:26,214 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:26,732 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:27,214 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:28,201 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-07 12:16:28,201 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: stop_status
+2025-04-07 12:16:28,214 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:28,732 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:29,214 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:30,214 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:30,733 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:30,921 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:16:31,214 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:32,218 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:32,733 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:33,246 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:34,215 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:34,733 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:35,215 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:36,050 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:16:36,215 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:36,733 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:37,215 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:38,251 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:38,734 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:39,215 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:40,215 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:40,734 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:41,129 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:16:41,216 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:42,216 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:42,734 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:43,201 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-07 12:16:43,201 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: stop_status
+2025-04-07 12:16:43,216 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:43,517 DEBUG   SenderThread:1807074 [sender.py:send():379] send: stats
+2025-04-07 12:16:44,216 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:44,735 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:45,216 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:46,171 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:16:46,216 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:46,735 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:47,216 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:48,216 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:48,735 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:49,216 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:50,216 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:50,736 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:51,206 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:16:51,216 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:52,216 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:52,736 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:53,216 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:54,216 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:54,736 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:55,217 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:56,217 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:56,281 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:16:56,737 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:57,136 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: pause
+2025-04-07 12:16:57,136 INFO    HandlerThread:1807074 [handler.py:handle_request_pause():724] stopping system metrics thread
+2025-04-07 12:16:57,136 INFO    HandlerThread:1807074 [system_monitor.py:finish():203] Stopping system monitor
+2025-04-07 12:16:57,136 DEBUG   SystemMonitor:1807074 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-04-07 12:16:57,136 INFO    HandlerThread:1807074 [interfaces.py:finish():200] Joined cpu monitor
+2025-04-07 12:16:57,136 DEBUG   SystemMonitor:1807074 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-04-07 12:16:57,136 INFO    HandlerThread:1807074 [interfaces.py:finish():200] Joined disk monitor
+2025-04-07 12:16:57,170 INFO    HandlerThread:1807074 [interfaces.py:finish():200] Joined gpu monitor
+2025-04-07 12:16:57,170 INFO    HandlerThread:1807074 [interfaces.py:finish():200] Joined memory monitor
+2025-04-07 12:16:57,170 INFO    HandlerThread:1807074 [interfaces.py:finish():200] Joined network monitor
+2025-04-07 12:16:57,170 DEBUG   SenderThread:1807074 [sender.py:send():379] send: stats
+2025-04-07 12:16:57,171 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: resume
+2025-04-07 12:16:57,171 INFO    HandlerThread:1807074 [handler.py:handle_request_resume():715] starting system metrics thread
+2025-04-07 12:16:57,171 INFO    HandlerThread:1807074 [system_monitor.py:start():194] Starting system monitor
+2025-04-07 12:16:57,171 INFO    SystemMonitor:1807074 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-04-07 12:16:57,171 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: pause
+2025-04-07 12:16:57,171 INFO    HandlerThread:1807074 [handler.py:handle_request_pause():724] stopping system metrics thread
+2025-04-07 12:16:57,171 INFO    HandlerThread:1807074 [system_monitor.py:finish():203] Stopping system monitor
+2025-04-07 12:16:57,171 INFO    SystemMonitor:1807074 [interfaces.py:start():188] Started cpu monitoring
+2025-04-07 12:16:57,171 DEBUG   SystemMonitor:1807074 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-04-07 12:16:57,171 DEBUG   SystemMonitor:1807074 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-04-07 12:16:57,171 DEBUG   SystemMonitor:1807074 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-04-07 12:16:57,172 INFO    HandlerThread:1807074 [interfaces.py:finish():200] Joined cpu monitor
+2025-04-07 12:16:57,172 DEBUG   SenderThread:1807074 [sender.py:send():379] send: stats
+2025-04-07 12:16:57,178 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: resume
+2025-04-07 12:16:57,178 INFO    HandlerThread:1807074 [handler.py:handle_request_resume():715] starting system metrics thread
+2025-04-07 12:16:57,178 INFO    HandlerThread:1807074 [system_monitor.py:start():194] Starting system monitor
+2025-04-07 12:16:57,178 INFO    SystemMonitor:1807074 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-04-07 12:16:57,178 INFO    SystemMonitor:1807074 [interfaces.py:start():188] Started cpu monitoring
+2025-04-07 12:16:57,179 INFO    SystemMonitor:1807074 [interfaces.py:start():188] Started disk monitoring
+2025-04-07 12:16:57,179 INFO    SystemMonitor:1807074 [interfaces.py:start():188] Started gpu monitoring
+2025-04-07 12:16:57,179 INFO    SystemMonitor:1807074 [interfaces.py:start():188] Started memory monitoring
+2025-04-07 12:16:57,180 INFO    SystemMonitor:1807074 [interfaces.py:start():188] Started network monitoring
+2025-04-07 12:16:57,192 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: pause
+2025-04-07 12:16:57,192 INFO    HandlerThread:1807074 [handler.py:handle_request_pause():724] stopping system metrics thread
+2025-04-07 12:16:57,192 INFO    HandlerThread:1807074 [system_monitor.py:finish():203] Stopping system monitor
+2025-04-07 12:16:57,192 INFO    HandlerThread:1807074 [interfaces.py:finish():200] Joined cpu monitor
+2025-04-07 12:16:57,192 INFO    HandlerThread:1807074 [interfaces.py:finish():200] Joined disk monitor
+2025-04-07 12:16:57,192 DEBUG   SystemMonitor:1807074 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-04-07 12:16:57,192 DEBUG   SystemMonitor:1807074 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-04-07 12:16:57,192 DEBUG   SystemMonitor:1807074 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-04-07 12:16:57,219 INFO    HandlerThread:1807074 [interfaces.py:finish():200] Joined gpu monitor
+2025-04-07 12:16:57,219 INFO    HandlerThread:1807074 [interfaces.py:finish():200] Joined memory monitor
+2025-04-07 12:16:57,219 INFO    HandlerThread:1807074 [interfaces.py:finish():200] Joined network monitor
+2025-04-07 12:16:57,219 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: resume
+2025-04-07 12:16:57,219 INFO    HandlerThread:1807074 [handler.py:handle_request_resume():715] starting system metrics thread
+2025-04-07 12:16:57,219 INFO    HandlerThread:1807074 [system_monitor.py:start():194] Starting system monitor
+2025-04-07 12:16:57,219 INFO    SystemMonitor:1807074 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-04-07 12:16:57,219 DEBUG   SenderThread:1807074 [sender.py:send():379] send: stats
+2025-04-07 12:16:57,219 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: pause
+2025-04-07 12:16:57,219 INFO    HandlerThread:1807074 [handler.py:handle_request_pause():724] stopping system metrics thread
+2025-04-07 12:16:57,219 INFO    HandlerThread:1807074 [system_monitor.py:finish():203] Stopping system monitor
+2025-04-07 12:16:57,220 INFO    SystemMonitor:1807074 [interfaces.py:start():188] Started cpu monitoring
+2025-04-07 12:16:57,220 DEBUG   SystemMonitor:1807074 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-04-07 12:16:57,220 DEBUG   SystemMonitor:1807074 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-04-07 12:16:57,220 DEBUG   SystemMonitor:1807074 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-04-07 12:16:57,220 INFO    HandlerThread:1807074 [interfaces.py:finish():200] Joined cpu monitor
+2025-04-07 12:16:57,220 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: resume
+2025-04-07 12:16:57,220 INFO    HandlerThread:1807074 [handler.py:handle_request_resume():715] starting system metrics thread
+2025-04-07 12:16:57,220 INFO    HandlerThread:1807074 [system_monitor.py:start():194] Starting system monitor
+2025-04-07 12:16:57,220 INFO    SystemMonitor:1807074 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-04-07 12:16:57,220 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:57,221 INFO    SystemMonitor:1807074 [interfaces.py:start():188] Started cpu monitoring
+2025-04-07 12:16:57,221 DEBUG   SenderThread:1807074 [sender.py:send():379] send: stats
+2025-04-07 12:16:57,221 INFO    SystemMonitor:1807074 [interfaces.py:start():188] Started disk monitoring
+2025-04-07 12:16:57,221 INFO    SystemMonitor:1807074 [interfaces.py:start():188] Started gpu monitoring
+2025-04-07 12:16:57,221 INFO    SystemMonitor:1807074 [interfaces.py:start():188] Started memory monitoring
+2025-04-07 12:16:57,222 INFO    SystemMonitor:1807074 [interfaces.py:start():188] Started network monitoring
+2025-04-07 12:16:58,201 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-07 12:16:58,201 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: stop_status
+2025-04-07 12:16:58,217 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:16:58,737 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:16:59,217 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:00,217 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:01,217 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:01,571 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:17:02,217 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:03,217 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:04,217 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:05,217 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:06,217 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:07,204 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:17:07,217 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:08,217 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:09,217 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:10,217 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:11,218 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:12,218 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:13,201 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-07 12:17:13,201 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: stop_status
+2025-04-07 12:17:13,242 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:13,519 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:17:14,218 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:15,218 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:16,218 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:17,218 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:18,218 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:19,204 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:17:19,218 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:20,218 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:21,218 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:22,219 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:23,218 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:24,204 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:17:24,219 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:25,219 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:26,219 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:27,219 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:28,201 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-07 12:17:28,202 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: stop_status
+2025-04-07 12:17:28,241 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:29,219 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:29,470 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:17:30,219 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:31,219 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:32,219 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:33,219 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:34,219 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:35,204 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:17:35,219 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:36,220 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:37,220 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:38,220 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:39,220 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:40,204 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:17:40,220 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:41,220 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:42,220 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:43,201 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-07 12:17:43,202 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: stop_status
+2025-04-07 12:17:43,241 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:44,220 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:45,220 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:45,522 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:17:46,220 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:47,220 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:48,221 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:49,221 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:50,221 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:51,204 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:17:51,221 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:52,221 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:53,221 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:54,221 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:55,221 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:56,204 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:17:56,221 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:57,221 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:57,222 DEBUG   SystemMonitor:1807074 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-04-07 12:17:57,222 DEBUG   SenderThread:1807074 [sender.py:send():379] send: stats
+2025-04-07 12:17:58,202 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-07 12:17:58,202 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: stop_status
+2025-04-07 12:17:58,242 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:17:59,222 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:00,222 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:01,222 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:01,389 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:18:02,222 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:03,222 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:04,222 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:05,222 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:06,222 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:07,204 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:18:07,222 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:08,222 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:09,222 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:10,222 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:11,223 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:12,223 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:13,202 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-07 12:18:13,202 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: stop_status
+2025-04-07 12:18:13,243 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:13,421 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:18:14,223 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:15,223 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:16,223 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:17,223 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:18,223 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:19,205 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:18:19,223 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:20,223 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:21,223 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:22,223 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:23,223 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:24,205 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:18:24,223 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:25,224 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:26,224 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:27,223 DEBUG   SenderThread:1807074 [sender.py:send():379] send: stats
+2025-04-07 12:18:27,224 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:28,202 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-07 12:18:28,202 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: stop_status
+2025-04-07 12:18:28,243 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:29,224 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:29,419 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:18:30,224 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:31,224 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:31,936 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: partial_history
+2025-04-07 12:18:31,937 DEBUG   SenderThread:1807074 [sender.py:send():379] send: history
+2025-04-07 12:18:31,937 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: summary_record
+2025-04-07 12:18:31,937 INFO    SenderThread:1807074 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-04-07 12:18:32,224 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:32,752 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/wandb-summary.json
+2025-04-07 12:18:33,224 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:34,224 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:34,752 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:18:35,205 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:18:35,224 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:36,225 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:37,225 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:38,225 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:39,225 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:40,205 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:18:40,225 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:41,225 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:42,225 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:43,202 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-07 12:18:43,202 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: stop_status
+2025-04-07 12:18:43,244 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:44,225 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:45,225 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:45,527 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:18:46,225 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:47,225 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:48,225 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:49,225 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:50,226 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:51,205 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:18:51,226 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:52,226 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:53,226 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:54,226 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:55,226 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:56,205 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:18:56,226 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:57,226 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:57,238 DEBUG   SenderThread:1807074 [sender.py:send():379] send: stats
+2025-04-07 12:18:58,202 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-07 12:18:58,202 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: stop_status
+2025-04-07 12:18:58,243 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:18:59,226 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:00,226 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:01,226 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:01,451 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:19:02,227 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:03,227 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:04,227 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:05,227 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:06,227 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:07,205 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:19:07,227 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:08,227 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:09,227 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:10,227 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:11,227 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:12,206 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:19:12,227 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:13,202 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-07 12:19:13,202 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: stop_status
+2025-04-07 12:19:13,243 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:14,227 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:15,228 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:16,228 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:17,228 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:17,530 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:19:18,228 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:19,228 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:20,228 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:21,228 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:22,228 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:23,205 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:19:23,228 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:24,228 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:25,228 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:26,228 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:27,224 DEBUG   SenderThread:1807074 [sender.py:send():379] send: stats
+2025-04-07 12:19:27,228 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:28,202 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-07 12:19:28,202 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: stop_status
+2025-04-07 12:19:28,242 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:28,557 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:19:29,229 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:30,229 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:31,229 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:32,229 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:33,229 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:34,206 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:19:34,229 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:35,229 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:36,229 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:37,229 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:38,229 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:39,206 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:19:39,229 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:40,229 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:41,229 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:42,229 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:43,202 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-07 12:19:43,202 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: stop_status
+2025-04-07 12:19:43,243 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:44,230 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:44,437 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:19:45,230 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:46,230 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:47,230 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:48,230 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:49,230 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:50,206 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:19:50,230 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:51,230 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:52,230 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:53,230 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:54,230 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:55,206 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:19:55,231 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:56,231 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:57,224 DEBUG   SenderThread:1807074 [sender.py:send():379] send: stats
+2025-04-07 12:19:57,231 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:58,202 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-07 12:19:58,202 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: stop_status
+2025-04-07 12:19:58,242 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:19:59,231 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:20:00,231 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:20:00,481 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:20:01,231 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:20:02,231 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:20:03,231 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:20:03,978 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: partial_history
+2025-04-07 12:20:03,978 DEBUG   SenderThread:1807074 [sender.py:send():379] send: history
+2025-04-07 12:20:03,978 DEBUG   SenderThread:1807074 [sender.py:send_request():406] send_request: summary_record
+2025-04-07 12:20:03,978 INFO    SenderThread:1807074 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-04-07 12:20:04,231 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:20:04,767 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/wandb-summary.json
+2025-04-07 12:20:04,767 INFO    Thread-12 :1807074 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250407_121412-ih953fax/files/output.log
+2025-04-07 12:20:05,231 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:20:05,979 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report
+2025-04-07 12:20:06,231 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:20:07,231 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:20:08,231 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:20:09,232 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:20:09,865 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: pause
+2025-04-07 12:20:09,865 INFO    HandlerThread:1807074 [handler.py:handle_request_pause():724] stopping system metrics thread
+2025-04-07 12:20:09,865 INFO    HandlerThread:1807074 [system_monitor.py:finish():203] Stopping system monitor
+2025-04-07 12:20:09,865 DEBUG   SystemMonitor:1807074 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-04-07 12:20:09,865 INFO    HandlerThread:1807074 [interfaces.py:finish():200] Joined cpu monitor
+2025-04-07 12:20:09,865 DEBUG   SystemMonitor:1807074 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-04-07 12:20:09,866 INFO    HandlerThread:1807074 [interfaces.py:finish():200] Joined disk monitor
+2025-04-07 12:20:09,893 INFO    HandlerThread:1807074 [interfaces.py:finish():200] Joined gpu monitor
+2025-04-07 12:20:09,893 INFO    HandlerThread:1807074 [interfaces.py:finish():200] Joined memory monitor
+2025-04-07 12:20:09,894 INFO    HandlerThread:1807074 [interfaces.py:finish():200] Joined network monitor
+2025-04-07 12:20:09,894 DEBUG   SenderThread:1807074 [sender.py:send():379] send: stats
+2025-04-07 12:20:10,232 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:20:11,232 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-07 12:20:11,895 DEBUG   HandlerThread:1807074 [handler.py:handle_request():158] handle_request: status_report

@@ -1,0 +1,45 @@
+2025-04-09 12:48:01,271 INFO    MainThread:3853565 [wandb_setup.py:_flush():76] Current SDK version is 0.17.1
+2025-04-09 12:48:01,271 INFO    MainThread:3853565 [wandb_setup.py:_flush():76] Configure stats pid to 3853565
+2025-04-09 12:48:01,271 INFO    MainThread:3853565 [wandb_setup.py:_flush():76] Loading settings from /home/hawk/.config/wandb/settings
+2025-04-09 12:48:01,271 INFO    MainThread:3853565 [wandb_setup.py:_flush():76] Loading settings from /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/settings
+2025-04-09 12:48:01,271 INFO    MainThread:3853565 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2025-04-09 12:48:01,271 INFO    MainThread:3853565 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-04-09 12:48:01,272 INFO    MainThread:3853565 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-04-09 12:48:01,272 INFO    MainThread:3853565 [wandb_setup.py:_flush():76] Applying login settings: {}
+2025-04-09 12:48:01,272 INFO    MainThread:3853565 [wandb_init.py:_log_setup():520] Logging user logs to /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250409_124801-wwzzkoza/logs/debug.log
+2025-04-09 12:48:01,272 INFO    MainThread:3853565 [wandb_init.py:_log_setup():521] Logging internal logs to /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250409_124801-wwzzkoza/logs/debug-internal.log
+2025-04-09 12:48:01,272 INFO    MainThread:3853565 [wandb_init.py:_jupyter_setup():466] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x73829ab1b8e0>
+2025-04-09 12:48:01,272 INFO    MainThread:3853565 [wandb_init.py:init():560] calling init triggers
+2025-04-09 12:48:01,272 INFO    MainThread:3853565 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {'SNR': 10, 'CNR': 15, 'max_lr': 0.001, 'beta_end': 0.02, 'final_lr': 1e-05, 'num_heads': 8, 'beta_start': 0.0001, 'num_layers': 6, 'batch_size': 16, 'num_epochs': 400, 'noise_steps': 2000, 'num_workers': 4, 'weight_decay': 0.0001, 'warmup_steps': 4000, 'dataset_size': 500, 'time_emb_dim': 256, 'learning_rate': 0.0001, 'scheduler_type': 'linear'}
+2025-04-09 12:48:01,272 INFO    MainThread:3853565 [wandb_init.py:init():610] starting backend
+2025-04-09 12:48:01,272 INFO    MainThread:3853565 [wandb_init.py:init():614] setting up manager
+2025-04-09 12:48:01,275 INFO    MainThread:3853565 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-09 12:48:01,277 INFO    MainThread:3853565 [wandb_init.py:init():622] backend started and connected
+2025-04-09 12:48:01,285 INFO    MainThread:3853565 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2025-04-09 12:48:01,285 INFO    MainThread:3853565 [wandb_run.py:_label_probe_notebook():1344] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-04-09 12:48:01,285 INFO    MainThread:3853565 [wandb_init.py:init():711] updated telemetry
+2025-04-09 12:48:01,294 INFO    MainThread:3853565 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2025-04-09 12:48:01,804 INFO    MainThread:3853565 [wandb_run.py:_on_init():2402] communicating current version
+2025-04-09 12:48:02,168 INFO    MainThread:3853565 [wandb_run.py:_on_init():2411] got version response upgrade_message: "wandb version 0.19.9 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-04-09 12:48:02,169 INFO    MainThread:3853565 [wandb_init.py:init():795] starting run threads in backend
+2025-04-09 12:48:02,331 INFO    MainThread:3853565 [wandb_run.py:_console_start():2380] atexit reg
+2025-04-09 12:48:02,331 INFO    MainThread:3853565 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-04-09 12:48:02,331 INFO    MainThread:3853565 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-04-09 12:48:02,331 INFO    MainThread:3853565 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-04-09 12:48:02,332 INFO    MainThread:3853565 [wandb_init.py:init():838] run started, returning control to user process
+2025-04-09 12:48:02,332 INFO    MainThread:3853565 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2025-04-09 12:48:02,332 INFO    MainThread:3853565 [wandb_init.py:_pause_backend():431] pausing backend
+2025-04-09 12:48:02,337 INFO    MainThread:3853565 [wandb_init.py:_resume_backend():436] resuming backend
+2025-04-09 12:48:04,401 INFO    MainThread:3853565 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2025-04-09 12:48:04,402 INFO    MainThread:3853565 [wandb_init.py:_pause_backend():431] pausing backend
+2025-04-09 12:48:04,408 INFO    MainThread:3853565 [wandb_init.py:_resume_backend():436] resuming backend
+2025-04-09 12:48:04,409 INFO    MainThread:3853565 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2025-04-09 12:48:04,409 INFO    MainThread:3853565 [wandb_init.py:_pause_backend():431] pausing backend
+2025-04-09 12:48:04,414 INFO    MainThread:3853565 [wandb_init.py:_resume_backend():436] resuming backend
+2025-04-09 12:48:04,872 INFO    MainThread:3853565 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2025-04-09 12:48:04,872 INFO    MainThread:3853565 [wandb_init.py:_pause_backend():431] pausing backend
+2025-04-09 12:48:04,878 INFO    MainThread:3853565 [wandb_init.py:_resume_backend():436] resuming backend
+2025-04-09 12:48:04,959 INFO    MainThread:3853565 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2025-04-09 12:48:04,959 INFO    MainThread:3853565 [wandb_init.py:_pause_backend():431] pausing backend

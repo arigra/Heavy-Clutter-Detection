@@ -37,9 +37,6 @@ class ConditionalDiffusion(nn.Module):
         noise_pred = self.model(model_input, t_norm)
         return F.mse_loss(noise_pred, noise)
     
-    # def rd_losses(self, x0, t, cond):
-    #     pass
-    
     @torch.no_grad()
     def p_sample(self, x, t, cond):
         t_int = t.item() if isinstance(t, torch.Tensor) else t

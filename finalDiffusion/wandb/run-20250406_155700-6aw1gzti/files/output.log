@@ -1,0 +1,73 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Normalizing dataset: 100%|██████████| 55000/55000 [01:20<00:00, 680.58it/s]
+
+
+
+Normalizing dataset: 100%|█████████▉| 5482/5500 [00:06<00:00, 914.50it/s]
+SCNR (dB): tensor(-0.1352)
+
+Normalizing dataset: 100%|██████████| 5500/5500 [00:06<00:00, 825.10it/s]
+Epoch 1/600: Train Loss = 0.2520 | Val Loss = 0.1868
+   [Generation Metrics] MSE: 8099.1680 | PSNR: -27.87 dB
+   --> Best model saved.
+Epoch 2/600: Train Loss = 0.1701 | Val Loss = 0.1546
+   [Generation Metrics] MSE: 1.1453 | PSNR: 10.63 dB
+   --> Best model saved.
+Epoch 3/600: Train Loss = 0.1570 | Val Loss = 0.1468
+   [Generation Metrics] MSE: 1.1039 | PSNR: 10.79 dB
+   --> Best model saved.
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
