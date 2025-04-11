@@ -1,0 +1,53 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Normalizing dataset: 100%|██████████| 55000/55000 [01:18<00:00, 697.26it/s]
+
+
+
+Normalizing dataset: 100%|██████████| 5500/5500 [00:06<00:00, 843.19it/s]
+SCNR (dB): tensor(-5.1352)
+SCNR (dB): tensor(-5.1352)
+/home/hawk/.local/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 1/400: Train Loss = 0.1760 | Val Loss = 0.1285
+   [Generation Metrics] MSE: 1.3223 | PSNR: 9.99 dB
+   --> Best MSE model saved.
+Epoch 2/400: Train Loss = 0.1136 | Val Loss = 0.1001

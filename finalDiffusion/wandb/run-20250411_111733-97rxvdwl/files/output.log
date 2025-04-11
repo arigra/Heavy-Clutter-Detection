@@ -1,0 +1,29 @@
+Normalizing dataset: 100%|██████████| 550/550 [00:00<00:00, 850.78it/s]
+Normalizing dataset: 100%|██████████| 55/55 [00:00<00:00, 927.10it/s]
+/home/hawk/.local/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 1/400: Train Loss = 0.3095 | Val Loss = 0.2651
+   [Generation Metrics] MSE: 5970272.5000 | PSNR: -56.69 dB
+   --> Best MSE model saved.
+Epoch 1/400: Train Loss = 0.2561 | Val Loss = 0.2737
+   [Generation Metrics] MSE: 3598934.0000 | PSNR: -54.49 dB
+   --> Best MSE model saved.
+Epoch 1/400: Train Loss = 0.2598 | Val Loss = 0.2039
+   [Generation Metrics] MSE: 982324.4375 | PSNR: -48.85 dB
+   --> Best MSE model saved.
+Epoch 2/400: Train Loss = 0.2734 | Val Loss = 0.2485
+   [Generation Metrics] MSE: 1999859.2500 | PSNR: -51.94 dB
+Epoch 3/400: Train Loss = 0.2535 | Val Loss = 0.1567
+   [Generation Metrics] MSE: 73683.7734 | PSNR: -37.60 dB
+   --> Best MSE model saved.
+Epoch 4/400: Train Loss = 0.2352 | Val Loss = 0.1585
+   [Generation Metrics] MSE: 64405.6875 | PSNR: -37.02 dB
+   --> Best MSE model saved.
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)

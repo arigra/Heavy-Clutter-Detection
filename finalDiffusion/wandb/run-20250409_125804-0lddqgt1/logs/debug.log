@@ -41,3 +41,14 @@ config: {'SNR': 10, 'CNR': 15, 'max_lr': 0.001, 'beta_end': 0.02, 'final_lr': 1e
 2025-04-09 13:01:17,360 INFO    MainThread:3861424 [jupyter.py:save_ipynb():372] not saving jupyter notebook
 2025-04-09 13:01:17,360 INFO    MainThread:3861424 [wandb_init.py:_pause_backend():431] pausing backend
 2025-04-09 13:01:17,366 INFO    MainThread:3861424 [wandb_init.py:_resume_backend():436] resuming backend
+2025-04-09 20:28:34,550 INFO    MainThread:3861424 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2025-04-09 20:28:34,550 INFO    MainThread:3861424 [wandb_init.py:_pause_backend():431] pausing backend
+2025-04-09 20:28:43,647 INFO    MainThread:3861424 [wandb_init.py:_resume_backend():436] resuming backend
+2025-04-09 20:28:43,651 INFO    MainThread:3861424 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2025-04-09 20:28:43,651 INFO    MainThread:3861424 [wandb_init.py:_pause_backend():431] pausing backend
+2025-04-09 20:28:57,787 INFO    MainThread:3861424 [wandb_init.py:_resume_backend():436] resuming backend
+2025-04-09 20:28:57,835 INFO    MainThread:3861424 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2025-04-09 20:28:57,835 INFO    MainThread:3861424 [wandb_init.py:_pause_backend():431] pausing backend
+2025-04-09 20:29:25,464 INFO    MainThread:3861424 [wandb_init.py:_resume_backend():436] resuming backend
+2025-04-09 20:29:28,930 INFO    MainThread:3861424 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2025-04-09 20:29:28,930 INFO    MainThread:3861424 [wandb_init.py:_pause_backend():431] pausing backend

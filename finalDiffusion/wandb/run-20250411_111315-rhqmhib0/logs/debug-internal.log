@@ -1,0 +1,86 @@
+2025-04-11 11:13:15,370 INFO    StreamThr :1624774 [internal.py:wandb_internal():85] W&B internal server running at pid: 1624774, started at: 2025-04-11 11:13:15.369374
+2025-04-11 11:13:15,373 DEBUG   HandlerThread:1624774 [handler.py:handle_request():158] handle_request: status
+2025-04-11 11:13:15,375 INFO    WriterThread:1624774 [datastore.py:open_for_write():87] open: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250411_111315-rhqmhib0/run-rhqmhib0.wandb
+2025-04-11 11:13:15,376 DEBUG   SenderThread:1624774 [sender.py:send():379] send: header
+2025-04-11 11:13:15,381 DEBUG   SenderThread:1624774 [sender.py:send():379] send: run
+2025-04-11 11:13:18,827 INFO    SenderThread:1624774 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/hawk/.local/lib/python3.10/site-packages/urllib3/connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "/home/hawk/.local/lib/python3.10/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hawk/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/home/hawk/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "/home/hawk/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/home/hawk/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/home/hawk/.local/lib/python3.10/site-packages/urllib3/connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+  File "/home/hawk/.local/lib/python3.10/site-packages/urllib3/connection.py", line 206, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x71bdd335fac0>: Failed to resolve 'api.wandb.ai' ([Errno -3] Temporary failure in name resolution)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hawk/.local/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/hawk/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "/home/hawk/.local/lib/python3.10/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x71bdd335fac0>: Failed to resolve 'api.wandb.ai' ([Errno -3] Temporary failure in name resolution)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 340, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+  File "/home/hawk/.local/lib/python3.10/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/home/hawk/.local/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/hawk/.local/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/hawk/.local/lib/python3.10/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x71bdd335fac0>: Failed to resolve 'api.wandb.ai' ([Errno -3] Temporary failure in name resolution)"))
+2025-04-11 11:13:20,392 DEBUG   HandlerThread:1624774 [handler.py:handle_request():158] handle_request: keepalive
+2025-04-11 11:13:25,396 DEBUG   HandlerThread:1624774 [handler.py:handle_request():158] handle_request: keepalive
+2025-04-11 11:13:30,400 DEBUG   HandlerThread:1624774 [handler.py:handle_request():158] handle_request: keepalive
+2025-04-11 11:13:35,405 DEBUG   HandlerThread:1624774 [handler.py:handle_request():158] handle_request: keepalive
+2025-04-11 11:13:40,408 DEBUG   HandlerThread:1624774 [handler.py:handle_request():158] handle_request: keepalive
+2025-04-11 11:13:45,412 DEBUG   HandlerThread:1624774 [handler.py:handle_request():158] handle_request: keepalive
+2025-04-11 11:13:50,417 DEBUG   HandlerThread:1624774 [handler.py:handle_request():158] handle_request: keepalive
+2025-04-11 11:13:55,421 DEBUG   HandlerThread:1624774 [handler.py:handle_request():158] handle_request: keepalive
+2025-04-11 11:14:00,424 DEBUG   HandlerThread:1624774 [handler.py:handle_request():158] handle_request: keepalive
+2025-04-11 11:14:05,428 DEBUG   HandlerThread:1624774 [handler.py:handle_request():158] handle_request: keepalive
+2025-04-11 11:14:10,432 DEBUG   HandlerThread:1624774 [handler.py:handle_request():158] handle_request: keepalive
+2025-04-11 11:14:15,437 DEBUG   HandlerThread:1624774 [handler.py:handle_request():158] handle_request: keepalive
+2025-04-11 11:14:20,440 DEBUG   HandlerThread:1624774 [handler.py:handle_request():158] handle_request: keepalive
+2025-04-11 11:14:25,444 DEBUG   HandlerThread:1624774 [handler.py:handle_request():158] handle_request: keepalive
+2025-04-11 11:14:30,448 DEBUG   HandlerThread:1624774 [handler.py:handle_request():158] handle_request: keepalive
+2025-04-11 11:14:35,451 DEBUG   HandlerThread:1624774 [handler.py:handle_request():158] handle_request: keepalive
+2025-04-11 11:14:40,455 DEBUG   HandlerThread:1624774 [handler.py:handle_request():158] handle_request: keepalive
+2025-04-11 11:14:45,459 DEBUG   HandlerThread:1624774 [handler.py:handle_request():158] handle_request: cancel
+2025-04-11 11:14:45,459 DEBUG   HandlerThread:1624774 [handler.py:handle_request():158] handle_request: cancel
+2025-04-11 11:14:45,460 DEBUG   SenderThread:1624774 [sender.py:send():388] Record cancelled: run
+2025-04-11 11:14:45,460 DEBUG   HandlerThread:1624774 [handler.py:handle_request():158] handle_request: status_report

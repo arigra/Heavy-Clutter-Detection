@@ -1,0 +1,659 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Normalizing dataset: 100%|██████████| 55000/55000 [01:30<00:00, 609.66it/s]
+
+
+Normalizing dataset: 100%|██████████| 5500/5500 [00:06<00:00, 837.29it/s]
+/home/hawk/.local/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 1/400: Train Loss = 0.4584 | Val Loss = 0.4093
+   [Generation Metrics] MSE: 1428.7139 | PSNR: -20.74 dB
+   --> Best MSE model saved.
+Epoch 2/400: Train Loss = 0.4116 | Val Loss = 0.4004
+   [Generation Metrics] MSE: 34.1401 | PSNR: -4.52 dB
+   --> Best MSE model saved.
+Epoch 3/400: Train Loss = 0.3974 | Val Loss = 0.3880
+   [Generation Metrics] MSE: 101.4634 | PSNR: -9.25 dB
+Epoch 4/400: Train Loss = 0.3856 | Val Loss = 0.3668
+   [Generation Metrics] MSE: 23.9507 | PSNR: -2.98 dB
+   --> Best MSE model saved.
+Epoch 5/400: Train Loss = 0.3764 | Val Loss = 0.3651
+   [Generation Metrics] MSE: 37.0270 | PSNR: -4.87 dB
+Epoch 6/400: Train Loss = 0.3712 | Val Loss = 0.3687
+   [Generation Metrics] MSE: 274.6786 | PSNR: -13.58 dB
+Epoch 7/400: Train Loss = 0.3574 | Val Loss = 0.3586
+   [Generation Metrics] MSE: 3003.1567 | PSNR: -23.96 dB
+Epoch 8/400: Train Loss = 0.3445 | Val Loss = 0.3388
+   [Generation Metrics] MSE: 11.5761 | PSNR: 0.18 dB
+   --> Best MSE model saved.
+Epoch 9/400: Train Loss = 0.3376 | Val Loss = 0.3425
+   [Generation Metrics] MSE: 4.1788 | PSNR: 4.60 dB
+   --> Best MSE model saved.
+Epoch 10/400: Train Loss = 0.3278 | Val Loss = 0.3247
+   [Generation Metrics] MSE: 3.4556 | PSNR: 5.43 dB
+   --> Best MSE model saved.
+Epoch 11/400: Train Loss = 0.3219 | Val Loss = 0.3118
+   [Generation Metrics] MSE: 6.4781 | PSNR: 2.70 dB
+Epoch 12/400: Train Loss = 0.3184 | Val Loss = 0.3087
+   [Generation Metrics] MSE: 3.8438 | PSNR: 4.96 dB
+Epoch 13/400: Train Loss = 0.3108 | Val Loss = 0.3156
+   [Generation Metrics] MSE: 531.6206 | PSNR: -16.44 dB
+Epoch 14/400: Train Loss = 0.3087 | Val Loss = 0.3028
+   [Generation Metrics] MSE: 1.4034 | PSNR: 9.34 dB
+   --> Best MSE model saved.
+Epoch 15/400: Train Loss = 0.3055 | Val Loss = 0.3010
+   [Generation Metrics] MSE: 1.1068 | PSNR: 10.37 dB
+   --> Best MSE model saved.
+Epoch 16/400: Train Loss = 0.2991 | Val Loss = 0.2923
+   [Generation Metrics] MSE: 58.5229 | PSNR: -6.86 dB
+Epoch 17/400: Train Loss = 0.2974 | Val Loss = 0.3701
+   [Generation Metrics] MSE: 2.1637 | PSNR: 7.46 dB
+Epoch 18/400: Train Loss = 0.2939 | Val Loss = 0.2848
+   [Generation Metrics] MSE: 2.2451 | PSNR: 7.30 dB
+Epoch 19/400: Train Loss = 0.2938 | Val Loss = 0.2871
+   [Generation Metrics] MSE: 2.5688 | PSNR: 6.72 dB
+Epoch 20/400: Train Loss = 0.2885 | Val Loss = 0.3050
+   [Generation Metrics] MSE: 557.0065 | PSNR: -16.65 dB
+Epoch 21/400: Train Loss = 0.2909 | Val Loss = 0.2939
+   [Generation Metrics] MSE: 18.3831 | PSNR: -1.83 dB
+Epoch 22/400: Train Loss = 0.2839 | Val Loss = 0.2881
+   [Generation Metrics] MSE: 4.6756 | PSNR: 4.11 dB
+Epoch 23/400: Train Loss = 0.2865 | Val Loss = 0.2870
+   [Generation Metrics] MSE: 105.0710 | PSNR: -9.40 dB
+Epoch 24/400: Train Loss = 0.2837 | Val Loss = 0.2827
+   [Generation Metrics] MSE: 10810.0322 | PSNR: -29.53 dB
+Epoch 25/400: Train Loss = 0.2859 | Val Loss = 0.2781
+   [Generation Metrics] MSE: 2.2642 | PSNR: 7.26 dB
+Epoch 26/400: Train Loss = 0.2824 | Val Loss = 0.2761
+   [Generation Metrics] MSE: 1.7671 | PSNR: 8.34 dB
+Epoch 27/400: Train Loss = 0.2775 | Val Loss = 0.2744
+   [Generation Metrics] MSE: 1.1016 | PSNR: 10.39 dB
+   --> Best MSE model saved.
+Epoch 28/400: Train Loss = 0.2789 | Val Loss = 0.3180
+   [Generation Metrics] MSE: 3.7378 | PSNR: 5.09 dB
+Epoch 29/400: Train Loss = 0.2809 | Val Loss = 0.2743
+   [Generation Metrics] MSE: 3.3856 | PSNR: 5.52 dB
+Epoch 30/400: Train Loss = 0.2753 | Val Loss = 0.2639
+   [Generation Metrics] MSE: 11.7910 | PSNR: 0.10 dB
+Epoch 31/400: Train Loss = 0.2769 | Val Loss = 0.2704
+   [Generation Metrics] MSE: 122.7986 | PSNR: -10.08 dB
+Epoch 32/400: Train Loss = 0.2714 | Val Loss = 0.2690
+   [Generation Metrics] MSE: 1.1021 | PSNR: 10.39 dB
+Epoch 33/400: Train Loss = 0.2705 | Val Loss = 0.2696
+   [Generation Metrics] MSE: 7.4126 | PSNR: 2.11 dB
+Epoch 34/400: Train Loss = 0.2719 | Val Loss = 0.2787
+   [Generation Metrics] MSE: 1.9230 | PSNR: 7.97 dB
+Epoch 35/400: Train Loss = 0.2686 | Val Loss = 0.2682
+   [Generation Metrics] MSE: 27.5291 | PSNR: -3.59 dB
+Epoch 36/400: Train Loss = 0.2690 | Val Loss = 0.2601
+   [Generation Metrics] MSE: 2.1895 | PSNR: 7.41 dB
+Epoch 37/400: Train Loss = 0.2696 | Val Loss = 0.2648
+   [Generation Metrics] MSE: 77.5461 | PSNR: -8.08 dB
+Epoch 38/400: Train Loss = 0.2649 | Val Loss = 0.2610
+   [Generation Metrics] MSE: 1.6795 | PSNR: 8.56 dB
+Epoch 39/400: Train Loss = 0.2669 | Val Loss = 0.2595
+   [Generation Metrics] MSE: 1.1005 | PSNR: 10.40 dB
+   --> Best MSE model saved.
+Epoch 40/400: Train Loss = 0.2649 | Val Loss = 0.2576
+   [Generation Metrics] MSE: 1.1115 | PSNR: 10.35 dB
+Epoch 41/400: Train Loss = 0.2635 | Val Loss = 0.2594
+   [Generation Metrics] MSE: 1.7003 | PSNR: 8.51 dB
+Epoch 42/400: Train Loss = 0.2686 | Val Loss = 0.2650
+   [Generation Metrics] MSE: 1.1058 | PSNR: 10.38 dB
+Epoch 43/400: Train Loss = 0.2654 | Val Loss = 0.2783
+   [Generation Metrics] MSE: 182.4859 | PSNR: -11.80 dB
+Epoch 44/400: Train Loss = 0.2592 | Val Loss = 0.2674
+   [Generation Metrics] MSE: 3.5447 | PSNR: 5.32 dB
+Epoch 45/400: Train Loss = 0.2637 | Val Loss = 0.2616
+   [Generation Metrics] MSE: 2.4138 | PSNR: 6.99 dB
+Epoch 46/400: Train Loss = 0.2589 | Val Loss = 0.2678
+   [Generation Metrics] MSE: 46.1224 | PSNR: -5.83 dB
+Epoch 47/400: Train Loss = 0.2574 | Val Loss = 0.2542
+   [Generation Metrics] MSE: 1.2649 | PSNR: 9.79 dB
+Epoch 48/400: Train Loss = 0.2578 | Val Loss = 0.2687
+   [Generation Metrics] MSE: 1.4134 | PSNR: 9.31 dB
+Epoch 49/400: Train Loss = 0.2583 | Val Loss = 0.2565
+   [Generation Metrics] MSE: 3.1388 | PSNR: 5.84 dB
+Epoch 50/400: Train Loss = 0.2547 | Val Loss = 0.2473
+   [Generation Metrics] MSE: 2.4153 | PSNR: 6.98 dB
+Epoch 51/400: Train Loss = 0.2565 | Val Loss = 0.2473
+   [Generation Metrics] MSE: 1.5739 | PSNR: 8.84 dB
+Epoch 52/400: Train Loss = 0.2596 | Val Loss = 0.2482
+   [Generation Metrics] MSE: 1.6407 | PSNR: 8.66 dB
+Epoch 53/400: Train Loss = 0.2538 | Val Loss = 0.2553
+   [Generation Metrics] MSE: 2.8205 | PSNR: 6.31 dB
+Epoch 54/400: Train Loss = 0.2582 | Val Loss = 0.2606
+   [Generation Metrics] MSE: 2.0505 | PSNR: 7.69 dB
+Epoch 55/400: Train Loss = 0.2512 | Val Loss = 0.2400
+   [Generation Metrics] MSE: 3.2739 | PSNR: 5.66 dB
+Epoch 56/400: Train Loss = 0.2525 | Val Loss = 0.2540
+   [Generation Metrics] MSE: 1.6636 | PSNR: 8.60 dB
+Epoch 57/400: Train Loss = 0.2543 | Val Loss = 0.2605
+   [Generation Metrics] MSE: 2.6380 | PSNR: 6.60 dB
+Epoch 58/400: Train Loss = 0.2555 | Val Loss = 0.2477
+   [Generation Metrics] MSE: 2.4695 | PSNR: 6.89 dB
+Epoch 59/400: Train Loss = 0.2509 | Val Loss = 0.2528
+   [Generation Metrics] MSE: 2.1372 | PSNR: 7.51 dB
+Epoch 60/400: Train Loss = 0.2507 | Val Loss = 0.2410
+   [Generation Metrics] MSE: 1.5527 | PSNR: 8.90 dB
+Epoch 61/400: Train Loss = 0.2476 | Val Loss = 0.2463
+   [Generation Metrics] MSE: 20.4081 | PSNR: -2.29 dB
+Epoch 62/400: Train Loss = 0.2509 | Val Loss = 0.2585
+   [Generation Metrics] MSE: 2800.6558 | PSNR: -23.66 dB
+Epoch 63/400: Train Loss = 0.2494 | Val Loss = 0.2317
+   [Generation Metrics] MSE: 15.3162 | PSNR: -1.04 dB
+Epoch 64/400: Train Loss = 0.2483 | Val Loss = 0.2385
+   [Generation Metrics] MSE: 1.7123 | PSNR: 8.48 dB
+Epoch 65/400: Train Loss = 0.2477 | Val Loss = 0.2442
+   [Generation Metrics] MSE: 734.2273 | PSNR: -17.85 dB
+Epoch 66/400: Train Loss = 0.2490 | Val Loss = 0.2490
+   [Generation Metrics] MSE: 3.0083 | PSNR: 6.03 dB
+Epoch 67/400: Train Loss = 0.2481 | Val Loss = 0.2467
+   [Generation Metrics] MSE: 20.0032 | PSNR: -2.20 dB
+Epoch 68/400: Train Loss = 0.2479 | Val Loss = 0.2447
+   [Generation Metrics] MSE: 1.2319 | PSNR: 9.91 dB
+Epoch 69/400: Train Loss = 0.2428 | Val Loss = 0.2402
+   [Generation Metrics] MSE: 1.8540 | PSNR: 8.13 dB
+Epoch 70/400: Train Loss = 0.2470 | Val Loss = 0.2527
+   [Generation Metrics] MSE: 2.9784 | PSNR: 6.07 dB
+Epoch 71/400: Train Loss = 0.2490 | Val Loss = 0.2392
+   [Generation Metrics] MSE: 1.2545 | PSNR: 9.83 dB
+Epoch 72/400: Train Loss = 0.2452 | Val Loss = 0.2322
+   [Generation Metrics] MSE: 3.5509 | PSNR: 5.31 dB
+Epoch 73/400: Train Loss = 0.2440 | Val Loss = 0.2377
+   [Generation Metrics] MSE: 31.8660 | PSNR: -4.22 dB
+Epoch 74/400: Train Loss = 0.2436 | Val Loss = 0.2523
+   [Generation Metrics] MSE: 4.0091 | PSNR: 4.78 dB
+Epoch 75/400: Train Loss = 0.2312 | Val Loss = 0.2220
+   [Generation Metrics] MSE: 1.5427 | PSNR: 8.93 dB
+Epoch 76/400: Train Loss = 0.2285 | Val Loss = 0.2209
+   [Generation Metrics] MSE: 3.0331 | PSNR: 5.99 dB
+Epoch 77/400: Train Loss = 0.2274 | Val Loss = 0.2234
+   [Generation Metrics] MSE: 2.0151 | PSNR: 7.77 dB
+Epoch 78/400: Train Loss = 0.2265 | Val Loss = 0.2211
+   [Generation Metrics] MSE: 1.2987 | PSNR: 9.68 dB
+Epoch 79/400: Train Loss = 0.2281 | Val Loss = 0.2263
+   [Generation Metrics] MSE: 2.4165 | PSNR: 6.98 dB
+Epoch 80/400: Train Loss = 0.2270 | Val Loss = 0.2265
+   [Generation Metrics] MSE: 1.3388 | PSNR: 9.55 dB
+Epoch 81/400: Train Loss = 0.2261 | Val Loss = 0.2367
+   [Generation Metrics] MSE: 1.1300 | PSNR: 10.28 dB
+Epoch 82/400: Train Loss = 0.2269 | Val Loss = 0.2215
+   [Generation Metrics] MSE: 1.1113 | PSNR: 10.35 dB
+Epoch 83/400: Train Loss = 0.2268 | Val Loss = 0.2251
+   [Generation Metrics] MSE: 1.1082 | PSNR: 10.37 dB
+Epoch 84/400: Train Loss = 0.2288 | Val Loss = 0.2223
+   [Generation Metrics] MSE: 1.5777 | PSNR: 8.83 dB
+Epoch 85/400: Train Loss = 0.2238 | Val Loss = 0.2193
+   [Generation Metrics] MSE: 1.0951 | PSNR: 10.42 dB
+   --> Best MSE model saved.
+Epoch 86/400: Train Loss = 0.2236 | Val Loss = 0.2216
+   [Generation Metrics] MSE: 1.1959 | PSNR: 10.04 dB
+Epoch 87/400: Train Loss = 0.2251 | Val Loss = 0.2233
+   [Generation Metrics] MSE: 1.3421 | PSNR: 9.53 dB
+Epoch 88/400: Train Loss = 0.2233 | Val Loss = 0.2104
+   [Generation Metrics] MSE: 1.3781 | PSNR: 9.42 dB
+Epoch 89/400: Train Loss = 0.2225 | Val Loss = 0.2185
+   [Generation Metrics] MSE: 1.1063 | PSNR: 10.37 dB
+Epoch 90/400: Train Loss = 0.2223 | Val Loss = 0.2148
+   [Generation Metrics] MSE: 2.1115 | PSNR: 7.57 dB
+Epoch 91/400: Train Loss = 0.2254 | Val Loss = 0.2483
+   [Generation Metrics] MSE: 3.0777 | PSNR: 5.93 dB
+Epoch 92/400: Train Loss = 0.2250 | Val Loss = 0.2201
+   [Generation Metrics] MSE: 1.2549 | PSNR: 9.83 dB
+Epoch 93/400: Train Loss = 0.2225 | Val Loss = 0.2172
+   [Generation Metrics] MSE: 1.1154 | PSNR: 10.34 dB
+Epoch 94/400: Train Loss = 0.2242 | Val Loss = 0.2180
+   [Generation Metrics] MSE: 1.5059 | PSNR: 9.03 dB
+Epoch 95/400: Train Loss = 0.2213 | Val Loss = 0.2159
+   [Generation Metrics] MSE: 1.7293 | PSNR: 8.43 dB
+Epoch 96/400: Train Loss = 0.2222 | Val Loss = 0.2223
+   [Generation Metrics] MSE: 1.2104 | PSNR: 9.98 dB
+Epoch 97/400: Train Loss = 0.2218 | Val Loss = 0.2326
+   [Generation Metrics] MSE: 1.5421 | PSNR: 8.93 dB
+Epoch 98/400: Train Loss = 0.2219 | Val Loss = 0.2221
+   [Generation Metrics] MSE: 1.1353 | PSNR: 10.26 dB
+Epoch 99/400: Train Loss = 0.2193 | Val Loss = 0.2160
+   [Generation Metrics] MSE: 1.1319 | PSNR: 10.27 dB
+Epoch 100/400: Train Loss = 0.2243 | Val Loss = 0.2231
+   [Generation Metrics] MSE: 1.1564 | PSNR: 10.18 dB
+Epoch 101/400: Train Loss = 0.2119 | Val Loss = 0.2021
+   [Generation Metrics] MSE: 1.1046 | PSNR: 10.38 dB
+Epoch 102/400: Train Loss = 0.2100 | Val Loss = 0.2072
+   [Generation Metrics] MSE: 1.3035 | PSNR: 9.66 dB
+Epoch 103/400: Train Loss = 0.2073 | Val Loss = 0.2076
+   [Generation Metrics] MSE: 1.1395 | PSNR: 10.25 dB
+Epoch 104/400: Train Loss = 0.2072 | Val Loss = 0.2074
+   [Generation Metrics] MSE: 1.4779 | PSNR: 9.12 dB
+Epoch 105/400: Train Loss = 0.2095 | Val Loss = 0.2093
+   [Generation Metrics] MSE: 1.3939 | PSNR: 9.37 dB
+Epoch 106/400: Train Loss = 0.2101 | Val Loss = 0.2087
+   [Generation Metrics] MSE: 1.2434 | PSNR: 9.87 dB
+Epoch 107/400: Train Loss = 0.2088 | Val Loss = 0.2076
+   [Generation Metrics] MSE: 1.3964 | PSNR: 9.36 dB
+Epoch 108/400: Train Loss = 0.2078 | Val Loss = 0.2088
+   [Generation Metrics] MSE: 1.1620 | PSNR: 10.16 dB
+Epoch 109/400: Train Loss = 0.2097 | Val Loss = 0.2077
+   [Generation Metrics] MSE: 1.4050 | PSNR: 9.34 dB
+Epoch 110/400: Train Loss = 0.2081 | Val Loss = 0.2075
+   [Generation Metrics] MSE: 1.1268 | PSNR: 10.29 dB
+Epoch 111/400: Train Loss = 0.2071 | Val Loss = 0.2009
+   [Generation Metrics] MSE: 1.3310 | PSNR: 9.57 dB
+Epoch 112/400: Train Loss = 0.2079 | Val Loss = 0.2033
+   [Generation Metrics] MSE: 1.7019 | PSNR: 8.50 dB
+Epoch 113/400: Train Loss = 0.2074 | Val Loss = 0.2090
+   [Generation Metrics] MSE: 1.6145 | PSNR: 8.73 dB
+Epoch 114/400: Train Loss = 0.2068 | Val Loss = 0.2031
+   [Generation Metrics] MSE: 1.2124 | PSNR: 9.98 dB
+Epoch 115/400: Train Loss = 0.2074 | Val Loss = 0.2138
+   [Generation Metrics] MSE: 1.3617 | PSNR: 9.47 dB
+Epoch 116/400: Train Loss = 0.2061 | Val Loss = 0.2116
+   [Generation Metrics] MSE: 1.5492 | PSNR: 8.91 dB
+Epoch 117/400: Train Loss = 0.2059 | Val Loss = 0.1977
+   [Generation Metrics] MSE: 1.5465 | PSNR: 8.92 dB
+Epoch 118/400: Train Loss = 0.2084 | Val Loss = 0.2019
+   [Generation Metrics] MSE: 1.2263 | PSNR: 9.93 dB
+Epoch 119/400: Train Loss = 0.2074 | Val Loss = 0.2122
+   [Generation Metrics] MSE: 1.6004 | PSNR: 8.77 dB
+Epoch 120/400: Train Loss = 0.2054 | Val Loss = 0.2142
+   [Generation Metrics] MSE: 1.2342 | PSNR: 9.90 dB
+Epoch 121/400: Train Loss = 0.2056 | Val Loss = 0.2052
+   [Generation Metrics] MSE: 1.4942 | PSNR: 9.07 dB
+Epoch 122/400: Train Loss = 0.2083 | Val Loss = 0.2013
+   [Generation Metrics] MSE: 1.4594 | PSNR: 9.17 dB
+Epoch 123/400: Train Loss = 0.2043 | Val Loss = 0.2040
+   [Generation Metrics] MSE: 1.2061 | PSNR: 10.00 dB
+Epoch 124/400: Train Loss = 0.2052 | Val Loss = 0.2048
+   [Generation Metrics] MSE: 1.1972 | PSNR: 10.03 dB
+Epoch 125/400: Train Loss = 0.2066 | Val Loss = 0.1988
+   [Generation Metrics] MSE: 1.4708 | PSNR: 9.14 dB
+Epoch 126/400: Train Loss = 0.2018 | Val Loss = 0.2036
+   [Generation Metrics] MSE: 1.4402 | PSNR: 9.23 dB
+Epoch 127/400: Train Loss = 0.2078 | Val Loss = 0.2066
+   [Generation Metrics] MSE: 1.1151 | PSNR: 10.34 dB
+Epoch 128/400: Train Loss = 0.2050 | Val Loss = 0.2089
+   [Generation Metrics] MSE: 1.4246 | PSNR: 9.28 dB
+Epoch 129/400: Train Loss = 0.1988 | Val Loss = 0.1971
+   [Generation Metrics] MSE: 1.3551 | PSNR: 9.49 dB
+Epoch 130/400: Train Loss = 0.1975 | Val Loss = 0.1997
+   [Generation Metrics] MSE: 1.2358 | PSNR: 9.89 dB
+Epoch 131/400: Train Loss = 0.1985 | Val Loss = 0.1929
+   [Generation Metrics] MSE: 1.3179 | PSNR: 9.61 dB
+Epoch 132/400: Train Loss = 0.1979 | Val Loss = 0.1959
+   [Generation Metrics] MSE: 1.5522 | PSNR: 8.90 dB
+Epoch 133/400: Train Loss = 0.1970 | Val Loss = 0.1913
+   [Generation Metrics] MSE: 1.2623 | PSNR: 9.80 dB
+Epoch 134/400: Train Loss = 0.1961 | Val Loss = 0.1999
+   [Generation Metrics] MSE: 1.1457 | PSNR: 10.22 dB
+Epoch 135/400: Train Loss = 0.1958 | Val Loss = 0.1969
+   [Generation Metrics] MSE: 1.5238 | PSNR: 8.98 dB
+Epoch 136/400: Train Loss = 0.1969 | Val Loss = 0.1968
+   [Generation Metrics] MSE: 1.4279 | PSNR: 9.27 dB
+Epoch 137/400: Train Loss = 0.1967 | Val Loss = 0.1940
+   [Generation Metrics] MSE: 1.5150 | PSNR: 9.01 dB
+Epoch 138/400: Train Loss = 0.1972 | Val Loss = 0.1950
+   [Generation Metrics] MSE: 1.5060 | PSNR: 9.03 dB
+Epoch 139/400: Train Loss = 0.1966 | Val Loss = 0.2046
+   [Generation Metrics] MSE: 1.5829 | PSNR: 8.82 dB
+Epoch 140/400: Train Loss = 0.1960 | Val Loss = 0.1997
+   [Generation Metrics] MSE: 1.4510 | PSNR: 9.20 dB
+Epoch 141/400: Train Loss = 0.1956 | Val Loss = 0.1934
+   [Generation Metrics] MSE: 1.7130 | PSNR: 8.47 dB
+Epoch 142/400: Train Loss = 0.1963 | Val Loss = 0.1901
+   [Generation Metrics] MSE: 1.8415 | PSNR: 8.16 dB
+Epoch 143/400: Train Loss = 0.1950 | Val Loss = 0.2057
+   [Generation Metrics] MSE: 1.4366 | PSNR: 9.24 dB
+Epoch 144/400: Train Loss = 0.1967 | Val Loss = 0.1984
+   [Generation Metrics] MSE: 1.4391 | PSNR: 9.23 dB
+Epoch 145/400: Train Loss = 0.1965 | Val Loss = 0.1982
+   [Generation Metrics] MSE: 1.5974 | PSNR: 8.78 dB
+Epoch 146/400: Train Loss = 0.1959 | Val Loss = 0.1977
+   [Generation Metrics] MSE: 1.3131 | PSNR: 9.63 dB
+Epoch 147/400: Train Loss = 0.1956 | Val Loss = 0.1945
+   [Generation Metrics] MSE: 1.3798 | PSNR: 9.41 dB
+Epoch 148/400: Train Loss = 0.1964 | Val Loss = 0.2024
+   [Generation Metrics] MSE: 1.2895 | PSNR: 9.71 dB
+Epoch 149/400: Train Loss = 0.1966 | Val Loss = 0.1930
+   [Generation Metrics] MSE: 1.4120 | PSNR: 9.31 dB
+Epoch 150/400: Train Loss = 0.1957 | Val Loss = 0.1914
+   [Generation Metrics] MSE: 1.2828 | PSNR: 9.73 dB
+Epoch 151/400: Train Loss = 0.1947 | Val Loss = 0.2001
+   [Generation Metrics] MSE: 1.7071 | PSNR: 8.49 dB
+Epoch 152/400: Train Loss = 0.1947 | Val Loss = 0.2000
+   [Generation Metrics] MSE: 1.3732 | PSNR: 9.44 dB
+Epoch 153/400: Train Loss = 0.1954 | Val Loss = 0.1927
+   [Generation Metrics] MSE: 1.5594 | PSNR: 8.88 dB
+Epoch 154/400: Train Loss = 0.1936 | Val Loss = 0.2002
+   [Generation Metrics] MSE: 1.4976 | PSNR: 9.06 dB
+Epoch 155/400: Train Loss = 0.1915 | Val Loss = 0.1915
+   [Generation Metrics] MSE: 1.3576 | PSNR: 9.48 dB
+Epoch 156/400: Train Loss = 0.1905 | Val Loss = 0.1895
+   [Generation Metrics] MSE: 1.3498 | PSNR: 9.51 dB
+Epoch 157/400: Train Loss = 0.1908 | Val Loss = 0.1914
+   [Generation Metrics] MSE: 1.5459 | PSNR: 8.92 dB
+Epoch 158/400: Train Loss = 0.1907 | Val Loss = 0.1923
+   [Generation Metrics] MSE: 1.5383 | PSNR: 8.94 dB
+Epoch 159/400: Train Loss = 0.1902 | Val Loss = 0.1877
+   [Generation Metrics] MSE: 1.5005 | PSNR: 9.05 dB
+Epoch 160/400: Train Loss = 0.1892 | Val Loss = 0.1894
+   [Generation Metrics] MSE: 1.4150 | PSNR: 9.30 dB
+Epoch 161/400: Train Loss = 0.1905 | Val Loss = 0.1883
+   [Generation Metrics] MSE: 1.3687 | PSNR: 9.45 dB
+Epoch 162/400: Train Loss = 0.1919 | Val Loss = 0.1952
+   [Generation Metrics] MSE: 1.6205 | PSNR: 8.72 dB
+Epoch 163/400: Train Loss = 0.1890 | Val Loss = 0.1904
+   [Generation Metrics] MSE: 1.3526 | PSNR: 9.50 dB
+Epoch 164/400: Train Loss = 0.1884 | Val Loss = 0.1889
+   [Generation Metrics] MSE: 1.5784 | PSNR: 8.83 dB
+Epoch 165/400: Train Loss = 0.1918 | Val Loss = 0.1871
+   [Generation Metrics] MSE: 1.4585 | PSNR: 9.17 dB
+Epoch 166/400: Train Loss = 0.1902 | Val Loss = 0.1880
+   [Generation Metrics] MSE: 1.4508 | PSNR: 9.20 dB
+Epoch 167/400: Train Loss = 0.1906 | Val Loss = 0.1883
+   [Generation Metrics] MSE: 1.6230 | PSNR: 8.71 dB
+Epoch 168/400: Train Loss = 0.1902 | Val Loss = 0.1928
+   [Generation Metrics] MSE: 1.5118 | PSNR: 9.02 dB
+Epoch 169/400: Train Loss = 0.1905 | Val Loss = 0.1853
+   [Generation Metrics] MSE: 1.4085 | PSNR: 9.32 dB
+Epoch 170/400: Train Loss = 0.1900 | Val Loss = 0.1933
+   [Generation Metrics] MSE: 1.7440 | PSNR: 8.40 dB
+Epoch 171/400: Train Loss = 0.1888 | Val Loss = 0.1922
+   [Generation Metrics] MSE: 1.3755 | PSNR: 9.43 dB
+Epoch 172/400: Train Loss = 0.1892 | Val Loss = 0.1931
+   [Generation Metrics] MSE: 1.3880 | PSNR: 9.39 dB
+Epoch 173/400: Train Loss = 0.1889 | Val Loss = 0.1877
+   [Generation Metrics] MSE: 1.5064 | PSNR: 9.03 dB
+Epoch 174/400: Train Loss = 0.1908 | Val Loss = 0.1927
+   [Generation Metrics] MSE: 1.6286 | PSNR: 8.69 dB
+Epoch 175/400: Train Loss = 0.1897 | Val Loss = 0.1888
+   [Generation Metrics] MSE: 1.4669 | PSNR: 9.15 dB
+Epoch 176/400: Train Loss = 0.1900 | Val Loss = 0.1864
+   [Generation Metrics] MSE: 1.5764 | PSNR: 8.84 dB
+Epoch 177/400: Train Loss = 0.1913 | Val Loss = 0.1915
+   [Generation Metrics] MSE: 1.4200 | PSNR: 9.29 dB
+Epoch 178/400: Train Loss = 0.1903 | Val Loss = 0.1914
+   [Generation Metrics] MSE: 1.5951 | PSNR: 8.78 dB
+Epoch 179/400: Train Loss = 0.1902 | Val Loss = 0.1840
+   [Generation Metrics] MSE: 1.5731 | PSNR: 8.84 dB
+Epoch 180/400: Train Loss = 0.1897 | Val Loss = 0.1854
+   [Generation Metrics] MSE: 1.4183 | PSNR: 9.29 dB
+Epoch 181/400: Train Loss = 0.1902 | Val Loss = 0.1857
+   [Generation Metrics] MSE: 1.5041 | PSNR: 9.04 dB
+Epoch 182/400: Train Loss = 0.1900 | Val Loss = 0.1878
+   [Generation Metrics] MSE: 1.6341 | PSNR: 8.68 dB
+Epoch 183/400: Train Loss = 0.1890 | Val Loss = 0.1841
+   [Generation Metrics] MSE: 1.4869 | PSNR: 9.09 dB
+Epoch 184/400: Train Loss = 0.1896 | Val Loss = 0.1856
+   [Generation Metrics] MSE: 1.4912 | PSNR: 9.08 dB
+Epoch 185/400: Train Loss = 0.1903 | Val Loss = 0.1899
+   [Generation Metrics] MSE: 1.5045 | PSNR: 9.04 dB
+Epoch 186/400: Train Loss = 0.1892 | Val Loss = 0.1861
+   [Generation Metrics] MSE: 1.5156 | PSNR: 9.01 dB
+Epoch 187/400: Train Loss = 0.1895 | Val Loss = 0.1844
+   [Generation Metrics] MSE: 1.5976 | PSNR: 8.78 dB
+Epoch 188/400: Train Loss = 0.1891 | Val Loss = 0.1903
+   [Generation Metrics] MSE: 1.4996 | PSNR: 9.05 dB
+Epoch 189/400: Train Loss = 0.1879 | Val Loss = 0.1907
+   [Generation Metrics] MSE: 1.6031 | PSNR: 8.76 dB
+Epoch 190/400: Train Loss = 0.1898 | Val Loss = 0.1900
+   [Generation Metrics] MSE: 1.5022 | PSNR: 9.05 dB
+Epoch 191/400: Train Loss = 0.1872 | Val Loss = 0.1912
+   [Generation Metrics] MSE: 1.5001 | PSNR: 9.05 dB
+Epoch 192/400: Train Loss = 0.1871 | Val Loss = 0.1893
+   [Generation Metrics] MSE: 1.4466 | PSNR: 9.21 dB
+Epoch 193/400: Train Loss = 0.1875 | Val Loss = 0.1855
+   [Generation Metrics] MSE: 1.5104 | PSNR: 9.02 dB
+Epoch 194/400: Train Loss = 0.1878 | Val Loss = 0.1853
+   [Generation Metrics] MSE: 1.5295 | PSNR: 8.97 dB
+Epoch 195/400: Train Loss = 0.1871 | Val Loss = 0.1830
+   [Generation Metrics] MSE: 1.6618 | PSNR: 8.61 dB
+Epoch 196/400: Train Loss = 0.1867 | Val Loss = 0.1850
+   [Generation Metrics] MSE: 1.5143 | PSNR: 9.01 dB
+Epoch 197/400: Train Loss = 0.1871 | Val Loss = 0.1856
+   [Generation Metrics] MSE: 1.6037 | PSNR: 8.76 dB
+Epoch 198/400: Train Loss = 0.1867 | Val Loss = 0.1871
+   [Generation Metrics] MSE: 1.5343 | PSNR: 8.95 dB
+Epoch 199/400: Train Loss = 0.1868 | Val Loss = 0.1848
+   [Generation Metrics] MSE: 1.2787 | PSNR: 9.74 dB
+Epoch 200/400: Train Loss = 0.1873 | Val Loss = 0.1870
+   [Generation Metrics] MSE: 1.5638 | PSNR: 8.87 dB
+Epoch 201/400: Train Loss = 0.1862 | Val Loss = 0.1870
+   [Generation Metrics] MSE: 1.4604 | PSNR: 9.17 dB
+Epoch 202/400: Train Loss = 0.1880 | Val Loss = 0.1894
+   [Generation Metrics] MSE: 1.5354 | PSNR: 8.95 dB
+Epoch 203/400: Train Loss = 0.1878 | Val Loss = 0.1888
+   [Generation Metrics] MSE: 1.4557 | PSNR: 9.18 dB
+Epoch 204/400: Train Loss = 0.1866 | Val Loss = 0.1811
+   [Generation Metrics] MSE: 1.5013 | PSNR: 9.05 dB
+Epoch 205/400: Train Loss = 0.1867 | Val Loss = 0.1857
+   [Generation Metrics] MSE: 1.5535 | PSNR: 8.90 dB
+Epoch 206/400: Train Loss = 0.1862 | Val Loss = 0.1793
+   [Generation Metrics] MSE: 1.5398 | PSNR: 8.94 dB
+Epoch 207/400: Train Loss = 0.1873 | Val Loss = 0.1850
+   [Generation Metrics] MSE: 1.3977 | PSNR: 9.36 dB
+Epoch 208/400: Train Loss = 0.1866 | Val Loss = 0.1942
+   [Generation Metrics] MSE: 1.5310 | PSNR: 8.96 dB
+Epoch 209/400: Train Loss = 0.1850 | Val Loss = 0.1842
+   [Generation Metrics] MSE: 1.4427 | PSNR: 9.22 dB
+Epoch 210/400: Train Loss = 0.1859 | Val Loss = 0.1851
+   [Generation Metrics] MSE: 1.5358 | PSNR: 8.95 dB
+Epoch 211/400: Train Loss = 0.1874 | Val Loss = 0.1875
+   [Generation Metrics] MSE: 1.4495 | PSNR: 9.20 dB
+Epoch 212/400: Train Loss = 0.1867 | Val Loss = 0.1850
+   [Generation Metrics] MSE: 1.5691 | PSNR: 8.86 dB
+Epoch 213/400: Train Loss = 0.1859 | Val Loss = 0.1881
+   [Generation Metrics] MSE: 1.6954 | PSNR: 8.52 dB
+Epoch 214/400: Train Loss = 0.1855 | Val Loss = 0.1872
+   [Generation Metrics] MSE: 1.6998 | PSNR: 8.51 dB
+Epoch 215/400: Train Loss = 0.1876 | Val Loss = 0.1837
+   [Generation Metrics] MSE: 1.5623 | PSNR: 8.87 dB
+Epoch 216/400: Train Loss = 0.1844 | Val Loss = 0.1836
+   [Generation Metrics] MSE: 1.5139 | PSNR: 9.01 dB
+Epoch 217/400: Train Loss = 0.1869 | Val Loss = 0.1837
+   [Generation Metrics] MSE: 1.6015 | PSNR: 8.77 dB
+Epoch 218/400: Train Loss = 0.1857 | Val Loss = 0.1864
+   [Generation Metrics] MSE: 1.5948 | PSNR: 8.79 dB
+Epoch 219/400: Train Loss = 0.1861 | Val Loss = 0.1904
+   [Generation Metrics] MSE: 1.4875 | PSNR: 9.09 dB
+Epoch 220/400: Train Loss = 0.1846 | Val Loss = 0.1890
+   [Generation Metrics] MSE: 1.5723 | PSNR: 8.85 dB
+Epoch 221/400: Train Loss = 0.1843 | Val Loss = 0.1928
+   [Generation Metrics] MSE: 1.5153 | PSNR: 9.01 dB
+Epoch 222/400: Train Loss = 0.1858 | Val Loss = 0.1831
+   [Generation Metrics] MSE: 1.5052 | PSNR: 9.04 dB
+Epoch 223/400: Train Loss = 0.1855 | Val Loss = 0.1848
+   [Generation Metrics] MSE: 1.4911 | PSNR: 9.08 dB
+Epoch 224/400: Train Loss = 0.1854 | Val Loss = 0.1867
+   [Generation Metrics] MSE: 1.4652 | PSNR: 9.15 dB
+Epoch 225/400: Train Loss = 0.1848 | Val Loss = 0.1875
+   [Generation Metrics] MSE: 1.4813 | PSNR: 9.11 dB
+Epoch 226/400: Train Loss = 0.1845 | Val Loss = 0.1813
+   [Generation Metrics] MSE: 1.3621 | PSNR: 9.47 dB
+Epoch 227/400: Train Loss = 0.1844 | Val Loss = 0.1867
+   [Generation Metrics] MSE: 1.5643 | PSNR: 8.87 dB
+Epoch 228/400: Train Loss = 0.1853 | Val Loss = 0.1870
+   [Generation Metrics] MSE: 1.5754 | PSNR: 8.84 dB
+Epoch 229/400: Train Loss = 0.1838 | Val Loss = 0.1862
+   [Generation Metrics] MSE: 1.4345 | PSNR: 9.25 dB
+Epoch 230/400: Train Loss = 0.1846 | Val Loss = 0.1859
+   [Generation Metrics] MSE: 1.6272 | PSNR: 8.70 dB
+Epoch 231/400: Train Loss = 0.1852 | Val Loss = 0.1829
+   [Generation Metrics] MSE: 1.4787 | PSNR: 9.11 dB
+Epoch 232/400: Train Loss = 0.1849 | Val Loss = 0.1828
+   [Generation Metrics] MSE: 1.5623 | PSNR: 8.87 dB
+Epoch 233/400: Train Loss = 0.1833 | Val Loss = 0.1903
+   [Generation Metrics] MSE: 1.5425 | PSNR: 8.93 dB
+Epoch 234/400: Train Loss = 0.1839 | Val Loss = 0.1868
+   [Generation Metrics] MSE: 1.5493 | PSNR: 8.91 dB
+Epoch 235/400: Train Loss = 0.1851 | Val Loss = 0.1795
+   [Generation Metrics] MSE: 1.6098 | PSNR: 8.74 dB
+Epoch 236/400: Train Loss = 0.1845 | Val Loss = 0.1854
+   [Generation Metrics] MSE: 1.5615 | PSNR: 8.88 dB
+Epoch 237/400: Train Loss = 0.1846 | Val Loss = 0.1887
+   [Generation Metrics] MSE: 1.5261 | PSNR: 8.98 dB
+Epoch 238/400: Train Loss = 0.1843 | Val Loss = 0.1839
+   [Generation Metrics] MSE: 1.5978 | PSNR: 8.78 dB
+Epoch 239/400: Train Loss = 0.1837 | Val Loss = 0.1869
+   [Generation Metrics] MSE: 1.4758 | PSNR: 9.12 dB
+Epoch 240/400: Train Loss = 0.1836 | Val Loss = 0.1804
+   [Generation Metrics] MSE: 1.4949 | PSNR: 9.07 dB
+Epoch 241/400: Train Loss = 0.1840 | Val Loss = 0.1845
+   [Generation Metrics] MSE: 1.4566 | PSNR: 9.18 dB
+Epoch 242/400: Train Loss = 0.1847 | Val Loss = 0.1840
+   [Generation Metrics] MSE: 1.2875 | PSNR: 9.71 dB
+Epoch 243/400: Train Loss = 0.1830 | Val Loss = 0.1800
+   [Generation Metrics] MSE: 1.5051 | PSNR: 9.04 dB
+Epoch 244/400: Train Loss = 0.1838 | Val Loss = 0.1867
+   [Generation Metrics] MSE: 1.6409 | PSNR: 8.66 dB
+Epoch 245/400: Train Loss = 0.1859 | Val Loss = 0.1811
+   [Generation Metrics] MSE: 1.5075 | PSNR: 9.03 dB
+Epoch 246/400: Train Loss = 0.1860 | Val Loss = 0.1853
+   [Generation Metrics] MSE: 1.5096 | PSNR: 9.02 dB
+Epoch 247/400: Train Loss = 0.1850 | Val Loss = 0.1867
+   [Generation Metrics] MSE: 1.5629 | PSNR: 8.87 dB
+Epoch 248/400: Train Loss = 0.1829 | Val Loss = 0.1850
+   [Generation Metrics] MSE: 1.5420 | PSNR: 8.93 dB
+Epoch 249/400: Train Loss = 0.1842 | Val Loss = 0.1828
+   [Generation Metrics] MSE: 1.5259 | PSNR: 8.98 dB
+Epoch 250/400: Train Loss = 0.1844 | Val Loss = 0.1821
+   [Generation Metrics] MSE: 1.5533 | PSNR: 8.90 dB
+Epoch 251/400: Train Loss = 0.1835 | Val Loss = 0.1813
+   [Generation Metrics] MSE: 1.5695 | PSNR: 8.85 dB
+Epoch 252/400: Train Loss = 0.1833 | Val Loss = 0.1865
+   [Generation Metrics] MSE: 1.4808 | PSNR: 9.11 dB
+Epoch 253/400: Train Loss = 0.1839 | Val Loss = 0.1857
+   [Generation Metrics] MSE: 1.6281 | PSNR: 8.70 dB
+Epoch 254/400: Train Loss = 0.1850 | Val Loss = 0.1852
+   [Generation Metrics] MSE: 1.5140 | PSNR: 9.01 dB
+Epoch 255/400: Train Loss = 0.1846 | Val Loss = 0.1832
+   [Generation Metrics] MSE: 1.5237 | PSNR: 8.98 dB
+Epoch 256/400: Train Loss = 0.1856 | Val Loss = 0.1836
+   [Generation Metrics] MSE: 1.5411 | PSNR: 8.93 dB
+Epoch 257/400: Train Loss = 0.1838 | Val Loss = 0.1843
+   [Generation Metrics] MSE: 1.5853 | PSNR: 8.81 dB
+Epoch 258/400: Train Loss = 0.1865 | Val Loss = 0.1843
+   [Generation Metrics] MSE: 1.5327 | PSNR: 8.96 dB
+Epoch 259/400: Train Loss = 0.1851 | Val Loss = 0.1832
+   [Generation Metrics] MSE: 1.5393 | PSNR: 8.94 dB
+Epoch 260/400: Train Loss = 0.1833 | Val Loss = 0.1876
+   [Generation Metrics] MSE: 1.7022 | PSNR: 8.50 dB
+Epoch 261/400: Train Loss = 0.1844 | Val Loss = 0.1824
+   [Generation Metrics] MSE: 1.6812 | PSNR: 8.56 dB
+Epoch 262/400: Train Loss = 0.1852 | Val Loss = 0.1857
+   [Generation Metrics] MSE: 1.5338 | PSNR: 8.95 dB
+Epoch 263/400: Train Loss = 0.1834 | Val Loss = 0.1788
+   [Generation Metrics] MSE: 1.6600 | PSNR: 8.61 dB
+Epoch 264/400: Train Loss = 0.1850 | Val Loss = 0.1847
+   [Generation Metrics] MSE: 1.5584 | PSNR: 8.89 dB
+Epoch 265/400: Train Loss = 0.1827 | Val Loss = 0.1853
+   [Generation Metrics] MSE: 1.6891 | PSNR: 8.54 dB
+Epoch 266/400: Train Loss = 0.1848 | Val Loss = 0.1826
+   [Generation Metrics] MSE: 1.5604 | PSNR: 8.88 dB
+Epoch 267/400: Train Loss = 0.1844 | Val Loss = 0.1876
+   [Generation Metrics] MSE: 1.5450 | PSNR: 8.92 dB
+Epoch 268/400: Train Loss = 0.1827 | Val Loss = 0.1798
+   [Generation Metrics] MSE: 1.5766 | PSNR: 8.84 dB
+Epoch 269/400: Train Loss = 0.1842 | Val Loss = 0.1783
+   [Generation Metrics] MSE: 1.5552 | PSNR: 8.89 dB
+Epoch 270/400: Train Loss = 0.1839 | Val Loss = 0.1813
+   [Generation Metrics] MSE: 1.5854 | PSNR: 8.81 dB
+Epoch 271/400: Train Loss = 0.1823 | Val Loss = 0.1849
+   [Generation Metrics] MSE: 1.6302 | PSNR: 8.69 dB
+Epoch 272/400: Train Loss = 0.1839 | Val Loss = 0.1872
+   [Generation Metrics] MSE: 1.5907 | PSNR: 8.80 dB
+Epoch 273/400: Train Loss = 0.1848 | Val Loss = 0.1789
+   [Generation Metrics] MSE: 1.4811 | PSNR: 9.11 dB
+Epoch 274/400: Train Loss = 0.1843 | Val Loss = 0.1832
+   [Generation Metrics] MSE: 1.6262 | PSNR: 8.70 dB
+Epoch 275/400: Train Loss = 0.1841 | Val Loss = 0.1824
+   [Generation Metrics] MSE: 1.6675 | PSNR: 8.59 dB
+Epoch 276/400: Train Loss = 0.1833 | Val Loss = 0.1871
+   [Generation Metrics] MSE: 1.5103 | PSNR: 9.02 dB
+Epoch 277/400: Train Loss = 0.1829 | Val Loss = 0.1844
+   [Generation Metrics] MSE: 1.6132 | PSNR: 8.74 dB
+Epoch 278/400: Train Loss = 0.1839 | Val Loss = 0.1786
+   [Generation Metrics] MSE: 1.5610 | PSNR: 8.88 dB
+Epoch 279/400: Train Loss = 0.1841 | Val Loss = 0.1834
+   [Generation Metrics] MSE: 1.6477 | PSNR: 8.64 dB
+Epoch 280/400: Train Loss = 0.1830 | Val Loss = 0.1846
+   [Generation Metrics] MSE: 1.6230 | PSNR: 8.71 dB
+Epoch 281/400: Train Loss = 0.1832 | Val Loss = 0.1858
+   [Generation Metrics] MSE: 1.5656 | PSNR: 8.87 dB
+Epoch 282/400: Train Loss = 0.1840 | Val Loss = 0.1827
+   [Generation Metrics] MSE: 1.6211 | PSNR: 8.71 dB
+Epoch 283/400: Train Loss = 0.1843 | Val Loss = 0.1811
+   [Generation Metrics] MSE: 1.4417 | PSNR: 9.22 dB
+Epoch 284/400: Train Loss = 0.1831 | Val Loss = 0.1834
+   [Generation Metrics] MSE: 1.6419 | PSNR: 8.66 dB
+Epoch 285/400: Train Loss = 0.1839 | Val Loss = 0.1844
+   [Generation Metrics] MSE: 1.6540 | PSNR: 8.63 dB
+Epoch 286/400: Train Loss = 0.1830 | Val Loss = 0.1826
+   [Generation Metrics] MSE: 1.6494 | PSNR: 8.64 dB
+Epoch 287/400: Train Loss = 0.1851 | Val Loss = 0.1855
+   [Generation Metrics] MSE: 1.5870 | PSNR: 8.81 dB
+Epoch 288/400: Train Loss = 0.1834 | Val Loss = 0.1833
+   [Generation Metrics] MSE: 1.6776 | PSNR: 8.57 dB
+Epoch 289/400: Train Loss = 0.1856 | Val Loss = 0.1813
+   [Generation Metrics] MSE: 1.6629 | PSNR: 8.60 dB
+Epoch 290/400: Train Loss = 0.1833 | Val Loss = 0.1834
+   [Generation Metrics] MSE: 1.6025 | PSNR: 8.76 dB
+Epoch 291/400: Train Loss = 0.1831 | Val Loss = 0.1853
+   [Generation Metrics] MSE: 1.5577 | PSNR: 8.89 dB
+Epoch 292/400: Train Loss = 0.1833 | Val Loss = 0.1842
+   [Generation Metrics] MSE: 1.4899 | PSNR: 9.08 dB
+Epoch 293/400: Train Loss = 0.1841 | Val Loss = 0.1872
+   [Generation Metrics] MSE: 1.5652 | PSNR: 8.87 dB
+Epoch 294/400: Train Loss = 0.1843 | Val Loss = 0.1866
+   [Generation Metrics] MSE: 1.6757 | PSNR: 8.57 dB
+Epoch 295/400: Train Loss = 0.1829 | Val Loss = 0.1833
+   [Generation Metrics] MSE: 1.5914 | PSNR: 8.79 dB
+Epoch 296/400: Train Loss = 0.1823 | Val Loss = 0.1825
+   [Generation Metrics] MSE: 1.5795 | PSNR: 8.83 dB
+Epoch 297/400: Train Loss = 0.1837 | Val Loss = 0.1779
+   [Generation Metrics] MSE: 1.6751 | PSNR: 8.57 dB
+Epoch 298/400: Train Loss = 0.1822 | Val Loss = 0.1816
+   [Generation Metrics] MSE: 1.6766 | PSNR: 8.57 dB
