@@ -51,3 +51,9 @@ Epoch 1/400: Train Loss = 0.1760 | Val Loss = 0.1285
    [Generation Metrics] MSE: 1.3223 | PSNR: 9.99 dB
    --> Best MSE model saved.
 Epoch 2/400: Train Loss = 0.1136 | Val Loss = 0.1001
+   [Generation Metrics] MSE: 44.1725 | PSNR: -5.25 dB
+Epoch 3/400: Train Loss = 0.0974 | Val Loss = 0.0913
+   [Generation Metrics] MSE: 1.6853 | PSNR: 8.94 dB
+Epoch 4/400: Train Loss = 0.0892 | Val Loss = 0.0863
+   [Generation Metrics] MSE: 1.8970 | PSNR: 8.42 dB
+Epoch 5/400: Train Loss = 0.0838 | Val Loss = 0.0808
