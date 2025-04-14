@@ -1,0 +1,1 @@
+{"total train loss": 0.04470220345922774, "train mse loss": NaN, "train rd loss": NaN, "total val loss": 0.044633776124777966, "IQ val loss": NaN, "RD val loss": NaN, "MSE between denoised IQ and clean IQ": 0.559360921382904, "generated IQ map PSNR": 13.619669327480818, "learning rate": 0.0001, "_timestamp": 1744640959.9237046, "_runtime": 26349.385399580002, "_step": 51}

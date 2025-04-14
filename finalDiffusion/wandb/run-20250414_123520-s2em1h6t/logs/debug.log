@@ -1,0 +1,138 @@
+2025-04-14 12:35:20,304 INFO    MainThread:520315 [wandb_setup.py:_flush():76] Current SDK version is 0.17.1
+2025-04-14 12:35:20,304 INFO    MainThread:520315 [wandb_setup.py:_flush():76] Configure stats pid to 520315
+2025-04-14 12:35:20,304 INFO    MainThread:520315 [wandb_setup.py:_flush():76] Loading settings from /home/hawk/.config/wandb/settings
+2025-04-14 12:35:20,304 INFO    MainThread:520315 [wandb_setup.py:_flush():76] Loading settings from /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/settings
+2025-04-14 12:35:20,304 INFO    MainThread:520315 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2025-04-14 12:35:20,304 INFO    MainThread:520315 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-04-14 12:35:20,304 INFO    MainThread:520315 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-04-14 12:35:20,304 INFO    MainThread:520315 [wandb_setup.py:_flush():76] Applying login settings: {}
+2025-04-14 12:35:20,304 INFO    MainThread:520315 [wandb_init.py:_log_setup():520] Logging user logs to /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250414_123520-s2em1h6t/logs/debug.log
+2025-04-14 12:35:20,304 INFO    MainThread:520315 [wandb_init.py:_log_setup():521] Logging internal logs to /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250414_123520-s2em1h6t/logs/debug-internal.log
+2025-04-14 12:35:20,304 INFO    MainThread:520315 [wandb_init.py:_jupyter_setup():466] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f3edf966e60>
+2025-04-14 12:35:20,304 INFO    MainThread:520315 [wandb_init.py:init():560] calling init triggers
+2025-04-14 12:35:20,304 INFO    MainThread:520315 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {'SNR': 10, 'CNR': 15, 'beta_end': 0.02, 'beta_start': 0.0001, 'batch_size': 16, 'num_epochs': 400, 'noise_steps': 2000, 'num_workers': 4, 'dataset_size': 50000, 'time_emb_dim': 256, 'learning_rate': 0.0001, 'scheduler_type': 'linear'}
+2025-04-14 12:35:20,304 INFO    MainThread:520315 [wandb_init.py:init():610] starting backend
+2025-04-14 12:35:20,304 INFO    MainThread:520315 [wandb_init.py:init():614] setting up manager
+2025-04-14 12:35:20,305 INFO    MainThread:520315 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-14 12:35:20,305 INFO    MainThread:520315 [wandb_init.py:init():622] backend started and connected
+2025-04-14 12:35:20,307 INFO    MainThread:520315 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2025-04-14 12:35:20,308 INFO    MainThread:520315 [wandb_run.py:_label_probe_notebook():1344] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-04-14 12:35:20,308 INFO    MainThread:520315 [wandb_init.py:init():711] updated telemetry
+2025-04-14 12:35:20,311 INFO    MainThread:520315 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2025-04-14 12:35:20,752 INFO    MainThread:520315 [wandb_run.py:_on_init():2402] communicating current version
+2025-04-14 12:35:21,089 INFO    MainThread:520315 [wandb_run.py:_on_init():2411] got version response upgrade_message: "wandb version 0.19.9 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-04-14 12:35:21,090 INFO    MainThread:520315 [wandb_init.py:init():795] starting run threads in backend
+2025-04-14 12:35:21,205 INFO    MainThread:520315 [wandb_run.py:_console_start():2380] atexit reg
+2025-04-14 12:35:21,205 INFO    MainThread:520315 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-04-14 12:35:21,205 INFO    MainThread:520315 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-04-14 12:35:21,206 INFO    MainThread:520315 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-04-14 12:35:21,206 INFO    MainThread:520315 [wandb_init.py:init():838] run started, returning control to user process
+2025-04-14 12:35:21,206 INFO    MainThread:520315 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2025-04-14 12:35:21,206 INFO    MainThread:520315 [wandb_init.py:_pause_backend():431] pausing backend
+2025-04-14 12:35:21,219 INFO    MainThread:520315 [wandb_init.py:_resume_backend():436] resuming backend
+2025-04-14 12:35:21,221 INFO    MainThread:520315 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2025-04-14 12:35:21,221 INFO    MainThread:520315 [wandb_init.py:_pause_backend():431] pausing backend
+2025-04-14 12:35:21,226 INFO    MainThread:520315 [wandb_init.py:_resume_backend():436] resuming backend
+2025-04-14 12:35:21,243 INFO    MainThread:520315 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2025-04-14 12:35:21,243 INFO    MainThread:520315 [wandb_init.py:_pause_backend():431] pausing backend
+2025-04-14 12:35:21,250 INFO    MainThread:520315 [wandb_init.py:_resume_backend():436] resuming backend
+2025-04-14 12:35:21,264 INFO    MainThread:520315 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2025-04-14 12:35:21,264 INFO    MainThread:520315 [wandb_init.py:_pause_backend():431] pausing backend
+2025-04-14 12:35:21,270 INFO    MainThread:520315 [wandb_init.py:_resume_backend():436] resuming backend
+2025-04-14 12:35:21,279 INFO    MainThread:520315 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2025-04-14 12:35:21,279 INFO    MainThread:520315 [wandb_init.py:_pause_backend():431] pausing backend
+2025-04-14 12:35:21,285 INFO    MainThread:520315 [wandb_init.py:_resume_backend():436] resuming backend
+2025-04-14 12:39:58,809 INFO    MainThread:520315 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2025-04-14 12:39:58,809 INFO    MainThread:520315 [wandb_init.py:_pause_backend():431] pausing backend
+2025-04-14 12:40:45,213 INFO    MainThread:520315 [wandb_init.py:_resume_backend():436] resuming backend
+2025-04-14 12:40:45,215 INFO    MainThread:520315 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2025-04-14 12:40:45,215 INFO    MainThread:520315 [wandb_init.py:_pause_backend():431] pausing backend
+2025-04-14 12:40:51,458 INFO    MainThread:520315 [wandb_init.py:_resume_backend():436] resuming backend
+2025-04-14 12:40:51,458 INFO    MainThread:520315 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2025-04-14 12:40:51,459 INFO    MainThread:520315 [wandb_init.py:_pause_backend():431] pausing backend
+2025-04-14 16:16:59,132 INFO    MainThread:520315 [wandb_init.py:_resume_backend():436] resuming backend
+2025-04-14 16:16:59,133 INFO    MainThread:520315 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2025-04-14 16:16:59,133 INFO    MainThread:520315 [wandb_init.py:_pause_backend():431] pausing backend
+2025-04-14 16:16:59,141 INFO    MainThread:520315 [wandb_init.py:_resume_backend():436] resuming backend
+2025-04-14 16:16:59,156 INFO    MainThread:520315 [wandb_setup.py:_flush():76] Current SDK version is 0.17.1
+2025-04-14 16:16:59,156 INFO    MainThread:520315 [wandb_setup.py:_flush():76] Configure stats pid to 520315
+2025-04-14 16:16:59,156 INFO    MainThread:520315 [wandb_setup.py:_flush():76] Loading settings from /home/hawk/.config/wandb/settings
+2025-04-14 16:16:59,156 INFO    MainThread:520315 [wandb_setup.py:_flush():76] Loading settings from /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/settings
+2025-04-14 16:16:59,156 INFO    MainThread:520315 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2025-04-14 16:16:59,156 INFO    MainThread:520315 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-04-14 16:16:59,156 INFO    MainThread:520315 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-04-14 16:16:59,156 INFO    MainThread:520315 [wandb_setup.py:_flush():76] Applying login settings: {}
+2025-04-14 16:16:59,156 INFO    MainThread:520315 [wandb_init.py:_log_setup():520] Logging user logs to /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250414_161659-9b0u6t2r/logs/debug.log
+2025-04-14 16:16:59,156 INFO    MainThread:520315 [wandb_init.py:_log_setup():521] Logging internal logs to /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250414_161659-9b0u6t2r/logs/debug-internal.log
+2025-04-14 16:16:59,156 INFO    MainThread:520315 [wandb_init.py:init():560] calling init triggers
+2025-04-14 16:16:59,157 INFO    MainThread:520315 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {'SNR': 10, 'CNR': 15, 'beta_end': 0.02, 'beta_start': 0.0001, 'batch_size': 16, 'num_epochs': 400, 'noise_steps': 2000, 'num_workers': 4, 'dataset_size': 50000, 'time_emb_dim': 256, 'learning_rate': 0.0001, 'scheduler_type': 'linear'}
+2025-04-14 16:16:59,157 INFO    MainThread:520315 [wandb_init.py:init():585] re-initializing run, found existing run on stack: s2em1h6t
+2025-04-14 16:16:59,157 INFO    MainThread:520315 [wandb_run.py:_finish():2109] finishing run ari-granevich/New-Radar-diffusion/s2em1h6t
+2025-04-14 16:16:59,158 ERROR   MainThread:520315 [jupyter.py:save_history():436] Run pip install nbformat to save notebook history
+2025-04-14 16:16:59,158 INFO    MainThread:520315 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2025-04-14 16:16:59,158 INFO    MainThread:520315 [wandb_init.py:_jupyter_teardown():448] cleaning up jupyter logic
+2025-04-14 16:16:59,158 INFO    MainThread:520315 [wandb_run.py:_atexit_cleanup():2349] got exitcode: 0
+2025-04-14 16:16:59,158 INFO    MainThread:520315 [wandb_run.py:_restore():2332] restore
+2025-04-14 16:16:59,158 INFO    MainThread:520315 [wandb_run.py:_restore():2338] restore done
+2025-04-14 16:19:23,702 WARNING MsgRouterThr:520315 [router.py:message_loop():77] message_loop has been closed
+2025-04-14 16:19:30,502 INFO    MainThread:520315 [wandb_run.py:_restore():2332] restore
+2025-04-14 16:19:30,502 INFO    MainThread:520315 [wandb_run.py:_restore():2338] restore done
+2025-04-14 16:19:30,502 ERROR   MainThread:520315 [wandb_init.py:init():1181] error in wandb.init()
+Traceback (most recent call last):
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2358, in _atexit_cleanup
+    self._on_finish()
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2623, in _on_finish
+    _ = exit_handle.wait(timeout=-1, on_progress=self._on_progress_exit)
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 298, in wait
+    on_probe(probe_handle)
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2578, in _on_probe_exit
+    result = handle.wait(timeout=0, release=False)
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 281, in wait
+    raise MailboxError("transport failed")
+wandb.sdk.lib.mailbox.MailboxError: transport failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1171, in init
+    return wi.init()
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 595, in init
+    latest_run.finish()
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 449, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 390, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2100, in finish
+    return self._finish(exit_code, quiet)
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2115, in _finish
+    self._atexit_cleanup(exit_code=exit_code)
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2369, in _atexit_cleanup
+    self._backend.cleanup()
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/backend/backend.py", line 232, in cleanup
+    self.interface.join()
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 547, in join
+    super().join()
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 802, in join
+    _ = self._communicate_shutdown()
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 444, in _communicate_shutdown
+    _ = self._communicate(record)
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 304, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 60, in _communicate_async
+    future = self._router.send_and_receive(rec, local=local)
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 94, in send_and_receive
+    self._send_message(rec)
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/interface/router_sock.py", line 36, in _send_message
+    self._sock_client.send_record_communicate(record)
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 216, in send_record_communicate
+    self.send_server_request(server_req)
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/hawk/.local/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe

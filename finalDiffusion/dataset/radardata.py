@@ -297,76 +297,76 @@ def normalize_and_cache_dataset(dataset, signal_mean, signal_std, IQ_mean, IQ_st
     # Return cached TensorDataset (now consistent)
     return TensorDataset(signals_norm, clutter_all, gauss_all, IQs_norm, labels, scnr_dBs)
 
-# def prep_dataset(config):
-#     train_dataset_with_targets = RadarDataset(num_samples=config.dataset_size, n_targets=8, random_n_targets=True, snr=config.SNR, cnr=config.CNR)
-#     train_dataset_without_targets = RadarDataset(num_samples=config.dataset_size//10, n_targets=0, random_n_targets=False, snr=config.SNR, cnr=config.CNR)
-#     full_train_dataset = ConcatDataset([train_dataset_with_targets, train_dataset_without_targets])
-#     val_dataset_with_targets = RadarDataset(num_samples=config.dataset_size//10, n_targets=8, random_n_targets=True, snr=config.SNR, cnr=config.CNR)
-#     val_dataset_without_targets = RadarDataset(num_samples=config.dataset_size//100, n_targets=0, random_n_targets=False, snr=config.SNR, cnr=config.CNR)
-#     full_val_dataset = ConcatDataset([val_dataset_with_targets, val_dataset_without_targets])
-#     train_loader = DataLoader(full_train_dataset, batch_size=config.batch_size, shuffle=True)
-#     val_loader = DataLoader(full_val_dataset, batch_size=config.batch_size, shuffle=False)
-#     signal_mean, signal_std, IQ_mean, IQ_std = get_mean_std(train_loader)
-#     norm_train_dataset = normalize_and_cache_dataset(full_train_dataset, signal_mean, signal_std, IQ_mean, IQ_std)
-#     norm_val_dataset = normalize_and_cache_dataset(full_val_dataset, signal_mean, signal_std, IQ_mean, IQ_std)
-#     norm_train_loader = DataLoader(norm_train_dataset, batch_size=config.batch_size, shuffle=True)
-#     norm_val_loader = DataLoader(norm_val_dataset, batch_size=config.batch_size, shuffle=False)
-#     return train_loader, val_loader, norm_train_loader, norm_val_loader, train_dataset_with_targets, norm_train_dataset, norm_val_dataset
-
-
 def prep_dataset(config):
-    snr_list = [5, 10, 15, 20]
-    cnr_list = [10, 15, 20, 25]
-    train_datasets = []
-    val_datasets = []
-    for snr in snr_list:
-        for cnr in cnr_list:
-            train_dataset_with_targets = RadarDataset(
-                num_samples=config.dataset_size // (len(snr_list) * len(cnr_list)),
-                n_targets=8,
-                random_n_targets=True,
-                snr=snr,
-                cnr=cnr
-            )
-            train_dataset_without_targets = RadarDataset(
-                num_samples=config.dataset_size // (10 * len(snr_list) * len(cnr_list)),
-                n_targets=0,
-                random_n_targets=False,
-                snr=snr,
-                cnr=cnr
-            )
-            # Create a dataset for this configuration and add it to the list.
-            train_datasets.append(ConcatDataset([train_dataset_with_targets, train_dataset_without_targets]))
-            
-            val_dataset_with_targets = RadarDataset(
-                num_samples=config.dataset_size // (10 * len(snr_list) * len(cnr_list)),
-                n_targets=8,
-                random_n_targets=True,
-                snr=snr,
-                cnr=cnr
-            )
-            val_dataset_without_targets = RadarDataset(
-                num_samples=config.dataset_size // (100 * len(snr_list) * len(cnr_list)),
-                n_targets=0,
-                random_n_targets=False,
-                snr=snr,
-                cnr=cnr
-            )
-            val_datasets.append(ConcatDataset([val_dataset_with_targets, val_dataset_without_targets]))
-    
-    full_train_dataset = ConcatDataset(train_datasets)
-    full_val_dataset = ConcatDataset(val_datasets)
-    
+    train_dataset_with_targets = RadarDataset(num_samples=config.dataset_size, n_targets=8, random_n_targets=True, snr=config.SNR, cnr=config.CNR)
+    train_dataset_without_targets = RadarDataset(num_samples=config.dataset_size//10, n_targets=0, random_n_targets=False, snr=config.SNR, cnr=config.CNR)
+    full_train_dataset = ConcatDataset([train_dataset_with_targets, train_dataset_without_targets])
+    val_dataset_with_targets = RadarDataset(num_samples=config.dataset_size//10, n_targets=8, random_n_targets=True, snr=config.SNR, cnr=config.CNR)
+    val_dataset_without_targets = RadarDataset(num_samples=config.dataset_size//100, n_targets=0, random_n_targets=False, snr=config.SNR, cnr=config.CNR)
+    full_val_dataset = ConcatDataset([val_dataset_with_targets, val_dataset_without_targets])
     train_loader = DataLoader(full_train_dataset, batch_size=config.batch_size, shuffle=True)
     val_loader = DataLoader(full_val_dataset, batch_size=config.batch_size, shuffle=False)
-    
     signal_mean, signal_std, IQ_mean, IQ_std = get_mean_std(train_loader)
     norm_train_dataset = normalize_and_cache_dataset(full_train_dataset, signal_mean, signal_std, IQ_mean, IQ_std)
     norm_val_dataset = normalize_and_cache_dataset(full_val_dataset, signal_mean, signal_std, IQ_mean, IQ_std)
     norm_train_loader = DataLoader(norm_train_dataset, batch_size=config.batch_size, shuffle=True)
     norm_val_loader = DataLoader(norm_val_dataset, batch_size=config.batch_size, shuffle=False)
-    
     return train_loader, val_loader, norm_train_loader, norm_val_loader, train_dataset_with_targets, norm_train_dataset, norm_val_dataset
+
+
+# def prep_dataset(config):
+#     snr_list = [5, 10, 15, 20]
+#     cnr_list = [10, 15, 20, 25]
+#     train_datasets = []
+#     val_datasets = []
+#     for snr in snr_list:
+#         for cnr in cnr_list:
+#             train_dataset_with_targets = RadarDataset(
+#                 num_samples=config.dataset_size // (len(snr_list) * len(cnr_list)),
+#                 n_targets=8,
+#                 random_n_targets=True,
+#                 snr=snr,
+#                 cnr=cnr
+#             )
+#             train_dataset_without_targets = RadarDataset(
+#                 num_samples=config.dataset_size // (10 * len(snr_list) * len(cnr_list)),
+#                 n_targets=0,
+#                 random_n_targets=False,
+#                 snr=snr,
+#                 cnr=cnr
+#             )
+#             # Create a dataset for this configuration and add it to the list.
+#             train_datasets.append(ConcatDataset([train_dataset_with_targets, train_dataset_without_targets]))
+            
+#             val_dataset_with_targets = RadarDataset(
+#                 num_samples=config.dataset_size // (10 * len(snr_list) * len(cnr_list)),
+#                 n_targets=8,
+#                 random_n_targets=True,
+#                 snr=snr,
+#                 cnr=cnr
+#             )
+#             val_dataset_without_targets = RadarDataset(
+#                 num_samples=config.dataset_size // (100 * len(snr_list) * len(cnr_list)),
+#                 n_targets=0,
+#                 random_n_targets=False,
+#                 snr=snr,
+#                 cnr=cnr
+#             )
+#             val_datasets.append(ConcatDataset([val_dataset_with_targets, val_dataset_without_targets]))
+    
+#     full_train_dataset = ConcatDataset(train_datasets)
+#     full_val_dataset = ConcatDataset(val_datasets)
+    
+#     train_loader = DataLoader(full_train_dataset, batch_size=config.batch_size, shuffle=True)
+#     val_loader = DataLoader(full_val_dataset, batch_size=config.batch_size, shuffle=False)
+    
+#     signal_mean, signal_std, IQ_mean, IQ_std = get_mean_std(train_loader)
+#     norm_train_dataset = normalize_and_cache_dataset(full_train_dataset, signal_mean, signal_std, IQ_mean, IQ_std)
+#     norm_val_dataset = normalize_and_cache_dataset(full_val_dataset, signal_mean, signal_std, IQ_mean, IQ_std)
+#     norm_train_loader = DataLoader(norm_train_dataset, batch_size=config.batch_size, shuffle=True)
+#     norm_val_loader = DataLoader(norm_val_dataset, batch_size=config.batch_size, shuffle=False)
+    
+#     return train_loader, val_loader, norm_train_loader, norm_val_loader, train_dataset_with_targets, norm_train_dataset, norm_val_dataset
 
 def generate_range_steering_matrix(N=64, dR=64, B=50e6, c=3e8):
     rng_res = c / (2 * B)

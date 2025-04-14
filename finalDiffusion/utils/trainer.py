@@ -60,12 +60,13 @@ def train_one_epoch(diffusion, dataloader, optimizer, device, use_standard_loss=
         #rd_fac = 1e-9
         #rd_loss = diffusion.rd_losses(x0, t, cond)
         # rd_loss = diffusion.rd_soft_loss(x0, t, cond, threshold=100, temperature=0.1, rd_loss_scale=0.5)
-        # mse_loss = diffusion.p_losses(x0, t, cond)
+        loss = diffusion.p_losses(x0, t, cond)
         # e_rd_loss += rd_loss.item()
         # e_mse_loss += mse_loss.item()
         # loss = mse_loss + rd_loss #* rd_fac
         #loss = diffusion.p_losses_rd_label(x0, t, cond, rd_label)
-        loss = diffusion.combined_loss(x0, t, cond, use_standard_loss, use_rd_loss)
+#        loss = diffusion.combined_loss(x0, t, cond, use_standard_loss, use_rd_loss)
+        
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
@@ -102,20 +103,20 @@ def validate(diffusion, dataloader, device, use_standard_loss=True, use_rd_loss=
         t = torch.randint(0, diffusion.T, (x0.shape[0],), device=device).long()
         #rd_loss = diffusion.rd_losses(x0, t, cond, threshold=100, rd_loss_scale=10.0)
         # rd_loss = diffusion.rd_soft_loss(x0, t, cond, threshold=0.5, temperature=0.1, rd_loss_scale=0.5)
-        # iq_loss = diffusion.p_losses(x0, t, cond)
+        iq_loss = diffusion.p_losses(x0, t, cond)
         # loss = rd_loss+iq_loss
         # iq_val_loss += iq_loss.item()
         # rd_val_loss += rd_loss.item()
-        loss = diffusion.combined_loss(x0, t, cond, use_standard_loss, use_rd_loss)
-        total_val_loss += loss.item()
+        #loss = diffusion.combined_loss(x0, t, cond, use_standard_loss, use_rd_loss)
+        total_val_loss += iq_loss.item()
 
         # For the first batch, generate a sample and compute metrics.
         if i == 0:
             generated = diffusion.sample(cond, x0.shape)
             mse_val = F.mse_loss(generated, x0).item()
-            rd_mse = F.mse_loss(create_rd_map_differentiable(generated), create_rd_map_differentiable(x0)).item()
+            #rd_mse = F.mse_loss(create_rd_map_differentiable(generated), create_rd_map_differentiable(x0)).item()
             psnr_val = 20 * math.log10(x0.max().item() / math.sqrt(mse_val)) if mse_val > 0 else 100
             gen_mse, gen_psnr = mse_val, psnr_val
 
     avg_val_loss = total_val_loss / len(dataloader)
-    return avg_val_loss, gen_mse, gen_psnr, rd_mse#, iq_val_loss/ len(dataloader), rd_val_loss/ len(dataloader),
+    return avg_val_loss, gen_mse, gen_psnr#, rd_mse#, iq_val_loss/ len(dataloader), rd_val_loss/ len(dataloader),
