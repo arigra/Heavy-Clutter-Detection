@@ -1,0 +1,42 @@
+{
+  "os": "Linux-6.8.0-55-generic-x86_64-with-glibc2.39",
+  "python": "CPython 3.12.3",
+  "startedAt": "2025-04-17T12:08:21.379902Z",
+  "program": "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/RDiff.ipynb",
+  "codePath": "finalDiffusion/RDiff.ipynb",
+  "git": {
+    "remote": "https://github.com/arigra/Heavy-Clutter-Detection.git",
+    "commit": "85870a192762f363f46965c6d97e5251c8712afb"
+  },
+  "email": "ari.granevich@gmail.com",
+  "root": "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion",
+  "host": "hawk-Z790-GAMING-X",
+  "executable": "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/bin/python",
+  "codePathLocal": "RDiff.ipynb",
+  "cpu_count": 20,
+  "cpu_count_logical": 28,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1967317549056",
+      "used": "1813275099136"
+    }
+  },
+  "memory": {
+    "total": "67235409920"
+  },
+  "cpu": {
+    "count": 20,
+    "countLogical": 28
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4090",
+      "memoryTotal": "25757220864",
+      "cudaCores": 16384,
+      "architecture": "Ada"
+    }
+  ],
+  "cudaVersion": "12.4"
+}

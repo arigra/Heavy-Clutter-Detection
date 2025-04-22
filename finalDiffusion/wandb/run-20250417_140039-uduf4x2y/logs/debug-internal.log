@@ -1,0 +1,37 @@
+{"time":"2025-04-17T14:00:39.487294124+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250417_140039-uduf4x2y/logs/debug-core.log"}
+{"time":"2025-04-17T14:00:39.762470907+03:00","level":"INFO","msg":"created new stream","id":"uduf4x2y"}
+{"time":"2025-04-17T14:00:39.762496831+03:00","level":"INFO","msg":"stream: started","id":"uduf4x2y"}
+{"time":"2025-04-17T14:00:39.762573373+03:00","level":"INFO","msg":"sender: started","stream_id":"uduf4x2y"}
+{"time":"2025-04-17T14:00:39.762568392+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"uduf4x2y"}
+{"time":"2025-04-17T14:00:39.762620717+03:00","level":"INFO","msg":"handler: started","stream_id":"uduf4x2y"}
+{"time":"2025-04-17T14:00:40.040956243+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-17T14:00:40.105520788+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-17T14:00:40.105542385+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-17T14:00:40.10554575+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-17T14:00:40.105547821+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-17T14:00:40.105549669+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-17T14:00:40.10555166+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-17T14:00:40.114219402+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-17T14:00:40.155428104+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-17T14:00:40.155441899+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-17T14:00:40.15544387+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-17T14:06:32.542923039+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-17T14:06:32.583455246+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-17T14:06:32.788637531+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-17T14:12:55.432067168+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-17T14:13:01.740042588+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-17T15:14:26.888973992+03:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/graphql","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-04-17T17:07:56.677837102+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-17T17:07:56.679324047+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-17T17:07:56.684875299+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-17T17:07:56.692387092+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-17T17:07:56.695978401+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-17T17:07:56.707596009+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-17T17:07:56.70766724+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-17T17:07:57.708990331+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.572785658,"progress":"26B/26B"},{"desc":"uploading config.yaml","runtime_seconds":0.332528495,"progress":"1.1KB/1.1KB"}],"total_operations":2}}
+{"time":"2025-04-17T17:07:58.175208874+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-17T17:07:58.447967795+03:00","level":"INFO","msg":"stream: closing","id":"uduf4x2y"}
+{"time":"2025-04-17T17:07:58.447980049+03:00","level":"INFO","msg":"handler: closed","stream_id":"uduf4x2y"}
+{"time":"2025-04-17T17:07:58.447984595+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"uduf4x2y"}
+{"time":"2025-04-17T17:07:58.447988702+03:00","level":"INFO","msg":"sender: closed","stream_id":"uduf4x2y"}
+{"time":"2025-04-17T17:07:58.448021062+03:00","level":"INFO","msg":"stream: closed","id":"uduf4x2y"}

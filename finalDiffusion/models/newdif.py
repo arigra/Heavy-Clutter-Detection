@@ -93,7 +93,7 @@ class ConditionalDiffusion(nn.Module):
 
         # Initialize total loss.
         total_loss = 0.0
-
+    
         # Standard MSE loss on noise prediction.
         if use_standard_loss:
             mse_loss = F.mse_loss(noise_pred, noise)

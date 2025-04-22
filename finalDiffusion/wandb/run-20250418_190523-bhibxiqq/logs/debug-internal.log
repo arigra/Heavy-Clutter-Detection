@@ -1,0 +1,31 @@
+{"time":"2025-04-18T19:05:23.23189688+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250418_190523-bhibxiqq/logs/debug-core.log"}
+{"time":"2025-04-18T19:05:23.510969657+03:00","level":"INFO","msg":"created new stream","id":"bhibxiqq"}
+{"time":"2025-04-18T19:05:23.510997161+03:00","level":"INFO","msg":"stream: started","id":"bhibxiqq"}
+{"time":"2025-04-18T19:05:23.511005989+03:00","level":"INFO","msg":"handler: started","stream_id":"bhibxiqq"}
+{"time":"2025-04-18T19:05:23.511023266+03:00","level":"INFO","msg":"sender: started","stream_id":"bhibxiqq"}
+{"time":"2025-04-18T19:05:23.51104002+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"bhibxiqq"}
+{"time":"2025-04-18T19:05:23.796233036+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T19:05:23.863549739+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-18T19:05:23.863580155+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-18T19:05:26.531048105+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-18T19:05:26.5714899+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-18T19:05:26.693651517+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-18T19:05:43.560221884+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-18T19:05:44.058006071+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-18T19:05:45.629422303+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-18T19:05:46.082604737+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-18T19:06:00.944168598+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-18T19:06:00.984489916+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-18T19:06:05.369802888+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-18T19:06:05.430208439+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-18T19:06:05.696814096+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-18T20:14:23.914711498+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-04-18T20:33:08.922377738+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-04-18T20:54:53.930077786+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-04-18T23:55:09.995889424+03:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/ari-granevich/New-Radar-diffusion2/bhibxiqq/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-04-18T23:55:17.518667661+03:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/ari-granevich/New-Radar-diffusion2/bhibxiqq/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-04-19T00:26:14.020190272+03:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/ari-granevich/New-Radar-diffusion2/bhibxiqq/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-04-19T00:42:10.193473593+03:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"context deadline exceeded\",\"path\":[\"project\",\"run\"]}],\"data\":{\"project\":{\"run\":null}}}"}
+{"time":"2025-04-19T00:42:14.018101134+03:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/ari-granevich/New-Radar-diffusion2/bhibxiqq/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-04-19T04:30:44.487727043+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-20T07:31:10.586963093+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}

@@ -1,0 +1,7 @@
+{"time":"2025-04-17T17:07:58.488498091+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250417_170756-w75r6opa/logs/debug-core.log"}
+{"time":"2025-04-17T17:07:58.802345851+03:00","level":"INFO","msg":"created new stream","id":"w75r6opa"}
+{"time":"2025-04-17T17:07:58.802358388+03:00","level":"INFO","msg":"stream: started","id":"w75r6opa"}
+{"time":"2025-04-17T17:07:58.802383666+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"w75r6opa"}
+{"time":"2025-04-17T17:07:58.802438796+03:00","level":"INFO","msg":"handler: started","stream_id":"w75r6opa"}
+{"time":"2025-04-17T17:07:58.802443921+03:00","level":"INFO","msg":"sender: started","stream_id":"w75r6opa"}
+{"time":"2025-04-17T17:07:59.15551847+03:00","level":"INFO","msg":"Starting system monitor"}

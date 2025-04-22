@@ -1,0 +1,23 @@
+{"time":"2025-04-16T01:00:27.531850314+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250416_010027-a4ns3kyc/logs/debug-core.log"}
+{"time":"2025-04-16T01:00:27.859556917+03:00","level":"INFO","msg":"created new stream","id":"a4ns3kyc"}
+{"time":"2025-04-16T01:00:27.859578587+03:00","level":"INFO","msg":"stream: started","id":"a4ns3kyc"}
+{"time":"2025-04-16T01:00:27.859637267+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"a4ns3kyc"}
+{"time":"2025-04-16T01:00:27.859669885+03:00","level":"INFO","msg":"handler: started","stream_id":"a4ns3kyc"}
+{"time":"2025-04-16T01:00:27.859675315+03:00","level":"INFO","msg":"sender: started","stream_id":"a4ns3kyc"}
+{"time":"2025-04-16T01:00:28.085757639+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T01:00:28.152506043+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-16T01:00:28.152532355+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-16T01:03:29.946019242+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-16T01:03:29.986438726+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-16T01:03:29.986457417+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-16T01:03:29.986459737+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-16T01:03:30.459416266+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-16T01:03:30.463155361+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-16T01:03:33.336154682+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-16T10:53:29.688023975+03:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/ari-granevich/New-Radar-diffusion/a4ns3kyc/file_stream"}
+{"time":"2025-04-16T10:53:29.688133256+03:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/ari-granevich/New-Radar-diffusion/a4ns3kyc/file_stream: {\"error\":\"run New-Radar-diffusion/a4ns3kyc not found while streaming file\"}"}
+{"time":"2025-04-17T00:30:44.075402367+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-04-17T00:55:59.093687763+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-04-17T04:59:44.269305697+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-04-17T07:59:14.391099884+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-04-17T08:04:59.39559137+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}

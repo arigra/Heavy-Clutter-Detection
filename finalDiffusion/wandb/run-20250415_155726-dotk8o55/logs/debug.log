@@ -1,0 +1,6 @@
+2025-04-15 15:57:26,224 INFO    MainThread:3470649 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250415_155726-dotk8o55/logs/debug.log
+2025-04-15 15:57:26,224 INFO    MainThread:3470649 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250415_155726-dotk8o55/logs/debug-internal.log
+2025-04-15 15:57:26,224 INFO    MainThread:3470649 [wandb_init.py:init():781] calling init triggers
+2025-04-15 15:57:26,224 INFO    MainThread:3470649 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'SNR': 10, 'CNR': 15, 'beta_end': 0.02, 'beta_start': 0.0001, 'batch_size': 16, 'num_epochs': 400, 'noise_steps': 2000, 'num_workers': 4, 'dataset_size': 50000, 'time_emb_dim': 256, 'learning_rate': 0.0001, 'scheduler_type': 'linear', '_wandb': {}}
+2025-04-15 15:57:26,224 INFO    MainThread:3470649 [wandb_init.py:init():798] finishing previous run: 7b3uygzw

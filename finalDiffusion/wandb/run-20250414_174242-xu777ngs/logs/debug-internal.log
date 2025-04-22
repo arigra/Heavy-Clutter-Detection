@@ -1,0 +1,16 @@
+{"time":"2025-04-14T17:42:42.294116324+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250414_174242-xu777ngs/logs/debug-core.log"}
+{"time":"2025-04-14T17:42:42.618654821+03:00","level":"INFO","msg":"created new stream","id":"xu777ngs"}
+{"time":"2025-04-14T17:42:42.618679324+03:00","level":"INFO","msg":"stream: started","id":"xu777ngs"}
+{"time":"2025-04-14T17:42:42.618694507+03:00","level":"INFO","msg":"handler: started","stream_id":"xu777ngs"}
+{"time":"2025-04-14T17:42:42.618719826+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"xu777ngs"}
+{"time":"2025-04-14T17:42:42.618736349+03:00","level":"INFO","msg":"sender: started","stream_id":"xu777ngs"}
+{"time":"2025-04-14T17:42:42.842734635+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-14T17:42:42.910503731+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T17:42:42.91052976+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T17:46:27.740273669+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T17:46:27.780487312+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T17:46:27.780505823+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T17:46:27.780508072+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T17:46:28.237271857+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T17:46:28.240858695+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T22:24:28.656013022+03:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/ari-granevich/New-Radar-diffusion/xu777ngs/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}

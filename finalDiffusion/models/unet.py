@@ -295,16 +295,16 @@ class ConditionalUNet(nn.Module):
         # Encoder
         x1 = self.inc(x)            # (B, 64, H, W)
         x2_skip, x2 = self.down1(x1)  # x2_skip: (B, 128, H, W); x2: (B, 128, H/2, W/2)
-        x2_skip = self.attn1(x2_skip) # refine low-level features
+        #x2_skip = self.attn1(x2_skip) # refine low-level features
 
         x3_skip, x3 = self.down2(x2)  # x3_skip: (B, 256, H/2, W/2); x3: (B, 256, H/4, W/4)
-        x3_skip = self.attn2(x3_skip) # additional attention at this scale
+        #x3_skip = self.attn2(x3_skip) # additional attention at this scale
 
         x4_skip, x4 = self.down3(x3)  # x4_skip: (B, 256, H/4, W/4); x4: (B, 256, H/8, W/8)
         
         # Bottleneck
         x_bot = self.bot(x4)
-        x_bot = self.bot_attn(x_bot)
+        #x_bot = self.bot_attn(x_bot)
         # Add time embedding for the bottleneck.
         t_bot = self.time_proj_bot(t_emb).view(-1, 512, 1, 1)
         x_bot = x_bot + t_bot

@@ -1,0 +1,49 @@
+{"time":"2025-04-17T19:03:50.760547533+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250417_190350-5wh3y7jq/logs/debug-core.log"}
+{"time":"2025-04-17T19:03:51.04062352+03:00","level":"INFO","msg":"created new stream","id":"5wh3y7jq"}
+{"time":"2025-04-17T19:03:51.040640308+03:00","level":"INFO","msg":"stream: started","id":"5wh3y7jq"}
+{"time":"2025-04-17T19:03:51.040656964+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"5wh3y7jq"}
+{"time":"2025-04-17T19:03:51.040705234+03:00","level":"INFO","msg":"sender: started","stream_id":"5wh3y7jq"}
+{"time":"2025-04-17T19:03:51.040729031+03:00","level":"INFO","msg":"handler: started","stream_id":"5wh3y7jq"}
+{"time":"2025-04-17T19:03:51.496287896+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-17T19:03:51.561579612+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-17T19:03:51.561601381+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-17T19:03:54.207865356+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-17T19:03:54.249414648+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-17T19:03:54.3746892+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-17T19:04:08.070541698+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-17T19:04:08.074525896+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-17T19:04:12.62646106+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-17T19:04:12.75477372+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-17T19:04:13.517986979+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-17T19:04:13.531511135+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-17T19:04:25.821358131+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-17T19:04:26.255408795+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-17T19:04:28.167321281+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-17T19:04:28.622762725+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-17T19:05:52.053107648+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-17T19:05:52.11097319+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-17T19:05:52.838409567+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-17T22:40:36.637348918+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-04-18T03:48:54.259650821+03:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/ari-granevich/New-Radar-diffusion2/5wh3y7jq/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-04-18T05:22:33.586537833+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-18T17:00:23.202441365+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-18T17:00:26.134141136+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-18T17:00:36.960918693+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-18T17:00:39.865244393+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-18T17:00:43.018679026+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-18T17:00:45.92329192+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-18T17:00:54.730438603+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-18T17:00:57.652269544+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-18T17:01:28.103838676+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-18T17:01:31.031781779+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-18T17:01:33.23553929+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-18T17:01:36.227653288+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-18T17:02:19.248080916+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-18T17:02:22.170866765+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-18T17:02:34.954011934+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-18T17:02:37.847275596+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-18T17:02:41.964963629+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-18T17:02:44.863764002+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-18T18:54:22.611484119+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-04-18T19:05:04.73147254+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-18T19:05:04.773505019+03:00","level":"INFO","msg":"Pausing system monitor"}

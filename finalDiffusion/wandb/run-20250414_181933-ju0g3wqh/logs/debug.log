@@ -1,0 +1,227 @@
+2025-04-14 18:19:33,301 INFO    MainThread:2616777 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-14 18:19:33,301 INFO    MainThread:2616777 [wandb_setup.py:_flush():67] Configure stats pid to 2616777
+2025-04-14 18:19:33,301 INFO    MainThread:2616777 [wandb_setup.py:_flush():67] Loading settings from /home/hawk/.config/wandb/settings
+2025-04-14 18:19:33,301 INFO    MainThread:2616777 [wandb_setup.py:_flush():67] Loading settings from /home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/wandb/settings
+2025-04-14 18:19:33,301 INFO    MainThread:2616777 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-14 18:19:33,301 INFO    MainThread:2616777 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250414_181933-ju0g3wqh/logs/debug.log
+2025-04-14 18:19:33,301 INFO    MainThread:2616777 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250414_181933-ju0g3wqh/logs/debug-internal.log
+2025-04-14 18:19:33,301 INFO    MainThread:2616777 [wandb_init.py:monkeypatch_ipython():581] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7a7a0d10ad20>
+2025-04-14 18:19:33,301 INFO    MainThread:2616777 [wandb_init.py:init():781] calling init triggers
+2025-04-14 18:19:33,301 INFO    MainThread:2616777 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'SNR': 10, 'CNR': 15, 'beta_end': 0.02, 'beta_start': 0.0001, 'batch_size': 16, 'num_epochs': 400, 'noise_steps': 2000, 'num_workers': 4, 'dataset_size': 50000, 'time_emb_dim': 256, 'learning_rate': 0.0001, 'scheduler_type': 'linear', '_wandb': {}}
+2025-04-14 18:19:33,301 INFO    MainThread:2616777 [wandb_init.py:init():809] starting backend
+2025-04-14 18:19:33,301 INFO    MainThread:2616777 [wandb_init.py:init():813] sending inform_init request
+2025-04-14 18:19:33,302 INFO    MainThread:2616777 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-14 18:19:33,302 INFO    MainThread:2616777 [wandb_init.py:init():823] backend started and connected
+2025-04-14 18:19:33,303 INFO    MainThread:2616777 [wandb_run.py:_label_probe_notebook():1267] probe notebook
+2025-04-14 18:19:33,303 INFO    MainThread:2616777 [wandb_init.py:init():915] updated telemetry
+2025-04-14 18:19:33,306 INFO    MainThread:2616777 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout
+2025-04-14 18:19:33,871 INFO    MainThread:2616777 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-14 18:19:33,915 INFO    MainThread:2616777 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-14 18:19:33,915 INFO    MainThread:2616777 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-14 18:19:33,915 INFO    MainThread:2616777 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-14 18:19:33,915 INFO    MainThread:2616777 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-14 18:19:33,916 INFO    MainThread:2616777 [wandb_init.py:init():1056] run started, returning control to user process
+2025-04-14 18:19:33,916 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:19:33,916 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:19:37,446 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:19:37,449 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:19:37,450 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:19:38,138 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:19:38,139 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:19:38,139 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:19:39,418 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:19:39,419 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:19:39,419 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:19:40,207 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:19:40,216 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:19:40,216 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:19:40,922 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:36:38,294 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:36:38,303 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:36:38,310 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:36:38,313 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:36:38,313 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:36:38,317 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:36:38,331 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:36:38,331 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:36:38,337 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:36:38,350 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:36:38,350 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:36:38,353 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:36:38,981 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:36:38,982 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:36:38,987 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:36:38,989 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:36:38,989 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:36:38,993 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:36:39,343 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:36:39,343 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:38:19,087 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:38:19,089 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:38:19,089 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:38:25,793 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:38:25,964 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:38:25,964 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:38:27,708 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:38:27,710 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:38:27,710 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:38:27,945 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:38:28,117 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:38:28,117 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:38:52,998 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:38:53,162 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:38:53,163 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:39:06,399 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:39:06,564 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:39:06,564 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:39:10,005 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:39:10,147 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:39:10,147 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:39:12,618 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:39:12,621 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:39:12,621 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:39:15,997 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:39:16,219 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:39:16,219 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:39:41,449 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:39:41,451 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:39:41,452 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:39:42,357 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:39:42,360 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:39:42,360 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:39:43,716 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:39:43,717 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:39:43,717 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:39:45,644 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:39:45,646 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:39:45,646 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:39:47,208 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:39:47,325 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:39:47,325 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:39:50,726 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:39:50,728 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:39:50,728 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:39:51,108 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:39:51,280 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:39:51,280 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:44:26,134 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:44:26,137 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:44:26,137 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-14 18:44:30,082 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-14 18:44:30,083 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-14 18:44:30,083 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-15 16:26:53,974 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-15 16:26:53,974 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-15 16:26:53,974 INFO    MainThread:2616777 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-15 16:26:53,977 INFO    MainThread:2616777 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-15 16:26:53,996 INFO    MainThread:2616777 [wandb_run.py:_finish():2189] finishing run ari-granevich/New-Radar-diffusion/ju0g3wqh
+2025-04-15 16:26:53,996 INFO    MainThread:2616777 [jupyter.py:save_ipynb():384] not saving jupyter notebook
+2025-04-15 16:26:53,996 INFO    MainThread:2616777 [wandb_init.py:_jupyter_teardown():563] cleaning up jupyter logic
+2025-04-15 16:26:53,996 INFO    MainThread:2616777 [wandb_run.py:_atexit_cleanup():2419] got exitcode: 0
+2025-04-15 16:26:53,996 INFO    MainThread:2616777 [wandb_run.py:_restore():2401] restore
+2025-04-15 16:26:53,996 INFO    MainThread:2616777 [wandb_run.py:_restore():2407] restore done
+2025-04-15 16:26:59,406 WARNING MainThread:2616777 [wandb_init.py:init():1534] [no run ID] interrupted
+Traceback (most recent call last):
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1530, in init
+    return wi.init(run_settings, run_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 799, in init
+    wandb.run.finish()
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 387, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 483, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 425, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2182, in finish
+    return self._finish(exit_code)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 387, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2204, in _finish
+    self._atexit_cleanup(exit_code=exit_code)
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2431, in _atexit_cleanup
+    self._on_finish()
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2690, in _on_finish
+    wait_with_progress(
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 24, in wait_with_progress
+    return wait_all_with_progress(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 87, in wait_all_with_progress
+    return asyncio_compat.run(progress_loop_with_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_compat.py", line 30, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 451, in result
+    self._condition.wait(timeout)
+  File "/usr/lib/python3.12/threading.py", line 355, in wait
+    waiter.acquire()
+KeyboardInterrupt
+2025-04-15 16:26:59,407 WARNING MsgRouterThr:2616777 [router.py:message_loop():63] [no run ID] message_loop has been closed
+Traceback (most recent call last):
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/interface/router_sock.py", line 27, in _read_message
+    return self._sock_client.read_server_response(timeout=1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/lib/sock_client.py", line 235, in read_server_response
+    data = self._read_packet_bytes(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/lib/sock_client.py", line 220, in _read_packet_bytes
+    raise SockClientClosedError
+wandb.sdk.lib.sock_client.SockClientClosedError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/interface/router.py", line 56, in message_loop
+    msg = self._read_message()
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/interface/router_sock.py", line 29, in _read_message
+    raise MessageRouterClosedError from e
+wandb.sdk.interface.router.MessageRouterClosedError
+2025-04-15 16:26:59,426 INFO    MsgRouterThr:2616777 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 2 handles.
+2025-04-15 16:27:14,171 ERROR   MainThread:2616777 [wandb_init.py:init():1540] [no run ID] error in wandb.init()
+Traceback (most recent call last):
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1530, in init
+    return wi.init(run_settings, run_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 922, in init
+    backend.interface.publish_header()
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface.py", line 97, in publish_header
+    self._publish_header(header)
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_shared.py", line 275, in _publish_header
+    self._publish(rec)
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/lib/sock_client.py", line 174, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/lib/sock_client.py", line 154, in send_server_request
+    self._send_message(msg)
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/lib/sock_client.py", line 151, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 16:27:24,121 ERROR   MainThread:2616777 [wandb_init.py:init():1540] [no run ID] error in wandb.init()
+Traceback (most recent call last):
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1530, in init
+    return wi.init(run_settings, run_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 814, in init
+    service.inform_init(
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/lib/service_connection.py", line 151, in inform_init
+    self._client.send_server_request(spb.ServerRequest(inform_init=request))
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/lib/sock_client.py", line 154, in send_server_request
+    self._send_message(msg)
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/lib/sock_client.py", line 151, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/.venv/lib/python3.12/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe

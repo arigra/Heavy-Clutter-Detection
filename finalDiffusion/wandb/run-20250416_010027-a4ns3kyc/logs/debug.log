@@ -1,0 +1,38 @@
+2025-04-16 01:00:27,523 INFO    MainThread:3831238 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-16 01:00:27,523 INFO    MainThread:3831238 [wandb_setup.py:_flush():67] Configure stats pid to 3831238
+2025-04-16 01:00:27,523 INFO    MainThread:3831238 [wandb_setup.py:_flush():67] Loading settings from /home/hawk/.config/wandb/settings
+2025-04-16 01:00:27,523 INFO    MainThread:3831238 [wandb_setup.py:_flush():67] Loading settings from /home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/wandb/settings
+2025-04-16 01:00:27,523 INFO    MainThread:3831238 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-16 01:00:27,523 INFO    MainThread:3831238 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250416_010027-a4ns3kyc/logs/debug.log
+2025-04-16 01:00:27,523 INFO    MainThread:3831238 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250416_010027-a4ns3kyc/logs/debug-internal.log
+2025-04-16 01:00:27,524 INFO    MainThread:3831238 [wandb_init.py:monkeypatch_ipython():581] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7da40115a3f0>
+2025-04-16 01:00:27,524 INFO    MainThread:3831238 [wandb_init.py:init():781] calling init triggers
+2025-04-16 01:00:27,524 INFO    MainThread:3831238 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'SNR': 10, 'CNR': 15, 'beta_end': 0.02, 'beta_start': 0.0001, 'batch_size': 16, 'num_epochs': 400, 'noise_steps': 2000, 'num_workers': 4, 'dataset_size': 50000, 'time_emb_dim': 256, 'learning_rate': 0.0001, 'scheduler_type': 'linear', '_wandb': {}}
+2025-04-16 01:00:27,524 INFO    MainThread:3831238 [wandb_init.py:init():809] starting backend
+2025-04-16 01:00:27,524 INFO    MainThread:3831238 [wandb_init.py:init():813] sending inform_init request
+2025-04-16 01:00:27,528 INFO    MainThread:3831238 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-16 01:00:27,528 INFO    MainThread:3831238 [wandb_init.py:init():823] backend started and connected
+2025-04-16 01:00:27,530 INFO    MainThread:3831238 [wandb_run.py:_label_probe_notebook():1267] probe notebook
+2025-04-16 01:00:27,533 INFO    MainThread:3831238 [wandb_init.py:init():915] updated telemetry
+2025-04-16 01:00:27,535 INFO    MainThread:3831238 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout
+2025-04-16 01:00:28,084 INFO    MainThread:3831238 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-16 01:00:28,112 INFO    MainThread:3831238 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-16 01:00:28,112 INFO    MainThread:3831238 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-16 01:00:28,112 INFO    MainThread:3831238 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-16 01:00:28,112 INFO    MainThread:3831238 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-16 01:00:28,113 INFO    MainThread:3831238 [wandb_init.py:init():1056] run started, returning control to user process
+2025-04-16 01:00:28,113 INFO    MainThread:3831238 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-16 01:00:28,113 INFO    MainThread:3831238 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-16 01:00:28,116 INFO    MainThread:3831238 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-16 01:03:29,945 INFO    MainThread:3831238 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-16 01:03:29,945 INFO    MainThread:3831238 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-16 01:03:29,948 INFO    MainThread:3831238 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-16 01:03:29,948 INFO    MainThread:3831238 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-16 01:03:29,949 INFO    MainThread:3831238 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-16 01:03:29,951 INFO    MainThread:3831238 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-16 01:03:30,459 INFO    MainThread:3831238 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-16 01:03:30,459 INFO    MainThread:3831238 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-16 01:03:30,462 INFO    MainThread:3831238 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-16 01:03:33,335 INFO    MainThread:3831238 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-16 01:03:33,335 INFO    MainThread:3831238 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend

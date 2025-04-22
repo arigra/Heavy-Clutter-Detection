@@ -1,0 +1,77 @@
+{"time":"2025-04-14T18:19:33.303306283+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250414_181933-ju0g3wqh/logs/debug-core.log"}
+{"time":"2025-04-14T18:19:33.627610107+03:00","level":"INFO","msg":"created new stream","id":"ju0g3wqh"}
+{"time":"2025-04-14T18:19:33.627633026+03:00","level":"INFO","msg":"stream: started","id":"ju0g3wqh"}
+{"time":"2025-04-14T18:19:33.627696013+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"ju0g3wqh"}
+{"time":"2025-04-14T18:19:33.627696+03:00","level":"INFO","msg":"sender: started","stream_id":"ju0g3wqh"}
+{"time":"2025-04-14T18:19:33.627698418+03:00","level":"INFO","msg":"handler: started","stream_id":"ju0g3wqh"}
+{"time":"2025-04-14T18:19:33.872665021+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-14T18:19:33.955548806+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:19:37.446657355+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:19:37.487437431+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:19:38.139144203+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:19:38.140103974+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:19:39.419111068+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:19:39.420033314+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:19:40.216109857+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:19:40.216645191+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:19:40.922855089+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:20:49.689519124+03:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/ari-granevich/New-Radar-diffusion/ju0g3wqh/file_stream"}
+{"time":"2025-04-14T18:20:49.689560366+03:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/ari-granevich/New-Radar-diffusion/ju0g3wqh/file_stream: {\"error\":\"run New-Radar-diffusion/ju0g3wqh not found while streaming file\"}"}
+{"time":"2025-04-14T18:36:38.303265979+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:36:38.344444692+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:36:38.344467575+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:36:38.34447213+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:36:38.34447527+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:36:38.344478171+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:36:38.350890918+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:36:38.35373241+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:36:38.982215044+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:36:38.988149672+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:36:38.989738407+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:36:38.993632073+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:36:39.343413802+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:38:19.087924124+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:38:19.090026461+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:38:25.793563391+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:38:25.964786754+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:38:27.70905809+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:38:27.710667936+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:38:27.945721126+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:38:28.117221546+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:38:52.999064109+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:38:53.163189646+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:39:06.399738775+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:39:06.564725856+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:39:10.006827839+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:39:10.147358096+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:39:12.618962786+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:39:12.62135074+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:39:15.997588652+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:39:16.220115004+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:39:41.452110777+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:39:41.489451498+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:39:42.357898852+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:39:42.360221478+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:39:43.716465834+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:39:43.717627535+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:39:45.645193116+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:39:45.68544748+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:39:47.208682059+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:39:47.325637151+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:39:50.726691703+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:39:50.728225853+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:39:51.108635524+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:39:51.280355349+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:44:26.134336931+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:44:26.174498345+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-14T18:44:30.08260521+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-14T18:44:30.083820407+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-15T01:33:19.102418076+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-04-15T16:26:53.97439462+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-15T16:26:53.975122416+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-15T16:26:53.977607077+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-15T16:26:53.997189129+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T16:26:53.997243562+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T16:26:54.160211397+03:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run ju0g3wqh was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-15T16:26:54.998604808+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run config","runtime_seconds":1.002094678,"error_status":"retrying HTTP 409: run ju0g3wqh was previously created and deleted; try a new run name"}],"total_operations":1}}
+{"time":"2025-04-15T16:26:56.425198996+03:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run ju0g3wqh was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}

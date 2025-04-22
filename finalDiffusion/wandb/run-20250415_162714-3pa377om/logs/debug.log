@@ -1,0 +1,12 @@
+2025-04-15 16:27:14,168 INFO    MainThread:2616777 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250415_162714-3pa377om/logs/debug.log
+2025-04-15 16:27:14,168 INFO    MainThread:2616777 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250415_162714-3pa377om/logs/debug-internal.log
+2025-04-15 16:27:14,168 INFO    MainThread:2616777 [wandb_init.py:monkeypatch_ipython():581] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7a770ed17380>
+2025-04-15 16:27:14,168 INFO    MainThread:2616777 [wandb_init.py:init():781] calling init triggers
+2025-04-15 16:27:14,168 INFO    MainThread:2616777 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'SNR': 10, 'CNR': 15, 'beta_end': 0.02, 'beta_start': 0.0001, 'batch_size': 16, 'num_epochs': 400, 'noise_steps': 2000, 'num_workers': 4, 'dataset_size': 500, 'time_emb_dim': 256, 'learning_rate': 0.0001, 'scheduler_type': 'linear', '_wandb': {}}
+2025-04-15 16:27:14,168 INFO    MainThread:2616777 [wandb_init.py:init():809] starting backend
+2025-04-15 16:27:14,168 INFO    MainThread:2616777 [wandb_init.py:init():813] sending inform_init request
+2025-04-15 16:27:14,169 INFO    MainThread:2616777 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-15 16:27:14,169 INFO    MainThread:2616777 [wandb_init.py:init():823] backend started and connected
+2025-04-15 16:27:14,170 INFO    MainThread:2616777 [wandb_run.py:_label_probe_notebook():1267] probe notebook
+2025-04-15 16:27:14,171 INFO    MainThread:2616777 [wandb_init.py:init():915] updated telemetry

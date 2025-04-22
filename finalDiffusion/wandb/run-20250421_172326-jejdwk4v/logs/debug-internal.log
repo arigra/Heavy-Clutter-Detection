@@ -1,0 +1,8 @@
+{"time":"2025-04-21T17:23:27.520093917+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/hawk/Desktop/Heavy-Clutter-Detection/finalDiffusion/wandb/run-20250421_172326-jejdwk4v/logs/debug-core.log"}
+{"time":"2025-04-21T17:23:27.832324962+03:00","level":"INFO","msg":"created new stream","id":"jejdwk4v"}
+{"time":"2025-04-21T17:23:27.832338341+03:00","level":"INFO","msg":"stream: started","id":"jejdwk4v"}
+{"time":"2025-04-21T17:23:27.832371448+03:00","level":"INFO","msg":"handler: started","stream_id":"jejdwk4v"}
+{"time":"2025-04-21T17:23:27.832380283+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"jejdwk4v"}
+{"time":"2025-04-21T17:23:27.832433429+03:00","level":"INFO","msg":"sender: started","stream_id":"jejdwk4v"}
+{"time":"2025-04-21T17:23:28.150836887+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-22T00:09:58.955194347+03:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/ari-granevich/New-Radar-diffusion2/jejdwk4v/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
