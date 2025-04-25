@@ -1,0 +1,55 @@
+wandb_version: 1
+
+beta_end:
+  desc: null
+  value: 0.02
+beta_start:
+  desc: null
+  value: 0.0001
+batch_size:
+  desc: null
+  value: 16
+num_epochs:
+  desc: null
+  value: 400
+noise_steps:
+  desc: null
+  value: 2000
+num_workers:
+  desc: null
+  value: 4
+time_emb_dim:
+  desc: null
+  value: 256
+learning_rate:
+  desc: null
+  value: 0.0001
+scheduler_type:
+  desc: null
+  value: linear
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.12
+    cli_version: 0.17.1
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1745319181
+    t:
+      1:
+      - 1
+      - 55
+      2:
+      - 1
+      - 55
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.10.12
+      5: 0.17.1
+      8:
+      - 1
+      - 5
+      13: linux-x86_64

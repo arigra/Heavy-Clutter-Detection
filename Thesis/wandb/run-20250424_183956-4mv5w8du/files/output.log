@@ -1,0 +1,25 @@
+
+
+
+
+
+
+Normalizing dataset: 100%|██████████| 5500/5500 [00:11<00:00, 484.92it/s]
+Normalizing dataset: 100%|██████████| 550/550 [00:00<00:00, 659.63it/s]
+Testing clutter conditions:   0%|          | 0/3 [00:00<?, ?it/s]
+succefully created diffusion dataset
+succefully created DAFC dataset
+using device:  cuda
+Loaded range model successfully
+Loaded doppler model successfully
+Running PD vs PFA test...
+
+Testing PFAs:  20%|██        | 1/5 [00:02<00:11,  2.96s/it]
+Found threshold = 0.1592, PFA = 0.000010 after 10 iterations
+
+
+Testing PFAs:  60%|██████    | 3/5 [00:08<00:05,  2.90s/it]
+Found threshold = 0.0867, PFA = 0.000100 after 12 iterations
+
+
+Testing clutter conditions:   0%|          | 0/3 [00:17<?, ?it/s]

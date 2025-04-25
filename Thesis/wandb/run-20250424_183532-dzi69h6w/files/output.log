@@ -1,0 +1,13 @@
+
+
+
+
+
+
+
+
+Normalizing dataset: 100%|██████████| 5500/5500 [00:15<00:00, 349.50it/s]
+Normalizing dataset:  87%|████████▋ | 477/550 [00:01<00:00, 318.29it/s]
+succefully created diffusion dataset
+succefully created DAFC dataset
+

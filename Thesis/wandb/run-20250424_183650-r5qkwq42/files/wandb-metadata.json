@@ -1,0 +1,187 @@
+{
+    "os": "Linux-6.8.0-57-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2025-04-24T15:36:51.782993",
+    "startedAt": "2025-04-24T15:36:50.557789",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/arigra/Heavy-Clutter-Detection.git",
+        "commit": "ea85cbf106552e8b3107aec6f574024dea911271"
+    },
+    "email": "ari.granevich@gmail.com",
+    "root": "/home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection",
+    "host": "hawk-Z790-GAMING-X",
+    "username": "hawk",
+    "executable": "/bin/python3",
+    "cpu_count": 20,
+    "cpu_count_logical": 28,
+    "cpu_freq": {
+        "current": 2267.922607142857,
+        "min": 800.0,
+        "max": 5000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2997.65,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 2979.531,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 2625.598,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 2730.058,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 2869.286,
+            "min": 800.0,
+            "max": 5600.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5600.0
+        },
+        {
+            "current": 2891.184,
+            "min": 800.0,
+            "max": 5600.0
+        },
+        {
+            "current": 2703.93,
+            "min": 800.0,
+            "max": 5600.0
+        },
+        {
+            "current": 2835.274,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 2779.979,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 2813.607,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4208.707,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3827.233,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 2502.404,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 2621.035,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 2826.639,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 2547.289,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 2844.491,
+            "min": 800.0,
+            "max": 4300.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1832.2072448730469,
+            "used": 1116.5817489624023
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4090",
+            "memory_total": 25757220864
+        }
+    ],
+    "memory": {
+        "total": 62.62470626831055
+    }
+}

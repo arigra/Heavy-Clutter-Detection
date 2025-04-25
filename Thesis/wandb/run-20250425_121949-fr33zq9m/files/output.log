@@ -1,0 +1,220 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Normalizing dataset: 100%|██████████| 54996/54996 [01:53<00:00, 483.86it/s]
+
+
+
+
+
+Normalizing dataset: 100%|██████████| 5496/5496 [00:10<00:00, 539.37it/s]
+succefully created diffusion dataset
+succefully created DAFC dataset
+using device:  cuda
+Loaded range model successfully
+Loaded doppler model successfully
+Running PD vs PFA test...
+Testing clutter conditions:   0%|          | 0/3 [00:00<?, ?it/s]
+Testing PFAs:   0%|          | 0/5 [00:00<?, ?it/s]
+
+Testing PFAs:  20%|██        | 1/5 [00:02<00:11,  2.99s/it]
+
+Testing PFAs:  40%|████      | 2/5 [00:05<00:08,  2.96s/it]
+
+
+Testing PFAs:  80%|████████  | 4/5 [00:11<00:02,  2.90s/it]
+Found threshold = 0.0491, PFA = 0.000495 after 12 iterations
+
+Testing clutter conditions:  33%|███▎      | 1/3 [00:18<00:36, 18.20s/it]
+Testing PFAs:   0%|          | 0/5 [00:00<?, ?it/s]
+
+
+Testing PFAs:  40%|████      | 2/5 [00:05<00:08,  2.87s/it]
+Found threshold = 0.0703, PFA = 0.000050 after 7 iterations
+
+
+Testing PFAs:  80%|████████  | 4/5 [00:11<00:02,  2.88s/it]
+Found threshold = 0.0415, PFA = 0.000498 after 11 iterations
+
+Testing clutter conditions:  67%|██████▋   | 2/3 [00:36<00:18, 18.18s/it]
+Testing PFAs:   0%|          | 0/5 [00:00<?, ?it/s]
+
+Testing PFAs:  20%|██        | 1/5 [00:02<00:11,  2.90s/it]
+
+Testing PFAs:  40%|████      | 2/5 [00:05<00:08,  2.91s/it]
+
+
+Testing PFAs:  80%|████████  | 4/5 [00:11<00:02,  2.90s/it]
+Found threshold = 0.0396, PFA = 0.000498 after 11 iterations
+Testing clutter conditions: 100%|██████████| 3/3 [00:54<00:00, 18.19s/it]
+Testing clutter conditions:   0%|          | 0/3 [00:00<?, ?it/s]
+Running PD vs SCNR test...
+Found threshold = 0.0461, PFA = 0.000495 after 12 iterations
+
+
+
+
+
+
+
+
+
+
+
+Testing clutter conditions:  33%|███▎      | 1/3 [00:45<01:30, 45.21s/it]
+Found threshold = 0.0461, PFA = 0.000498 after 12 iterations
+
+
+
+
+
+
+
+
+
+
+
+Testing clutter conditions:  67%|██████▋   | 2/3 [01:30<00:45, 45.29s/it]
+Testing SCNR values:   0%|          | 0/11 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+Testing clutter conditions: 100%|██████████| 3/3 [02:16<00:00, 45.38s/it]
+/home/hawk/.local/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Loaded range model successfully
+Loaded doppler model successfully
+Loaded range model successfully
+Loaded doppler model successfully
+Loaded range model successfully
+Loaded doppler model successfully
+Loaded range model successfully
+Loaded doppler model successfully
+Loaded range model successfully
+Loaded doppler model successfully
+usage: ipykernel_launcher.py [-h] --dataset-path DATASET_PATH
+                             [--batch-size BATCH_SIZE]
+ipykernel_launcher.py: error: the following arguments are required: --dataset-path/-d
+/home/hawk/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py:3561: UserWarning: To exit: use 'exit', 'quit', or Ctrl-D.
+  warn("To exit: use 'exit', 'quit', or Ctrl-D.", stacklevel=1)
+Epoch 1/400: Train Loss = 0.0055 | Val Loss = 0.0051
+   [Generation Metrics] MSE: 0.0639 | PSNR: 47.44 dB
+   --> Best MSE model saved.
+Epoch 2/400: Train Loss = 0.0057 | Val Loss = 0.0053
+   [Generation Metrics] MSE: 0.0443 | PSNR: 49.02 dB
+   --> Best MSE model saved.
+Epoch 3/400: Train Loss = 0.0056 | Val Loss = 0.0052
+   [Generation Metrics] MSE: 0.0600 | PSNR: 47.71 dB
+Epoch 4/400: Train Loss = 0.0055 | Val Loss = 0.0055
+   [Generation Metrics] MSE: 0.0632 | PSNR: 47.49 dB
+Loaded range model successfully
+Loaded doppler model successfully
+Loaded range model successfully
+Loaded doppler model successfully
+Loaded range model successfully
+Loaded doppler model successfully
+Loaded range model successfully
+Loaded doppler model successfully
+Loaded range model successfully
+Loaded doppler model successfully
+Range‐net output shape: torch.Size([1, 64])
+Doppler‐net output shape: torch.Size([1, 64])
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x7c10e6f10dc0>
+Traceback (most recent call last):
+  File "/home/hawk/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1479, in __del__
+    self._shutdown_workers()
+  File "/home/hawk/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1443, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "/usr/lib/python3.10/multiprocessing/popen_fork.py", line 40, in wait
+    if not wait([self.sentinel], timeout):
+  File "/usr/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt:
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x7c10e6f10dc0>
+Traceback (most recent call last):
+  File "/home/hawk/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1479, in __del__
+    self._shutdown_workers()
+  File "/home/hawk/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1443, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "/usr/lib/python3.10/multiprocessing/popen_fork.py", line 40, in wait
+    if not wait([self.sentinel], timeout):
+  File "/usr/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt:
+Loaded range model successfully
+Loaded doppler model successfully
+Loaded range model successfully
+Loaded doppler model successfully
+Loaded range model successfully
+Loaded doppler model successfully
+Loaded range model successfully

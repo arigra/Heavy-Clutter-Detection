@@ -1,0 +1,9 @@
+
+
+
+
+Normalizing dataset: 100%|██████████| 5500/5500 [00:09<00:00, 610.70it/s]
+Normalizing dataset: 100%|██████████| 550/550 [00:01<00:00, 494.84it/s]
+/tmp/ipykernel_1501389/554602499.py:48: DeprecationWarning: Calling nonzero on 0d arrays is deprecated, as it behaves surprisingly. Use `atleast_1d(cond).nonzero()` if the old behavior was intended. If the context of this warning is of the form `arr[nonzero(cond)]`, just use `arr[cond]`.
+  r_inds, d_inds = np.where(gt == 1)
+succefully created diffusion dataset

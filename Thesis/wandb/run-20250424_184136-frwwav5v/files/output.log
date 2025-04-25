@@ -1,0 +1,87 @@
+
+
+
+
+
+Normalizing dataset: 100%|██████████| 5500/5500 [00:10<00:00, 505.87it/s]
+Normalizing dataset: 100%|██████████| 550/550 [00:00<00:00, 604.01it/s]
+Testing clutter conditions:   0%|          | 0/3 [00:00<?, ?it/s]
+succefully created diffusion dataset
+succefully created DAFC dataset
+using device:  cuda
+Loaded range model successfully
+Loaded doppler model successfully
+Running PD vs PFA test...
+
+Testing PFAs:  20%|██        | 1/5 [00:02<00:11,  2.96s/it]
+
+Testing PFAs:  40%|████      | 2/5 [00:05<00:08,  2.93s/it]
+
+Testing PFAs:  60%|██████    | 3/5 [00:08<00:05,  2.90s/it]
+
+Testing PFAs:  80%|████████  | 4/5 [00:11<00:02,  2.89s/it]
+Found threshold = 0.0485, PFA = 0.000500 after 13 iterations
+
+Testing clutter conditions:  33%|███▎      | 1/3 [00:17<00:35, 17.81s/it]
+
+Testing PFAs:  20%|██        | 1/5 [00:02<00:11,  2.90s/it]
+
+Testing PFAs:  40%|████      | 2/5 [00:05<00:08,  2.89s/it]
+
+Testing PFAs:  60%|██████    | 3/5 [00:08<00:05,  2.89s/it]
+
+Testing PFAs:  80%|████████  | 4/5 [00:11<00:02,  2.89s/it]
+
+Testing clutter conditions:  67%|██████▋   | 2/3 [00:35<00:17, 17.77s/it]
+Found threshold = 0.0262, PFA = 0.001004 after 13 iterations
+Testing PFAs:   0%|          | 0/5 [00:00<?, ?it/s]
+
+
+Testing PFAs:  40%|████      | 2/5 [00:05<00:08,  2.90s/it]
+Found threshold = 0.0906, PFA = 0.000050 after 12 iterations
+
+
+Testing PFAs:  80%|████████  | 4/5 [00:11<00:02,  2.89s/it]
+
+Testing clutter conditions: 100%|██████████| 3/3 [00:53<00:00, 17.74s/it]
+Found threshold = 0.0286, PFA = 0.000991 after 12 iterations
+Testing clutter conditions:   0%|          | 0/3 [00:00<?, ?it/s]
+Running PD vs SCNR test...
+Testing SCNR values:   0%|          | 0/11 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+Testing clutter conditions:  33%|███▎      | 1/3 [00:39<01:18, 39.19s/it]
+Testing SCNR values:   0%|          | 0/11 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+Testing clutter conditions:  67%|██████▋   | 2/3 [01:18<00:39, 39.21s/it]
+Testing SCNR values:   0%|          | 0/11 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+

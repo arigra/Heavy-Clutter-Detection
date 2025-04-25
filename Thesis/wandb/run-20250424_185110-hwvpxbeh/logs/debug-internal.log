@@ -1,0 +1,212 @@
+2025-04-24 18:51:10,795 INFO    StreamThr :1500177 [internal.py:wandb_internal():85] W&B internal server running at pid: 1500177, started at: 2025-04-24 18:51:10.793938
+2025-04-24 18:51:10,798 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: status
+2025-04-24 18:51:10,802 INFO    WriterThread:1500177 [datastore.py:open_for_write():87] open: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_185110-hwvpxbeh/run-hwvpxbeh.wandb
+2025-04-24 18:51:10,803 DEBUG   SenderThread:1500177 [sender.py:send():379] send: header
+2025-04-24 18:51:10,809 DEBUG   SenderThread:1500177 [sender.py:send():379] send: run
+2025-04-24 18:51:11,291 INFO    SenderThread:1500177 [dir_watcher.py:__init__():211] watching files in: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_185110-hwvpxbeh/files
+2025-04-24 18:51:11,291 INFO    SenderThread:1500177 [sender.py:_start_run_threads():1188] run started: hwvpxbeh with start time 1745509870.79326
+2025-04-24 18:51:11,299 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: check_version
+2025-04-24 18:51:11,300 DEBUG   SenderThread:1500177 [sender.py:send_request():406] send_request: check_version
+2025-04-24 18:51:11,706 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: run_start
+2025-04-24 18:51:11,714 DEBUG   HandlerThread:1500177 [system_info.py:__init__():26] System info init
+2025-04-24 18:51:11,714 DEBUG   HandlerThread:1500177 [system_info.py:__init__():41] System info init done
+2025-04-24 18:51:11,714 INFO    HandlerThread:1500177 [system_monitor.py:start():194] Starting system monitor
+2025-04-24 18:51:11,715 INFO    SystemMonitor:1500177 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-04-24 18:51:11,715 INFO    HandlerThread:1500177 [system_monitor.py:probe():214] Collecting system info
+2025-04-24 18:51:11,716 INFO    SystemMonitor:1500177 [interfaces.py:start():188] Started cpu monitoring
+2025-04-24 18:51:11,716 INFO    SystemMonitor:1500177 [interfaces.py:start():188] Started disk monitoring
+2025-04-24 18:51:11,717 INFO    SystemMonitor:1500177 [interfaces.py:start():188] Started gpu monitoring
+2025-04-24 18:51:11,717 INFO    SystemMonitor:1500177 [interfaces.py:start():188] Started memory monitoring
+2025-04-24 18:51:11,718 INFO    SystemMonitor:1500177 [interfaces.py:start():188] Started network monitoring
+2025-04-24 18:51:11,731 DEBUG   HandlerThread:1500177 [system_info.py:probe():152] Probing system
+2025-04-24 18:51:11,732 DEBUG   HandlerThread:1500177 [system_info.py:_probe_git():137] Probing git
+2025-04-24 18:51:11,736 DEBUG   HandlerThread:1500177 [system_info.py:_probe_git():145] Probing git done
+2025-04-24 18:51:11,736 DEBUG   HandlerThread:1500177 [system_info.py:probe():200] Probing system done
+2025-04-24 18:51:11,736 DEBUG   HandlerThread:1500177 [system_monitor.py:probe():223] {'os': 'Linux-6.8.0-57-generic-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2025-04-24T15:51:11.731398', 'startedAt': '2025-04-24T15:51:10.785739', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/arigra/Heavy-Clutter-Detection.git', 'commit': 'ea85cbf106552e8b3107aec6f574024dea911271'}, 'email': 'ari.granevich@gmail.com', 'root': '/home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection', 'host': 'hawk-Z790-GAMING-X', 'username': 'hawk', 'executable': '/bin/python3', 'cpu_count': 20, 'cpu_count_logical': 28, 'cpu_freq': {'current': 2150.633107142857, 'min': 800.0, 'max': 5000.0}, 'cpu_freq_per_core': [{'current': 3073.162, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 3143.72, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 2489.179, 'min': 800.0, 'max': 5500.0}, {'current': 3101.66, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 3131.854, 'min': 800.0, 'max': 5600.0}, {'current': 3200.0, 'min': 800.0, 'max': 5600.0}, {'current': 3123.005, 'min': 800.0, 'max': 5600.0}, {'current': 2022.86, 'min': 800.0, 'max': 5600.0}, {'current': 3132.589, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 3117.995, 'min': 800.0, 'max': 5500.0}, {'current': 3100.85, 'min': 800.0, 'max': 5500.0}, {'current': 3191.447, 'min': 800.0, 'max': 4300.0}, {'current': 3118.531, 'min': 800.0, 'max': 4300.0}, {'current': 3103.96, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 3076.694, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 3442.261, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 3397.727, 'min': 800.0, 'max': 4300.0}], 'disk': {'/': {'total': 1832.2072448730469, 'used': 1116.610439300537}}, 'gpu': 'NVIDIA GeForce RTX 4090', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4090', 'memory_total': 25757220864}], 'memory': {'total': 62.62470626831055}}
+2025-04-24 18:51:11,736 INFO    HandlerThread:1500177 [system_monitor.py:probe():224] Finished collecting system info
+2025-04-24 18:51:11,736 INFO    HandlerThread:1500177 [system_monitor.py:probe():227] Publishing system info
+2025-04-24 18:51:11,737 INFO    HandlerThread:1500177 [system_monitor.py:probe():229] Finished publishing system info
+2025-04-24 18:51:11,740 DEBUG   SenderThread:1500177 [sender.py:send():379] send: files
+2025-04-24 18:51:11,740 INFO    SenderThread:1500177 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2025-04-24 18:51:11,833 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: python_packages
+2025-04-24 18:51:11,833 DEBUG   SenderThread:1500177 [sender.py:send_request():406] send_request: python_packages
+2025-04-24 18:51:11,873 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:11,873 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-24 18:51:11,873 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: pause
+2025-04-24 18:51:11,873 INFO    HandlerThread:1500177 [handler.py:handle_request_pause():724] stopping system metrics thread
+2025-04-24 18:51:11,873 INFO    HandlerThread:1500177 [system_monitor.py:finish():203] Stopping system monitor
+2025-04-24 18:51:11,873 DEBUG   SenderThread:1500177 [sender.py:send():379] send: telemetry
+2025-04-24 18:51:11,874 DEBUG   SenderThread:1500177 [sender.py:send_request():406] send_request: stop_status
+2025-04-24 18:51:11,874 INFO    HandlerThread:1500177 [interfaces.py:finish():200] Joined cpu monitor
+2025-04-24 18:51:11,874 INFO    HandlerThread:1500177 [interfaces.py:finish():200] Joined disk monitor
+2025-04-24 18:51:11,875 DEBUG   SystemMonitor:1500177 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-04-24 18:51:11,875 DEBUG   SystemMonitor:1500177 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-04-24 18:51:11,875 DEBUG   SystemMonitor:1500177 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-04-24 18:51:11,959 INFO    HandlerThread:1500177 [interfaces.py:finish():200] Joined gpu monitor
+2025-04-24 18:51:11,959 INFO    HandlerThread:1500177 [interfaces.py:finish():200] Joined memory monitor
+2025-04-24 18:51:11,959 INFO    HandlerThread:1500177 [interfaces.py:finish():200] Joined network monitor
+2025-04-24 18:51:11,959 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: resume
+2025-04-24 18:51:11,959 INFO    HandlerThread:1500177 [handler.py:handle_request_resume():715] starting system metrics thread
+2025-04-24 18:51:11,959 INFO    HandlerThread:1500177 [system_monitor.py:start():194] Starting system monitor
+2025-04-24 18:51:11,959 INFO    SystemMonitor:1500177 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-04-24 18:51:11,960 INFO    SystemMonitor:1500177 [interfaces.py:start():188] Started cpu monitoring
+2025-04-24 18:51:11,960 INFO    SystemMonitor:1500177 [interfaces.py:start():188] Started disk monitoring
+2025-04-24 18:51:11,960 INFO    SystemMonitor:1500177 [interfaces.py:start():188] Started gpu monitoring
+2025-04-24 18:51:11,960 INFO    SystemMonitor:1500177 [interfaces.py:start():188] Started memory monitoring
+2025-04-24 18:51:11,960 INFO    SystemMonitor:1500177 [interfaces.py:start():188] Started network monitoring
+2025-04-24 18:51:12,140 DEBUG   SenderThread:1500177 [sender.py:send():379] send: stats
+2025-04-24 18:51:12,294 INFO    Thread-12 :1500177 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_185110-hwvpxbeh/files/wandb-metadata.json
+2025-04-24 18:51:12,294 INFO    Thread-12 :1500177 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_185110-hwvpxbeh/files/requirements.txt
+2025-04-24 18:51:12,461 INFO    wandb-upload_0:1500177 [upload_job.py:push():130] Uploaded file /tmp/tmpfezhnhkswandb/d75wvrgq-wandb-metadata.json
+2025-04-24 18:51:12,834 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:13,834 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:14,834 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:15,834 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:16,141 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: status_report
+2025-04-24 18:51:16,834 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:17,834 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:18,834 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:19,834 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:20,834 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:21,834 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: status_report
+2025-04-24 18:51:21,834 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:22,834 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:23,834 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:24,834 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:25,834 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:26,295 INFO    Thread-12 :1500177 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_185110-hwvpxbeh/files/output.log
+2025-04-24 18:51:26,833 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-24 18:51:26,834 DEBUG   SenderThread:1500177 [sender.py:send_request():406] send_request: stop_status
+2025-04-24 18:51:26,834 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:27,055 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: status_report
+2025-04-24 18:51:27,835 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:28,296 INFO    Thread-12 :1500177 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_185110-hwvpxbeh/files/output.log
+2025-04-24 18:51:28,835 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:29,835 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:30,296 INFO    Thread-12 :1500177 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_185110-hwvpxbeh/files/output.log
+2025-04-24 18:51:30,835 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:31,835 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:32,143 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: status_report
+2025-04-24 18:51:32,296 INFO    Thread-12 :1500177 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_185110-hwvpxbeh/files/output.log
+2025-04-24 18:51:32,835 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:33,835 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:34,297 INFO    Thread-12 :1500177 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_185110-hwvpxbeh/files/output.log
+2025-04-24 18:51:34,835 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:35,835 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:36,297 INFO    Thread-12 :1500177 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_185110-hwvpxbeh/files/output.log
+2025-04-24 18:51:36,835 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:37,207 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: status_report
+2025-04-24 18:51:37,835 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:38,297 INFO    Thread-12 :1500177 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_185110-hwvpxbeh/files/output.log
+2025-04-24 18:51:38,836 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:39,835 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:39,913 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: pause
+2025-04-24 18:51:39,913 INFO    HandlerThread:1500177 [handler.py:handle_request_pause():724] stopping system metrics thread
+2025-04-24 18:51:39,913 INFO    HandlerThread:1500177 [system_monitor.py:finish():203] Stopping system monitor
+2025-04-24 18:51:39,913 DEBUG   SystemMonitor:1500177 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-04-24 18:51:39,914 INFO    HandlerThread:1500177 [interfaces.py:finish():200] Joined cpu monitor
+2025-04-24 18:51:39,914 DEBUG   SystemMonitor:1500177 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-04-24 18:51:39,914 INFO    HandlerThread:1500177 [interfaces.py:finish():200] Joined disk monitor
+2025-04-24 18:51:39,914 DEBUG   SystemMonitor:1500177 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-04-24 18:51:39,955 INFO    HandlerThread:1500177 [interfaces.py:finish():200] Joined gpu monitor
+2025-04-24 18:51:39,955 INFO    HandlerThread:1500177 [interfaces.py:finish():200] Joined memory monitor
+2025-04-24 18:51:39,955 INFO    HandlerThread:1500177 [interfaces.py:finish():200] Joined network monitor
+2025-04-24 18:51:39,955 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: resume
+2025-04-24 18:51:39,955 INFO    HandlerThread:1500177 [handler.py:handle_request_resume():715] starting system metrics thread
+2025-04-24 18:51:39,955 INFO    HandlerThread:1500177 [system_monitor.py:start():194] Starting system monitor
+2025-04-24 18:51:39,955 INFO    SystemMonitor:1500177 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-04-24 18:51:39,956 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: pause
+2025-04-24 18:51:39,956 INFO    HandlerThread:1500177 [handler.py:handle_request_pause():724] stopping system metrics thread
+2025-04-24 18:51:39,956 INFO    HandlerThread:1500177 [system_monitor.py:finish():203] Stopping system monitor
+2025-04-24 18:51:39,956 WARNING HandlerThread:1500177 [interfaces.py:finish():205] Failed to finish cpu monitoring: cannot join thread before it is started
+2025-04-24 18:51:39,956 INFO    SystemMonitor:1500177 [interfaces.py:start():188] Started cpu monitoring
+2025-04-24 18:51:39,956 DEBUG   SystemMonitor:1500177 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-04-24 18:51:39,956 DEBUG   SystemMonitor:1500177 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-04-24 18:51:39,956 DEBUG   SystemMonitor:1500177 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-04-24 18:51:39,956 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: resume
+2025-04-24 18:51:39,956 INFO    HandlerThread:1500177 [handler.py:handle_request_resume():715] starting system metrics thread
+2025-04-24 18:51:39,956 INFO    HandlerThread:1500177 [system_monitor.py:start():194] Starting system monitor
+2025-04-24 18:51:39,956 INFO    SystemMonitor:1500177 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-04-24 18:51:39,956 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: pause
+2025-04-24 18:51:39,956 INFO    HandlerThread:1500177 [handler.py:handle_request_pause():724] stopping system metrics thread
+2025-04-24 18:51:39,956 INFO    HandlerThread:1500177 [system_monitor.py:finish():203] Stopping system monitor
+2025-04-24 18:51:39,956 INFO    SystemMonitor:1500177 [interfaces.py:start():188] Started cpu monitoring
+2025-04-24 18:51:39,957 DEBUG   SystemMonitor:1500177 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-04-24 18:51:39,957 DEBUG   SystemMonitor:1500177 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-04-24 18:51:39,957 DEBUG   SystemMonitor:1500177 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-04-24 18:51:39,957 DEBUG   SenderThread:1500177 [sender.py:send():379] send: stats
+2025-04-24 18:51:39,957 INFO    HandlerThread:1500177 [interfaces.py:finish():200] Joined cpu monitor
+2025-04-24 18:51:39,957 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: resume
+2025-04-24 18:51:39,957 INFO    HandlerThread:1500177 [handler.py:handle_request_resume():715] starting system metrics thread
+2025-04-24 18:51:39,957 INFO    HandlerThread:1500177 [system_monitor.py:start():194] Starting system monitor
+2025-04-24 18:51:39,958 INFO    SystemMonitor:1500177 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-04-24 18:51:39,958 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: pause
+2025-04-24 18:51:39,958 INFO    HandlerThread:1500177 [handler.py:handle_request_pause():724] stopping system metrics thread
+2025-04-24 18:51:39,958 INFO    HandlerThread:1500177 [system_monitor.py:finish():203] Stopping system monitor
+2025-04-24 18:51:39,958 INFO    SystemMonitor:1500177 [interfaces.py:start():188] Started cpu monitoring
+2025-04-24 18:51:39,958 DEBUG   SystemMonitor:1500177 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-04-24 18:51:39,958 DEBUG   SystemMonitor:1500177 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-04-24 18:51:39,958 DEBUG   SystemMonitor:1500177 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-04-24 18:51:39,959 INFO    HandlerThread:1500177 [interfaces.py:finish():200] Joined cpu monitor
+2025-04-24 18:51:39,959 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: resume
+2025-04-24 18:51:39,959 INFO    HandlerThread:1500177 [handler.py:handle_request_resume():715] starting system metrics thread
+2025-04-24 18:51:39,959 INFO    HandlerThread:1500177 [system_monitor.py:start():194] Starting system monitor
+2025-04-24 18:51:39,959 INFO    SystemMonitor:1500177 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-04-24 18:51:39,959 INFO    SystemMonitor:1500177 [interfaces.py:start():188] Started cpu monitoring
+2025-04-24 18:51:39,959 DEBUG   SenderThread:1500177 [sender.py:send():379] send: stats
+2025-04-24 18:51:39,960 DEBUG   SenderThread:1500177 [sender.py:send():379] send: stats
+2025-04-24 18:51:39,960 INFO    SystemMonitor:1500177 [interfaces.py:start():188] Started disk monitoring
+2025-04-24 18:51:39,960 INFO    SystemMonitor:1500177 [interfaces.py:start():188] Started gpu monitoring
+2025-04-24 18:51:39,961 INFO    SystemMonitor:1500177 [interfaces.py:start():188] Started memory monitoring
+2025-04-24 18:51:39,961 INFO    SystemMonitor:1500177 [interfaces.py:start():188] Started network monitoring
+2025-04-24 18:51:40,298 INFO    Thread-12 :1500177 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_185110-hwvpxbeh/files/output.log
+2025-04-24 18:51:40,668 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: pause
+2025-04-24 18:51:40,668 INFO    HandlerThread:1500177 [handler.py:handle_request_pause():724] stopping system metrics thread
+2025-04-24 18:51:40,668 INFO    HandlerThread:1500177 [system_monitor.py:finish():203] Stopping system monitor
+2025-04-24 18:51:40,669 DEBUG   SystemMonitor:1500177 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-04-24 18:51:40,669 DEBUG   SystemMonitor:1500177 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-04-24 18:51:40,669 DEBUG   SystemMonitor:1500177 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-04-24 18:51:40,669 INFO    HandlerThread:1500177 [interfaces.py:finish():200] Joined cpu monitor
+2025-04-24 18:51:40,669 INFO    HandlerThread:1500177 [interfaces.py:finish():200] Joined disk monitor
+2025-04-24 18:51:40,701 INFO    HandlerThread:1500177 [interfaces.py:finish():200] Joined gpu monitor
+2025-04-24 18:51:40,701 INFO    HandlerThread:1500177 [interfaces.py:finish():200] Joined memory monitor
+2025-04-24 18:51:40,701 INFO    HandlerThread:1500177 [interfaces.py:finish():200] Joined network monitor
+2025-04-24 18:51:40,702 DEBUG   SenderThread:1500177 [sender.py:send():379] send: stats
+2025-04-24 18:51:40,836 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:41,833 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-24 18:51:41,834 DEBUG   SenderThread:1500177 [sender.py:send_request():406] send_request: stop_status
+2025-04-24 18:51:41,875 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:42,299 INFO    Thread-12 :1500177 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_185110-hwvpxbeh/files/output.log
+2025-04-24 18:51:42,836 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:43,091 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: status_report
+2025-04-24 18:51:43,299 INFO    Thread-12 :1500177 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_185110-hwvpxbeh/files/config.yaml
+2025-04-24 18:51:43,836 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:44,837 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:45,837 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:46,837 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:47,836 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:48,836 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: status_report
+2025-04-24 18:51:48,837 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:49,837 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:50,837 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:51,837 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:52,838 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:53,838 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:54,836 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: status_report
+2025-04-24 18:51:54,838 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:55,838 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:56,834 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-24 18:51:56,835 DEBUG   SenderThread:1500177 [sender.py:send_request():406] send_request: stop_status
+2025-04-24 18:51:56,875 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:57,838 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:58,839 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:51:59,839 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:52:00,087 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: status_report
+2025-04-24 18:52:00,839 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:52:01,839 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:52:02,839 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:52:03,839 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:52:04,839 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:52:05,837 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: status_report
+2025-04-24 18:52:05,839 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 18:52:06,839 DEBUG   HandlerThread:1500177 [handler.py:handle_request():158] handle_request: internal_messages

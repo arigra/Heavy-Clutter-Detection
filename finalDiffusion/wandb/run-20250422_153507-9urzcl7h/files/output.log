@@ -1,0 +1,378 @@
+/home/hawk/.local/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 1/400  Train Loss: 0.9695  Val Loss: 0.9484
+   → Sampled MSE: 1123902592.0000  PSNR: -54.21dB
+   → Saved new best‑MSE model
+Epoch 2/400  Train Loss: 0.9342  Val Loss: 0.9222
+   → Sampled MSE: 1066264448.0000  PSNR: -53.98dB
+   → Saved new best‑MSE model
+Epoch 3/400  Train Loss: 0.9125  Val Loss: 0.9048
+   → Sampled MSE: 1039244416.0000  PSNR: -53.87dB
+   → Saved new best‑MSE model
+Epoch 4/400  Train Loss: 0.8993  Val Loss: 0.8951
+   → Sampled MSE: 1029993152.0000  PSNR: -53.83dB
+   → Saved new best‑MSE model
+Epoch 5/400  Train Loss: 0.8909  Val Loss: 0.8877
+   → Sampled MSE: 1006057472.0000  PSNR: -53.73dB
+   → Saved new best‑MSE model
+Epoch 6/400  Train Loss: 0.8845  Val Loss: 0.8810
+   → Sampled MSE: 1002067776.0000  PSNR: -53.71dB
+   → Saved new best‑MSE model
+Epoch 7/400  Train Loss: 0.8800  Val Loss: 0.8779
+   → Sampled MSE: 992512576.0000  PSNR: -53.67dB
+   → Saved new best‑MSE model
+Epoch 8/400  Train Loss: 0.8762  Val Loss: 0.8738
+   → Sampled MSE: 978494336.0000  PSNR: -53.61dB
+   → Saved new best‑MSE model
+Epoch 9/400  Train Loss: 0.8728  Val Loss: 0.8707
+   → Sampled MSE: 967715200.0000  PSNR: -53.56dB
+   → Saved new best‑MSE model
+Epoch 10/400  Train Loss: 0.8697  Val Loss: 0.8684
+   → Sampled MSE: 962006528.0000  PSNR: -53.54dB
+   → Saved new best‑MSE model
+Epoch 11/400  Train Loss: 0.8671  Val Loss: 0.8651
+   → Sampled MSE: 970566016.0000  PSNR: -53.58dB
+Epoch 12/400  Train Loss: 0.8649  Val Loss: 0.8629
+   → Sampled MSE: 963391360.0000  PSNR: -53.54dB
+Epoch 13/400  Train Loss: 0.8627  Val Loss: 0.8611
+   → Sampled MSE: 952315776.0000  PSNR: -53.49dB
+   → Saved new best‑MSE model
+Epoch 14/400  Train Loss: 0.8602  Val Loss: 0.8588
+   → Sampled MSE: 951869184.0000  PSNR: -53.49dB
+   → Saved new best‑MSE model
+Epoch 15/400  Train Loss: 0.8583  Val Loss: 0.8572
+   → Sampled MSE: 942156672.0000  PSNR: -53.45dB
+   → Saved new best‑MSE model
+Epoch 16/400  Train Loss: 0.8564  Val Loss: 0.8554
+   → Sampled MSE: 946448128.0000  PSNR: -53.47dB
+Epoch 17/400  Train Loss: 0.8546  Val Loss: 0.8539
+   → Sampled MSE: 936423040.0000  PSNR: -53.42dB
+   → Saved new best‑MSE model
+Epoch 18/400  Train Loss: 0.8532  Val Loss: 0.8532
+   → Sampled MSE: 946418752.0000  PSNR: -53.47dB
+Epoch 19/400  Train Loss: 0.8515  Val Loss: 0.8498
+   → Sampled MSE: 929395136.0000  PSNR: -53.39dB
+   → Saved new best‑MSE model
+Epoch 20/400  Train Loss: 0.8499  Val Loss: 0.8489
+   → Sampled MSE: 935476224.0000  PSNR: -53.42dB
+Epoch 21/400  Train Loss: 0.8486  Val Loss: 0.8483
+   → Sampled MSE: 932235904.0000  PSNR: -53.40dB
+Epoch 22/400  Train Loss: 0.8472  Val Loss: 0.8464
+   → Sampled MSE: 924988800.0000  PSNR: -53.37dB
+   → Saved new best‑MSE model
+Epoch 23/400  Train Loss: 0.8458  Val Loss: 0.8455
+   → Sampled MSE: 926079872.0000  PSNR: -53.37dB
+Epoch 24/400  Train Loss: 0.8444  Val Loss: 0.8443
+   → Sampled MSE: 917332096.0000  PSNR: -53.33dB
+   → Saved new best‑MSE model
+Epoch 25/400  Train Loss: 0.8433  Val Loss: 0.8417
+   → Sampled MSE: 914906624.0000  PSNR: -53.32dB
+   → Saved new best‑MSE model
+Epoch 26/400  Train Loss: 0.8422  Val Loss: 0.8413
+   → Sampled MSE: 921220416.0000  PSNR: -53.35dB
+Epoch 27/400  Train Loss: 0.8408  Val Loss: 0.8401
+   → Sampled MSE: 902711168.0000  PSNR: -53.26dB
+   → Saved new best‑MSE model
+Epoch 28/400  Train Loss: 0.8398  Val Loss: 0.8387
+   → Sampled MSE: 910954432.0000  PSNR: -53.30dB
+Epoch 29/400  Train Loss: 0.8388  Val Loss: 0.8375
+   → Sampled MSE: 909066048.0000  PSNR: -53.29dB
+Epoch 30/400  Train Loss: 0.8374  Val Loss: 0.8371
+   → Sampled MSE: 903822272.0000  PSNR: -53.27dB
+Epoch 31/400  Train Loss: 0.8363  Val Loss: 0.8354
+   → Sampled MSE: 898024064.0000  PSNR: -53.24dB
+   → Saved new best‑MSE model
+Epoch 32/400  Train Loss: 0.8355  Val Loss: 0.8351
+   → Sampled MSE: 896040192.0000  PSNR: -53.23dB
+   → Saved new best‑MSE model
+Epoch 33/400  Train Loss: 0.8348  Val Loss: 0.8355
+   → Sampled MSE: 904337856.0000  PSNR: -53.27dB
+Epoch 34/400  Train Loss: 0.8337  Val Loss: 0.8334
+   → Sampled MSE: 903499456.0000  PSNR: -53.26dB
+Epoch 35/400  Train Loss: 0.8327  Val Loss: 0.8332
+   → Sampled MSE: 906289216.0000  PSNR: -53.28dB
+Epoch 36/400  Train Loss: 0.8319  Val Loss: 0.8311
+   → Sampled MSE: 894667712.0000  PSNR: -53.22dB
+   → Saved new best‑MSE model
+Epoch 37/400  Train Loss: 0.8311  Val Loss: 0.8323
+   → Sampled MSE: 889057536.0000  PSNR: -53.19dB
+   → Saved new best‑MSE model
+Epoch 38/400  Train Loss: 0.8302  Val Loss: 0.8301
+   → Sampled MSE: 894518400.0000  PSNR: -53.22dB
+Epoch 39/400  Train Loss: 0.8294  Val Loss: 0.8297
+   → Sampled MSE: 889853696.0000  PSNR: -53.20dB
+Epoch 40/400  Train Loss: 0.8283  Val Loss: 0.8272
+   → Sampled MSE: 881620800.0000  PSNR: -53.16dB
+   → Saved new best‑MSE model
+Epoch 41/400  Train Loss: 0.8280  Val Loss: 0.8279
+   → Sampled MSE: 893594624.0000  PSNR: -53.22dB
+Epoch 42/400  Train Loss: 0.8273  Val Loss: 0.8266
+   → Sampled MSE: 879539584.0000  PSNR: -53.15dB
+   → Saved new best‑MSE model
+Epoch 43/400  Train Loss: 0.8265  Val Loss: 0.8263
+   → Sampled MSE: 880746240.0000  PSNR: -53.15dB
+Epoch 44/400  Train Loss: 0.8255  Val Loss: 0.8249
+   → Sampled MSE: 877614080.0000  PSNR: -53.14dB
+   → Saved new best‑MSE model
+Epoch 45/400  Train Loss: 0.8248  Val Loss: 0.8245
+   → Sampled MSE: 875215296.0000  PSNR: -53.13dB
+   → Saved new best‑MSE model
+Epoch 46/400  Train Loss: 0.8249  Val Loss: 0.8243
+   → Sampled MSE: 874477056.0000  PSNR: -53.12dB
+   → Saved new best‑MSE model
+Epoch 47/400  Train Loss: 0.8235  Val Loss: 0.8254
+   → Sampled MSE: 870781056.0000  PSNR: -53.10dB
+   → Saved new best‑MSE model
+Epoch 48/400  Train Loss: 0.8230  Val Loss: 0.8233
+   → Sampled MSE: 881620352.0000  PSNR: -53.16dB
+Epoch 49/400  Train Loss: 0.8225  Val Loss: 0.8219
+   → Sampled MSE: 871437248.0000  PSNR: -53.11dB
+Epoch 50/400  Train Loss: 0.8217  Val Loss: 0.8218
+   → Sampled MSE: 870937472.0000  PSNR: -53.10dB
+Epoch 51/400  Train Loss: 0.8215  Val Loss: 0.8212
+   → Sampled MSE: 871672576.0000  PSNR: -53.11dB
+Epoch 52/400  Train Loss: 0.8207  Val Loss: 0.8188
+   → Sampled MSE: 864339264.0000  PSNR: -53.07dB
+   → Saved new best‑MSE model
+Epoch 53/400  Train Loss: 0.8200  Val Loss: 0.8199
+   → Sampled MSE: 875533184.0000  PSNR: -53.13dB
+Epoch 54/400  Train Loss: 0.8197  Val Loss: 0.8202
+   → Sampled MSE: 870307200.0000  PSNR: -53.10dB
+Epoch 55/400  Train Loss: 0.8191  Val Loss: 0.8191
+   → Sampled MSE: 869069312.0000  PSNR: -53.10dB
+Epoch 56/400  Train Loss: 0.8188  Val Loss: 0.8186
+   → Sampled MSE: 873907456.0000  PSNR: -53.12dB
+Epoch 57/400  Train Loss: 0.8181  Val Loss: 0.8177
+   → Sampled MSE: 863268416.0000  PSNR: -53.07dB
+   → Saved new best‑MSE model
+Epoch 58/400  Train Loss: 0.8179  Val Loss: 0.8168
+   → Sampled MSE: 848866176.0000  PSNR: -52.99dB
+   → Saved new best‑MSE model
+Epoch 59/400  Train Loss: 0.8172  Val Loss: 0.8185
+   → Sampled MSE: 861356288.0000  PSNR: -53.06dB
+Epoch 60/400  Train Loss: 0.8168  Val Loss: 0.8165
+   → Sampled MSE: 851237376.0000  PSNR: -53.01dB
+Epoch 61/400  Train Loss: 0.8158  Val Loss: 0.8161
+   → Sampled MSE: 857763584.0000  PSNR: -53.04dB
+Epoch 62/400  Train Loss: 0.8154  Val Loss: 0.8158
+   → Sampled MSE: 862702592.0000  PSNR: -53.06dB
+Epoch 63/400  Train Loss: 0.8149  Val Loss: 0.8161
+   → Sampled MSE: 874902400.0000  PSNR: -53.12dB
+Epoch 64/400  Train Loss: 0.8147  Val Loss: 0.8140
+   → Sampled MSE: 867941376.0000  PSNR: -53.09dB
+Epoch 65/400  Train Loss: 0.8144  Val Loss: 0.8154
+   → Sampled MSE: 868978944.0000  PSNR: -53.10dB
+Epoch 66/400  Train Loss: 0.8140  Val Loss: 0.8130
+   → Sampled MSE: 851145728.0000  PSNR: -53.01dB
+Epoch 67/400  Train Loss: 0.8132  Val Loss: 0.8141
+   → Sampled MSE: 864821504.0000  PSNR: -53.07dB
+Epoch 68/400  Train Loss: 0.8126  Val Loss: 0.8134
+   → Sampled MSE: 852267136.0000  PSNR: -53.01dB
+Epoch 69/400  Train Loss: 0.8123  Val Loss: 0.8122
+   → Sampled MSE: 862371072.0000  PSNR: -53.06dB
+Epoch 70/400  Train Loss: 0.8118  Val Loss: 0.8118
+   → Sampled MSE: 843384576.0000  PSNR: -52.97dB
+   → Saved new best‑MSE model
+Epoch 71/400  Train Loss: 0.8119  Val Loss: 0.8110
+   → Sampled MSE: 857622720.0000  PSNR: -53.04dB
+Epoch 72/400  Train Loss: 0.8113  Val Loss: 0.8111
+   → Sampled MSE: 851302528.0000  PSNR: -53.01dB
+Epoch 73/400  Train Loss: 0.8107  Val Loss: 0.8107
+   → Sampled MSE: 850862720.0000  PSNR: -53.00dB
+Epoch 74/400  Train Loss: 0.8106  Val Loss: 0.8101
+   → Sampled MSE: 847496128.0000  PSNR: -52.99dB
+Epoch 75/400  Train Loss: 0.8094  Val Loss: 0.8107
+   → Sampled MSE: 843794432.0000  PSNR: -52.97dB
+Epoch 76/400  Train Loss: 0.8092  Val Loss: 0.8087
+   → Sampled MSE: 858439744.0000  PSNR: -53.04dB
+Epoch 77/400  Train Loss: 0.8091  Val Loss: 0.8081
+   → Sampled MSE: 850955136.0000  PSNR: -53.00dB
+Epoch 78/400  Train Loss: 0.8087  Val Loss: 0.8093
+   → Sampled MSE: 841853504.0000  PSNR: -52.96dB
+   → Saved new best‑MSE model
+Epoch 79/400  Train Loss: 0.8082  Val Loss: 0.8091
+   → Sampled MSE: 845170560.0000  PSNR: -52.97dB
+Epoch 80/400  Train Loss: 0.8078  Val Loss: 0.8079
+   → Sampled MSE: 853549568.0000  PSNR: -53.02dB
+Epoch 81/400  Train Loss: 0.8075  Val Loss: 0.8070
+   → Sampled MSE: 844361856.0000  PSNR: -52.97dB
+Epoch 82/400  Train Loss: 0.8072  Val Loss: 0.8069
+   → Sampled MSE: 833442240.0000  PSNR: -52.91dB
+   → Saved new best‑MSE model
+Epoch 83/400  Train Loss: 0.8069  Val Loss: 0.8068
+   → Sampled MSE: 838572544.0000  PSNR: -52.94dB
+Epoch 84/400  Train Loss: 0.8066  Val Loss: 0.8057
+   → Sampled MSE: 843457216.0000  PSNR: -52.97dB
+Epoch 85/400  Train Loss: 0.8059  Val Loss: 0.8049
+   → Sampled MSE: 846333824.0000  PSNR: -52.98dB
+Epoch 86/400  Train Loss: 0.8058  Val Loss: 0.8058
+   → Sampled MSE: 840413248.0000  PSNR: -52.95dB
+Epoch 87/400  Train Loss: 0.8049  Val Loss: 0.8077
+   → Sampled MSE: 844435712.0000  PSNR: -52.97dB
+Epoch 88/400  Train Loss: 0.8046  Val Loss: 0.8042
+   → Sampled MSE: 840913664.0000  PSNR: -52.95dB
+Epoch 89/400  Train Loss: 0.8043  Val Loss: 0.8053
+   → Sampled MSE: 834035392.0000  PSNR: -52.92dB
+Epoch 90/400  Train Loss: 0.8040  Val Loss: 0.8043
+   → Sampled MSE: 829543296.0000  PSNR: -52.89dB
+   → Saved new best‑MSE model
+Epoch 91/400  Train Loss: 0.8040  Val Loss: 0.8038
+   → Sampled MSE: 837554560.0000  PSNR: -52.94dB
+Epoch 92/400  Train Loss: 0.8035  Val Loss: 0.8047
+   → Sampled MSE: 836306432.0000  PSNR: -52.93dB
+Epoch 93/400  Train Loss: 0.8033  Val Loss: 0.8027
+   → Sampled MSE: 837021056.0000  PSNR: -52.93dB
+Epoch 94/400  Train Loss: 0.8027  Val Loss: 0.8044
+   → Sampled MSE: 832357888.0000  PSNR: -52.91dB
+Epoch 95/400  Train Loss: 0.8022  Val Loss: 0.8028
+   → Sampled MSE: 830950912.0000  PSNR: -52.90dB
+Epoch 96/400  Train Loss: 0.8018  Val Loss: 0.8013
+   → Sampled MSE: 829054272.0000  PSNR: -52.89dB
+   → Saved new best‑MSE model
+Epoch 97/400  Train Loss: 0.8017  Val Loss: 0.8008
+   → Sampled MSE: 837150720.0000  PSNR: -52.93dB
+Epoch 98/400  Train Loss: 0.8008  Val Loss: 0.8003
+   → Sampled MSE: 833726464.0000  PSNR: -52.92dB
+Epoch 99/400  Train Loss: 0.8005  Val Loss: 0.7995
+   → Sampled MSE: 832591360.0000  PSNR: -52.91dB
+Epoch 100/400  Train Loss: 0.7998  Val Loss: 0.7993
+   → Sampled MSE: 824489344.0000  PSNR: -52.87dB
+   → Saved new best‑MSE model
+Epoch 101/400  Train Loss: 0.8000  Val Loss: 0.7999
+   → Sampled MSE: 828185536.0000  PSNR: -52.89dB
+Epoch 102/400  Train Loss: 0.7999  Val Loss: 0.7997
+   → Sampled MSE: 826392064.0000  PSNR: -52.88dB
+Epoch 103/400  Train Loss: 0.7993  Val Loss: 0.7986
+   → Sampled MSE: 832005760.0000  PSNR: -52.91dB
+Epoch 104/400  Train Loss: 0.7994  Val Loss: 0.7981
+   → Sampled MSE: 818573952.0000  PSNR: -52.84dB
+   → Saved new best‑MSE model
+Epoch 105/400  Train Loss: 0.7987  Val Loss: 0.8009
+   → Sampled MSE: 820577216.0000  PSNR: -52.85dB
+Epoch 106/400  Train Loss: 0.7986  Val Loss: 0.7974
+   → Sampled MSE: 820196480.0000  PSNR: -52.84dB
+Epoch 107/400  Train Loss: 0.7983  Val Loss: 0.7977
+   → Sampled MSE: 830089088.0000  PSNR: -52.90dB
+Epoch 108/400  Train Loss: 0.7983  Val Loss: 0.7976
+   → Sampled MSE: 816348992.0000  PSNR: -52.82dB
+   → Saved new best‑MSE model
+Epoch 109/400  Train Loss: 0.7975  Val Loss: 0.7978
+   → Sampled MSE: 822206080.0000  PSNR: -52.85dB
+Epoch 110/400  Train Loss: 0.7973  Val Loss: 0.7975
+   → Sampled MSE: 817778624.0000  PSNR: -52.83dB
+Epoch 111/400  Train Loss: 0.7964  Val Loss: 0.7956
+   → Sampled MSE: 818181888.0000  PSNR: -52.83dB
+Epoch 112/400  Train Loss: 0.7963  Val Loss: 0.7973
+   → Sampled MSE: 819489216.0000  PSNR: -52.84dB
+Epoch 113/400  Train Loss: 0.7964  Val Loss: 0.7949
+   → Sampled MSE: 818772224.0000  PSNR: -52.84dB
+Epoch 114/400  Train Loss: 0.7956  Val Loss: 0.7958
+   → Sampled MSE: 821854720.0000  PSNR: -52.85dB
+Epoch 115/400  Train Loss: 0.7955  Val Loss: 0.7950
+   → Sampled MSE: 814511488.0000  PSNR: -52.81dB
+   → Saved new best‑MSE model
+Epoch 116/400  Train Loss: 0.7951  Val Loss: 0.7951
+   → Sampled MSE: 816353024.0000  PSNR: -52.82dB
+Epoch 117/400  Train Loss: 0.7950  Val Loss: 0.7936
+   → Sampled MSE: 814982912.0000  PSNR: -52.82dB
+Epoch 118/400  Train Loss: 0.7947  Val Loss: 0.7941
+   → Sampled MSE: 817761152.0000  PSNR: -52.83dB
+Epoch 119/400  Train Loss: 0.7945  Val Loss: 0.7960
+   → Sampled MSE: 804843648.0000  PSNR: -52.76dB
+   → Saved new best‑MSE model
+Epoch 120/400  Train Loss: 0.7945  Val Loss: 0.7955
+   → Sampled MSE: 830767680.0000  PSNR: -52.90dB
+Epoch 121/400  Train Loss: 0.7939  Val Loss: 0.7939
+   → Sampled MSE: 819640192.0000  PSNR: -52.84dB
+Epoch 122/400  Train Loss: 0.7934  Val Loss: 0.7930
+   → Sampled MSE: 808226304.0000  PSNR: -52.78dB
+Epoch 123/400  Train Loss: 0.7928  Val Loss: 0.7939
+   → Sampled MSE: 803505408.0000  PSNR: -52.75dB
+   → Saved new best‑MSE model
+Epoch 124/400  Train Loss: 0.7931  Val Loss: 0.7931
+   → Sampled MSE: 806733696.0000  PSNR: -52.77dB
+Epoch 125/400  Train Loss: 0.7924  Val Loss: 0.7920
+   → Sampled MSE: 804148224.0000  PSNR: -52.76dB
+Epoch 126/400  Train Loss: 0.7923  Val Loss: 0.7921
+   → Sampled MSE: 817408512.0000  PSNR: -52.83dB
+Epoch 127/400  Train Loss: 0.7923  Val Loss: 0.7933
+   → Sampled MSE: 809598208.0000  PSNR: -52.79dB
+Epoch 128/400  Train Loss: 0.7923  Val Loss: 0.7910
+   → Sampled MSE: 806984704.0000  PSNR: -52.77dB
+Epoch 129/400  Train Loss: 0.7911  Val Loss: 0.7906
+   → Sampled MSE: 803372800.0000  PSNR: -52.75dB
+   → Saved new best‑MSE model
+Epoch 130/400  Train Loss: 0.7915  Val Loss: 0.7907
+   → Sampled MSE: 805337984.0000  PSNR: -52.76dB
+Epoch 131/400  Train Loss: 0.7907  Val Loss: 0.7907
+   → Sampled MSE: 802007168.0000  PSNR: -52.75dB
+   → Saved new best‑MSE model
+Epoch 132/400  Train Loss: 0.7910  Val Loss: 0.7897
+   → Sampled MSE: 807077504.0000  PSNR: -52.77dB
+Epoch 133/400  Train Loss: 0.7904  Val Loss: 0.7911
+   → Sampled MSE: 810656000.0000  PSNR: -52.79dB
+Epoch 134/400  Train Loss: 0.7904  Val Loss: 0.7902
+   → Sampled MSE: 806599808.0000  PSNR: -52.77dB
+Epoch 135/400  Train Loss: 0.7897  Val Loss: 0.7895
+   → Sampled MSE: 807219712.0000  PSNR: -52.77dB
+Epoch 136/400  Train Loss: 0.7899  Val Loss: 0.7886
+   → Sampled MSE: 788573632.0000  PSNR: -52.67dB
+   → Saved new best‑MSE model
+Epoch 137/400  Train Loss: 0.7898  Val Loss: 0.7890
+   → Sampled MSE: 805543616.0000  PSNR: -52.77dB
+Epoch 138/400  Train Loss: 0.7893  Val Loss: 0.7888
+   → Sampled MSE: 806953856.0000  PSNR: -52.77dB
+Epoch 139/400  Train Loss: 0.7891  Val Loss: 0.7898
+   → Sampled MSE: 799215104.0000  PSNR: -52.73dB
+Epoch 140/400  Train Loss: 0.7891  Val Loss: 0.7886
+   → Sampled MSE: 808147328.0000  PSNR: -52.78dB
+Epoch 141/400  Train Loss: 0.7890  Val Loss: 0.7881
+   → Sampled MSE: 804366528.0000  PSNR: -52.76dB
+Epoch 142/400  Train Loss: 0.7884  Val Loss: 0.7883
+   → Sampled MSE: 799954560.0000  PSNR: -52.74dB
+Epoch 143/400  Train Loss: 0.7880  Val Loss: 0.7878
+   → Sampled MSE: 814976000.0000  PSNR: -52.82dB
+Epoch 144/400  Train Loss: 0.7880  Val Loss: 0.7876
+   → Sampled MSE: 799274880.0000  PSNR: -52.73dB
+Epoch 145/400  Train Loss: 0.7882  Val Loss: 0.7885
+   → Sampled MSE: 805727296.0000  PSNR: -52.77dB
+Epoch 146/400  Train Loss: 0.7878  Val Loss: 0.7890
+   → Sampled MSE: 805563008.0000  PSNR: -52.77dB
+Epoch 147/400  Train Loss: 0.7876  Val Loss: 0.7891
+   → Sampled MSE: 807395776.0000  PSNR: -52.78dB
+Epoch 148/400  Train Loss: 0.7875  Val Loss: 0.7874
+   → Sampled MSE: 806003712.0000  PSNR: -52.77dB
+Epoch 149/400  Train Loss: 0.7872  Val Loss: 0.7870
+   → Sampled MSE: 796865280.0000  PSNR: -52.72dB
+Epoch 150/400  Train Loss: 0.7873  Val Loss: 0.7867
+   → Sampled MSE: 794209280.0000  PSNR: -52.70dB
+Epoch 151/400  Train Loss: 0.7862  Val Loss: 0.7865
+   → Sampled MSE: 801702016.0000  PSNR: -52.75dB
+Epoch 152/400  Train Loss: 0.7860  Val Loss: 0.7861
+   → Sampled MSE: 800646656.0000  PSNR: -52.74dB
+Epoch 153/400  Train Loss: 0.7856  Val Loss: 0.7853
+   → Sampled MSE: 789629056.0000  PSNR: -52.68dB
+Epoch 154/400  Train Loss: 0.7857  Val Loss: 0.7854
+   → Sampled MSE: 792555200.0000  PSNR: -52.70dB
+Epoch 155/400  Train Loss: 0.7861  Val Loss: 0.7866
+   → Sampled MSE: 795929856.0000  PSNR: -52.71dB
+Epoch 156/400  Train Loss: 0.7854  Val Loss: 0.7844
+   → Sampled MSE: 788039040.0000  PSNR: -52.67dB
+   → Saved new best‑MSE model
+Epoch 157/400  Train Loss: 0.7852  Val Loss: 0.7863
+   → Sampled MSE: 795144832.0000  PSNR: -52.71dB
+Epoch 158/400  Train Loss: 0.7846  Val Loss: 0.7842
+   → Sampled MSE: 791723904.0000  PSNR: -52.69dB
+Epoch 159/400  Train Loss: 0.7844  Val Loss: 0.7837
+   → Sampled MSE: 794727168.0000  PSNR: -52.71dB
+Epoch 160/400  Train Loss: 0.7843  Val Loss: 0.7835
+   → Sampled MSE: 791793280.0000  PSNR: -52.69dB
+Epoch 161/400  Train Loss: 0.7843  Val Loss: 0.7838
+   → Sampled MSE: 787683840.0000  PSNR: -52.67dB
+   → Saved new best‑MSE model
+Epoch 162/400  Train Loss: 0.7843  Val Loss: 0.7839
+   → Sampled MSE: 788047936.0000  PSNR: -52.67dB
+Epoch 163/400  Train Loss: 0.7839  Val Loss: 0.7841
+   → Sampled MSE: 790530368.0000  PSNR: -52.68dB
+Epoch 164/400  Train Loss: 0.7836  Val Loss: 0.7838
+   → Sampled MSE: 787006720.0000  PSNR: -52.66dB

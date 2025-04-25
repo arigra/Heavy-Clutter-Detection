@@ -1,0 +1,10 @@
+
+
+
+
+
+Normalizing dataset: 100%|██████████| 5500/5500 [00:10<00:00, 510.57it/s]
+Normalizing dataset:  47%|████▋     | 256/550 [00:00<00:00, 646.71it/s]
+succefully created diffusion dataset
+
+Normalizing dataset: 100%|██████████| 550/550 [00:00<00:00, 664.42it/s]

@@ -1,0 +1,13 @@
+/home/hawk/.local/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 1/400: Train Loss = 0.0445 | Val Loss = 0.0260
+   [Generation Metrics] MSE: 14930.0020 | PSNR: -5.45 dB
+   --> Best MSE model saved.
+Epoch 2/400: Train Loss = 0.0222 | Val Loss = 0.0197
+   [Generation Metrics] MSE: 1769.8788 | PSNR: 3.82 dB
+   --> Best MSE model saved.
+Epoch 3/400: Train Loss = 0.0188 | Val Loss = 0.0169
+   [Generation Metrics] MSE: 4495.9927 | PSNR: -0.23 dB
+Epoch 4/400: Train Loss = 0.0166 | Val Loss = 0.0149
+   [Generation Metrics] MSE: 4243.2661 | PSNR: 0.02 dB
+Epoch 5/400: Train Loss = 0.0150 | Val Loss = 0.0138

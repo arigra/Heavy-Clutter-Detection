@@ -1,0 +1,208 @@
+2025-04-24 12:50:08,325 INFO    StreamThr :1073048 [internal.py:wandb_internal():85] W&B internal server running at pid: 1073048, started at: 2025-04-24 12:50:08.325253
+2025-04-24 12:50:08,326 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: status
+2025-04-24 12:50:08,326 INFO    WriterThread:1073048 [datastore.py:open_for_write():87] open: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_125003-s4q27mfj/run-s4q27mfj.wandb
+2025-04-24 12:50:08,327 DEBUG   SenderThread:1073048 [sender.py:send():379] send: header
+2025-04-24 12:50:08,327 DEBUG   SenderThread:1073048 [sender.py:send():379] send: run
+2025-04-24 12:50:08,822 INFO    SenderThread:1073048 [dir_watcher.py:__init__():211] watching files in: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_125003-s4q27mfj/files
+2025-04-24 12:50:08,822 INFO    SenderThread:1073048 [sender.py:_start_run_threads():1188] run started: s4q27mfj with start time 1745488207.595106
+2025-04-24 12:50:08,835 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: check_version
+2025-04-24 12:50:08,835 DEBUG   SenderThread:1073048 [sender.py:send_request():406] send_request: check_version
+2025-04-24 12:50:09,263 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: run_start
+2025-04-24 12:50:09,263 DEBUG   HandlerThread:1073048 [system_info.py:__init__():26] System info init
+2025-04-24 12:50:09,263 DEBUG   HandlerThread:1073048 [system_info.py:__init__():41] System info init done
+2025-04-24 12:50:09,264 INFO    HandlerThread:1073048 [system_monitor.py:start():194] Starting system monitor
+2025-04-24 12:50:09,264 INFO    SystemMonitor:1073048 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-04-24 12:50:09,264 INFO    HandlerThread:1073048 [system_monitor.py:probe():214] Collecting system info
+2025-04-24 12:50:09,265 INFO    SystemMonitor:1073048 [interfaces.py:start():188] Started cpu monitoring
+2025-04-24 12:50:09,265 INFO    SystemMonitor:1073048 [interfaces.py:start():188] Started disk monitoring
+2025-04-24 12:50:09,267 INFO    SystemMonitor:1073048 [interfaces.py:start():188] Started gpu monitoring
+2025-04-24 12:50:09,269 INFO    SystemMonitor:1073048 [interfaces.py:start():188] Started memory monitoring
+2025-04-24 12:50:09,270 INFO    SystemMonitor:1073048 [interfaces.py:start():188] Started network monitoring
+2025-04-24 12:50:09,281 DEBUG   HandlerThread:1073048 [system_info.py:probe():152] Probing system
+2025-04-24 12:50:09,282 DEBUG   HandlerThread:1073048 [system_info.py:_probe_git():137] Probing git
+2025-04-24 12:50:09,287 DEBUG   HandlerThread:1073048 [system_info.py:_probe_git():145] Probing git done
+2025-04-24 12:50:09,288 DEBUG   HandlerThread:1073048 [system_info.py:probe():200] Probing system done
+2025-04-24 12:50:09,288 DEBUG   HandlerThread:1073048 [system_monitor.py:probe():223] {'os': 'Linux-6.8.0-57-generic-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2025-04-24T09:50:09.281900', 'startedAt': '2025-04-24T09:50:03.624645', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/arigra/Heavy-Clutter-Detection.git', 'commit': 'ea85cbf106552e8b3107aec6f574024dea911271'}, 'email': 'ari.granevich@gmail.com', 'root': '/home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection', 'host': 'hawk-Z790-GAMING-X', 'username': 'hawk', 'executable': '/bin/python3', 'cpu_count': 20, 'cpu_count_logical': 28, 'cpu_freq': {'current': 1328.7201428571427, 'min': 800.0, 'max': 5000.0}, 'cpu_freq_per_core': [{'current': 1641.203, 'min': 800.0, 'max': 5500.0}, {'current': 1341.548, 'min': 800.0, 'max': 5500.0}, {'current': 1603.78, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 1339.713, 'min': 800.0, 'max': 5600.0}, {'current': 800.0, 'min': 800.0, 'max': 5600.0}, {'current': 1423.074, 'min': 800.0, 'max': 5600.0}, {'current': 1367.428, 'min': 800.0, 'max': 5600.0}, {'current': 1388.984, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 1329.677, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 1427.016, 'min': 800.0, 'max': 4300.0}, {'current': 1342.187, 'min': 800.0, 'max': 4300.0}, {'current': 1900.515, 'min': 800.0, 'max': 4300.0}, {'current': 1366.121, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 1500.389, 'min': 800.0, 'max': 4300.0}, {'current': 1598.799, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 800.0, 'min': 800.0, 'max': 4300.0}, {'current': 1531.313, 'min': 800.0, 'max': 4300.0}], 'disk': {'/': {'total': 1832.2072448730469, 'used': 1116.6067733764648}}, 'gpu': 'NVIDIA GeForce RTX 4090', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4090', 'memory_total': 25757220864}], 'memory': {'total': 62.62470626831055}}
+2025-04-24 12:50:09,288 INFO    HandlerThread:1073048 [system_monitor.py:probe():224] Finished collecting system info
+2025-04-24 12:50:09,288 INFO    HandlerThread:1073048 [system_monitor.py:probe():227] Publishing system info
+2025-04-24 12:50:09,288 INFO    HandlerThread:1073048 [system_monitor.py:probe():229] Finished publishing system info
+2025-04-24 12:50:09,289 DEBUG   SenderThread:1073048 [sender.py:send():379] send: files
+2025-04-24 12:50:09,289 INFO    SenderThread:1073048 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2025-04-24 12:50:09,388 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: python_packages
+2025-04-24 12:50:09,388 DEBUG   SenderThread:1073048 [sender.py:send_request():406] send_request: python_packages
+2025-04-24 12:50:09,428 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-24 12:50:09,428 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:09,428 DEBUG   SenderThread:1073048 [sender.py:send_request():406] send_request: stop_status
+2025-04-24 12:50:09,728 DEBUG   SenderThread:1073048 [sender.py:send():379] send: telemetry
+2025-04-24 12:50:09,825 INFO    Thread-24 :1073048 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_125003-s4q27mfj/files/wandb-metadata.json
+2025-04-24 12:50:09,826 INFO    Thread-24 :1073048 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_125003-s4q27mfj/files/requirements.txt
+2025-04-24 12:50:10,030 INFO    wandb-upload_0:1073048 [upload_job.py:push():130] Uploaded file /tmp/tmp2koojiwqwandb/pjmsb9o9-wandb-metadata.json
+2025-04-24 12:50:10,389 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:11,389 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:12,390 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:13,390 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:13,729 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: status_report
+2025-04-24 12:50:14,390 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:15,390 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:16,391 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:17,391 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:18,391 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:19,390 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: status_report
+2025-04-24 12:50:19,391 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:20,391 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:21,391 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:22,391 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:23,391 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:24,389 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-24 12:50:24,389 DEBUG   SenderThread:1073048 [sender.py:send_request():406] send_request: stop_status
+2025-04-24 12:50:24,430 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:24,700 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: status_report
+2025-04-24 12:50:25,392 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:26,392 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:27,391 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:28,392 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:29,392 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:30,391 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: status_report
+2025-04-24 12:50:30,392 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:31,392 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:32,392 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:33,393 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:34,392 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:35,391 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: status_report
+2025-04-24 12:50:35,393 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:36,393 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:37,393 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:38,393 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:39,389 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: stop_status
+2025-04-24 12:50:39,390 DEBUG   SenderThread:1073048 [sender.py:send_request():406] send_request: stop_status
+2025-04-24 12:50:39,429 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:40,333 DEBUG   SenderThread:1073048 [sender.py:send():379] send: telemetry
+2025-04-24 12:50:40,374 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: server_info
+2025-04-24 12:50:40,375 DEBUG   SenderThread:1073048 [sender.py:send_request():406] send_request: server_info
+2025-04-24 12:50:40,550 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: status_report
+2025-04-24 12:50:40,777 DEBUG   SenderThread:1073048 [sender.py:send():379] send: exit
+2025-04-24 12:50:40,777 INFO    SenderThread:1073048 [sender.py:send_exit():586] handling exit code: 0
+2025-04-24 12:50:40,777 INFO    SenderThread:1073048 [sender.py:send_exit():588] handling runtime: 31
+2025-04-24 12:50:40,779 INFO    SenderThread:1073048 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-04-24 12:50:40,779 INFO    SenderThread:1073048 [sender.py:send_exit():594] send defer
+2025-04-24 12:50:40,780 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: defer
+2025-04-24 12:50:40,780 INFO    HandlerThread:1073048 [handler.py:handle_request_defer():184] handle defer: 0
+2025-04-24 12:50:40,780 DEBUG   SenderThread:1073048 [sender.py:send_request():406] send_request: defer
+2025-04-24 12:50:40,780 INFO    SenderThread:1073048 [sender.py:send_request_defer():610] handle sender defer: 0
+2025-04-24 12:50:40,780 INFO    SenderThread:1073048 [sender.py:transition_state():614] send defer: 1
+2025-04-24 12:50:40,781 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: defer
+2025-04-24 12:50:40,781 INFO    HandlerThread:1073048 [handler.py:handle_request_defer():184] handle defer: 1
+2025-04-24 12:50:40,781 DEBUG   SenderThread:1073048 [sender.py:send_request():406] send_request: defer
+2025-04-24 12:50:40,781 INFO    SenderThread:1073048 [sender.py:send_request_defer():610] handle sender defer: 1
+2025-04-24 12:50:40,781 INFO    SenderThread:1073048 [sender.py:transition_state():614] send defer: 2
+2025-04-24 12:50:40,781 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: defer
+2025-04-24 12:50:40,781 INFO    HandlerThread:1073048 [handler.py:handle_request_defer():184] handle defer: 2
+2025-04-24 12:50:40,781 INFO    HandlerThread:1073048 [system_monitor.py:finish():203] Stopping system monitor
+2025-04-24 12:50:40,782 DEBUG   SystemMonitor:1073048 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-04-24 12:50:40,782 DEBUG   SystemMonitor:1073048 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-04-24 12:50:40,782 DEBUG   SystemMonitor:1073048 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-04-24 12:50:40,783 INFO    HandlerThread:1073048 [interfaces.py:finish():200] Joined cpu monitor
+2025-04-24 12:50:40,783 INFO    HandlerThread:1073048 [interfaces.py:finish():200] Joined disk monitor
+2025-04-24 12:50:40,818 INFO    HandlerThread:1073048 [interfaces.py:finish():200] Joined gpu monitor
+2025-04-24 12:50:40,818 INFO    HandlerThread:1073048 [interfaces.py:finish():200] Joined memory monitor
+2025-04-24 12:50:40,818 INFO    HandlerThread:1073048 [interfaces.py:finish():200] Joined network monitor
+2025-04-24 12:50:40,818 DEBUG   SenderThread:1073048 [sender.py:send_request():406] send_request: defer
+2025-04-24 12:50:40,818 INFO    SenderThread:1073048 [sender.py:send_request_defer():610] handle sender defer: 2
+2025-04-24 12:50:40,818 INFO    SenderThread:1073048 [sender.py:transition_state():614] send defer: 3
+2025-04-24 12:50:40,818 DEBUG   SenderThread:1073048 [sender.py:send():379] send: stats
+2025-04-24 12:50:40,819 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: defer
+2025-04-24 12:50:40,819 INFO    HandlerThread:1073048 [handler.py:handle_request_defer():184] handle defer: 3
+2025-04-24 12:50:40,819 DEBUG   SenderThread:1073048 [sender.py:send_request():406] send_request: defer
+2025-04-24 12:50:40,819 INFO    SenderThread:1073048 [sender.py:send_request_defer():610] handle sender defer: 3
+2025-04-24 12:50:40,819 INFO    SenderThread:1073048 [sender.py:transition_state():614] send defer: 4
+2025-04-24 12:50:40,819 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: defer
+2025-04-24 12:50:40,819 INFO    HandlerThread:1073048 [handler.py:handle_request_defer():184] handle defer: 4
+2025-04-24 12:50:40,819 DEBUG   SenderThread:1073048 [sender.py:send_request():406] send_request: defer
+2025-04-24 12:50:40,819 INFO    SenderThread:1073048 [sender.py:send_request_defer():610] handle sender defer: 4
+2025-04-24 12:50:40,819 INFO    SenderThread:1073048 [sender.py:transition_state():614] send defer: 5
+2025-04-24 12:50:40,819 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: defer
+2025-04-24 12:50:40,819 INFO    HandlerThread:1073048 [handler.py:handle_request_defer():184] handle defer: 5
+2025-04-24 12:50:40,819 DEBUG   SenderThread:1073048 [sender.py:send():379] send: summary
+2025-04-24 12:50:40,819 INFO    SenderThread:1073048 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-04-24 12:50:40,819 DEBUG   SenderThread:1073048 [sender.py:send_request():406] send_request: defer
+2025-04-24 12:50:40,819 INFO    SenderThread:1073048 [sender.py:send_request_defer():610] handle sender defer: 5
+2025-04-24 12:50:40,819 INFO    SenderThread:1073048 [sender.py:transition_state():614] send defer: 6
+2025-04-24 12:50:40,820 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: defer
+2025-04-24 12:50:40,820 INFO    HandlerThread:1073048 [handler.py:handle_request_defer():184] handle defer: 6
+2025-04-24 12:50:40,820 DEBUG   SenderThread:1073048 [sender.py:send_request():406] send_request: defer
+2025-04-24 12:50:40,820 INFO    SenderThread:1073048 [sender.py:send_request_defer():610] handle sender defer: 6
+2025-04-24 12:50:40,820 INFO    SenderThread:1073048 [sender.py:transition_state():614] send defer: 7
+2025-04-24 12:50:40,820 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: status_report
+2025-04-24 12:50:40,820 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: defer
+2025-04-24 12:50:40,820 INFO    HandlerThread:1073048 [handler.py:handle_request_defer():184] handle defer: 7
+2025-04-24 12:50:40,820 DEBUG   SenderThread:1073048 [sender.py:send_request():406] send_request: defer
+2025-04-24 12:50:40,820 INFO    SenderThread:1073048 [sender.py:send_request_defer():610] handle sender defer: 7
+2025-04-24 12:50:40,820 INFO    SenderThread:1073048 [sender.py:transition_state():614] send defer: 8
+2025-04-24 12:50:40,820 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: defer
+2025-04-24 12:50:40,820 INFO    HandlerThread:1073048 [handler.py:handle_request_defer():184] handle defer: 8
+2025-04-24 12:50:40,820 DEBUG   SenderThread:1073048 [sender.py:send_request():406] send_request: defer
+2025-04-24 12:50:40,820 INFO    SenderThread:1073048 [sender.py:send_request_defer():610] handle sender defer: 8
+2025-04-24 12:50:40,820 INFO    SenderThread:1073048 [job_builder.py:build():440] Attempting to build job artifact
+2025-04-24 12:50:40,820 INFO    SenderThread:1073048 [job_builder.py:_get_source_type():569] is repo sourced job
+2025-04-24 12:50:40,820 INFO    SenderThread:1073048 [job_builder.py:_get_program_relpath():587] run is notebook based run
+2025-04-24 12:50:40,820 WARNING SenderThread:1073048 [job_builder.py:_log_if_verbose():274] Source type is set to 'repo' but some required information is missing from the environment. A job will not be created from this run. See https://docs.wandb.ai/guides/launch/create-job
+2025-04-24 12:50:40,820 INFO    SenderThread:1073048 [sender.py:transition_state():614] send defer: 9
+2025-04-24 12:50:40,820 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: defer
+2025-04-24 12:50:40,820 INFO    HandlerThread:1073048 [handler.py:handle_request_defer():184] handle defer: 9
+2025-04-24 12:50:40,820 DEBUG   SenderThread:1073048 [sender.py:send_request():406] send_request: defer
+2025-04-24 12:50:40,821 INFO    SenderThread:1073048 [sender.py:send_request_defer():610] handle sender defer: 9
+2025-04-24 12:50:40,821 INFO    SenderThread:1073048 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-04-24 12:50:40,831 INFO    SenderThread:1073048 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_125003-s4q27mfj/files/config.yaml
+2025-04-24 12:50:40,831 INFO    SenderThread:1073048 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_125003-s4q27mfj/files/wandb-summary.json
+2025-04-24 12:50:40,831 INFO    SenderThread:1073048 [dir_watcher.py:finish():388] scan: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_125003-s4q27mfj/files
+2025-04-24 12:50:40,831 INFO    SenderThread:1073048 [dir_watcher.py:finish():402] scan save: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_125003-s4q27mfj/files/wandb-summary.json wandb-summary.json
+2025-04-24 12:50:40,831 INFO    SenderThread:1073048 [dir_watcher.py:finish():402] scan save: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_125003-s4q27mfj/files/config.yaml config.yaml
+2025-04-24 12:50:40,831 INFO    SenderThread:1073048 [dir_watcher.py:finish():402] scan save: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_125003-s4q27mfj/files/wandb-metadata.json wandb-metadata.json
+2025-04-24 12:50:40,831 INFO    SenderThread:1073048 [dir_watcher.py:finish():402] scan save: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_125003-s4q27mfj/files/requirements.txt requirements.txt
+2025-04-24 12:50:40,831 INFO    SenderThread:1073048 [sender.py:transition_state():614] send defer: 10
+2025-04-24 12:50:40,833 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: defer
+2025-04-24 12:50:40,833 INFO    HandlerThread:1073048 [handler.py:handle_request_defer():184] handle defer: 10
+2025-04-24 12:50:40,834 DEBUG   SenderThread:1073048 [sender.py:send_request():406] send_request: defer
+2025-04-24 12:50:40,834 INFO    SenderThread:1073048 [sender.py:send_request_defer():610] handle sender defer: 10
+2025-04-24 12:50:40,834 INFO    SenderThread:1073048 [file_pusher.py:finish():169] shutting down file pusher
+2025-04-24 12:50:41,276 INFO    wandb-upload_0:1073048 [upload_job.py:push():130] Uploaded file /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_125003-s4q27mfj/files/wandb-summary.json
+2025-04-24 12:50:41,407 INFO    wandb-upload_1:1073048 [upload_job.py:push():130] Uploaded file /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_125003-s4q27mfj/files/config.yaml
+2025-04-24 12:50:41,510 INFO    wandb-upload_2:1073048 [upload_job.py:push():130] Uploaded file /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_125003-s4q27mfj/files/requirements.txt
+2025-04-24 12:50:41,553 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: poll_exit
+2025-04-24 12:50:41,554 DEBUG   SenderThread:1073048 [sender.py:send_request():406] send_request: poll_exit
+2025-04-24 12:50:41,711 INFO    Thread-23 (_thread_body):1073048 [sender.py:transition_state():614] send defer: 11
+2025-04-24 12:50:41,711 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: defer
+2025-04-24 12:50:41,711 INFO    HandlerThread:1073048 [handler.py:handle_request_defer():184] handle defer: 11
+2025-04-24 12:50:41,711 DEBUG   SenderThread:1073048 [sender.py:send_request():406] send_request: defer
+2025-04-24 12:50:41,711 INFO    SenderThread:1073048 [sender.py:send_request_defer():610] handle sender defer: 11
+2025-04-24 12:50:41,711 INFO    SenderThread:1073048 [file_pusher.py:join():175] waiting for file pusher
+2025-04-24 12:50:41,711 INFO    SenderThread:1073048 [sender.py:transition_state():614] send defer: 12
+2025-04-24 12:50:41,711 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: defer
+2025-04-24 12:50:41,711 INFO    HandlerThread:1073048 [handler.py:handle_request_defer():184] handle defer: 12
+2025-04-24 12:50:41,711 DEBUG   SenderThread:1073048 [sender.py:send_request():406] send_request: defer
+2025-04-24 12:50:41,711 INFO    SenderThread:1073048 [sender.py:send_request_defer():610] handle sender defer: 12
+2025-04-24 12:50:41,712 INFO    SenderThread:1073048 [file_stream.py:finish():601] file stream finish called
+2025-04-24 12:50:42,312 INFO    SenderThread:1073048 [file_stream.py:finish():605] file stream finish is done
+2025-04-24 12:50:42,312 INFO    SenderThread:1073048 [sender.py:transition_state():614] send defer: 13
+2025-04-24 12:50:42,313 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: defer
+2025-04-24 12:50:42,313 INFO    HandlerThread:1073048 [handler.py:handle_request_defer():184] handle defer: 13
+2025-04-24 12:50:42,313 DEBUG   SenderThread:1073048 [sender.py:send_request():406] send_request: defer
+2025-04-24 12:50:42,313 INFO    SenderThread:1073048 [sender.py:send_request_defer():610] handle sender defer: 13
+2025-04-24 12:50:42,313 INFO    SenderThread:1073048 [sender.py:transition_state():614] send defer: 14
+2025-04-24 12:50:42,314 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: defer
+2025-04-24 12:50:42,314 INFO    HandlerThread:1073048 [handler.py:handle_request_defer():184] handle defer: 14
+2025-04-24 12:50:42,314 DEBUG   SenderThread:1073048 [sender.py:send():379] send: final
+2025-04-24 12:50:42,314 DEBUG   SenderThread:1073048 [sender.py:send():379] send: footer
+2025-04-24 12:50:42,314 DEBUG   SenderThread:1073048 [sender.py:send_request():406] send_request: defer
+2025-04-24 12:50:42,314 INFO    SenderThread:1073048 [sender.py:send_request_defer():610] handle sender defer: 14
+2025-04-24 12:50:42,315 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: poll_exit
+2025-04-24 12:50:42,315 DEBUG   SenderThread:1073048 [sender.py:send_request():406] send_request: poll_exit
+2025-04-24 12:50:42,318 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: internal_messages
+2025-04-24 12:50:42,318 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: get_summary
+2025-04-24 12:50:42,319 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: sampled_history
+2025-04-24 12:50:42,319 DEBUG   HandlerThread:1073048 [handler.py:handle_request():158] handle_request: shutdown
+2025-04-24 12:50:42,319 INFO    HandlerThread:1073048 [handler.py:finish():882] shutting down handler
+2025-04-24 12:50:43,315 INFO    WriterThread:1073048 [datastore.py:close():296] close: /home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/wandb/run-20250424_125003-s4q27mfj/run-s4q27mfj.wandb
+2025-04-24 12:50:43,316 INFO    SenderThread:1073048 [sender.py:finish():1608] shutting down sender
+2025-04-24 12:50:43,316 INFO    SenderThread:1073048 [file_pusher.py:finish():169] shutting down file pusher
+2025-04-24 12:50:43,316 INFO    SenderThread:1073048 [file_pusher.py:join():175] waiting for file pusher

@@ -1,0 +1,40 @@
+
+
+
+
+
+Normalizing dataset: 100%|██████████| 5500/5500 [00:10<00:00, 523.23it/s]
+Normalizing dataset:  41%|████      | 224/550 [00:00<00:01, 323.55it/s]
+succefully created diffusion dataset
+succefully created DAFC dataset
+using device:  cuda
+Loaded range model successfully
+Loaded doppler model successfully
+Normalizing dataset: 100%|██████████| 550/550 [00:01<00:00, 484.01it/s]
+Testing clutter conditions:   0%|          | 0/3 [00:00<?, ?it/s]
+Testing PFAs:   0%|          | 0/5 [00:00<?, ?it/s]
+
+Testing PFAs:  20%|██        | 1/5 [00:02<00:11,  2.97s/it]
+
+Testing PFAs:  40%|████      | 2/5 [00:05<00:08,  2.92s/it]
+
+Testing PFAs:  60%|██████    | 3/5 [00:08<00:05,  2.90s/it]
+
+Testing PFAs:  80%|████████  | 4/5 [00:11<00:02,  2.91s/it]
+
+Testing clutter conditions:   0%|          | 0/3 [00:17<?, ?it/s]
+using device:  cuda
+Loaded range model successfully
+Loaded doppler model successfully
+Running PD vs PFA test...
+Testing clutter conditions:   0%|          | 0/3 [00:00<?, ?it/s]
+Testing PFAs:   0%|          | 0/5 [00:00<?, ?it/s]
+
+Testing PFAs:  20%|██        | 1/5 [00:02<00:11,  2.87s/it]
+
+Testing PFAs:  40%|████      | 2/5 [00:05<00:08,  2.88s/it]
+
+Testing PFAs:  60%|██████    | 3/5 [00:08<00:05,  2.87s/it]
+
+Testing PFAs:  80%|████████  | 4/5 [00:11<00:02,  2.87s/it]
+

@@ -1,0 +1,100 @@
+
+
+
+
+
+Normalizing dataset: 100%|██████████| 5500/5500 [00:10<00:00, 523.07it/s]
+Normalizing dataset:  48%|████▊     | 265/550 [00:00<00:00, 383.31it/s]
+
+Normalizing dataset: 100%|██████████| 550/550 [00:01<00:00, 492.58it/s]
+ratio: 0.06751251220703125 , n1: 44245 , n_total: 655360
+w1:  14.742885324975164
+Last computed LR: 0.001
+Training IQ network
+Training Progress:   0%|          | 0/300 [00:00<?, ?it/s]
+Epoch 1/300
+Train Loss: 0.8270 | Val Loss: 0.6669
+
+
+
+
+
+
+
+
+
+
+Training Progress:   3%|▎         | 10/300 [01:47<52:07, 10.78s/it]
+Epoch 11/300
+Train Loss: 0.6442 | Val Loss: 0.6377
+
+
+
+
+
+
+
+
+
+
+Training Progress:   7%|▋         | 20/300 [03:35<50:16, 10.77s/it]
+Epoch 21/300
+Train Loss: 0.5811 | Val Loss: 0.5801
+
+
+
+
+
+
+
+
+
+
+Training Progress:  10%|█         | 30/300 [05:23<48:46, 10.84s/it]
+Epoch 31/300
+Train Loss: 0.4526 | Val Loss: 0.4386
+
+
+
+
+
+
+
+
+
+
+Training Progress:  13%|█▎        | 40/300 [07:12<46:47, 10.80s/it]
+Epoch 41/300
+Train Loss: 0.3098 | Val Loss: 0.3112
+
+
+
+
+
+
+
+
+
+
+Training Progress:  17%|█▋        | 50/300 [09:00<44:57, 10.79s/it]
+Epoch 51/300
+Train Loss: 0.2542 | Val Loss: 0.2590
+
+
+
+
+
+
+
+
+
+
+Training Progress:  20%|██        | 60/300 [10:47<42:47, 10.70s/it]
+Epoch 61/300
+Train Loss: 0.2273 | Val Loss: 0.2269
+
+
+
+
+
+
