@@ -1,0 +1,23 @@
+{"time":"2025-04-26T13:26:34.914228573+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/hawk/Desktop/Heavy-Clutter-Detection/Thesis/wandb/run-20250426_132634-zyn2f9f0/logs/debug-core.log"}
+{"time":"2025-04-26T13:26:35.263740868+03:00","level":"INFO","msg":"created new stream","id":"zyn2f9f0"}
+{"time":"2025-04-26T13:26:35.263800409+03:00","level":"INFO","msg":"stream: started","id":"zyn2f9f0"}
+{"time":"2025-04-26T13:26:35.263836069+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"zyn2f9f0"}
+{"time":"2025-04-26T13:26:35.263956121+03:00","level":"INFO","msg":"handler: started","stream_id":"zyn2f9f0"}
+{"time":"2025-04-26T13:26:35.263897603+03:00","level":"INFO","msg":"sender: started","stream_id":"zyn2f9f0"}
+{"time":"2025-04-26T13:26:35.491280152+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-26T13:26:35.572099086+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-26T13:26:35.572120912+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-26T13:31:42.88822014+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-26T13:31:42.929074094+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-26T13:31:42.929098083+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-26T13:31:42.929101881+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-26T13:31:42.929104761+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-26T13:31:42.929107246+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-26T13:34:13.231118369+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-26T13:34:13.272040979+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-26T13:37:09.635839385+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-26T13:37:09.676076881+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-26T13:37:09.798815187+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-26T13:37:09.803336548+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-26T13:37:10.258715815+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-26T13:37:10.262416446+03:00","level":"INFO","msg":"Resuming system monitor"}

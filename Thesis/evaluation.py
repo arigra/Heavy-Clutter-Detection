@@ -37,14 +37,14 @@ def load_trained_models():
     doppler_model = DAFCRadarNet(detection_type="doppler", map_type="IQ")
 
     try:
-        range_model.load_state_dict(torch.load('/home/hawk/Desktop/Heavy Detector/Heavy-Clutter-Detection/Thesis/range_64_IQ_IQ_model.pt', weights_only=True))
+        range_model.load_state_dict(torch.load('/home/hawk/Desktop/Heavy-Clutter-Detection/Thesis/range_64_IQ_IQ_model.pt', weights_only=True))
         print("Loaded range model successfully")
     except FileNotFoundError:
         print("Range model not found. Please train the model first.")
         return None, None
 
     try:
-        doppler_model.load_state_dict(torch.load('/home/hawk/Desktop/BGU/successful_attempts/target_detection/models/doppler_64_DAFC_IQ_model.pt', weights_only=True))
+        doppler_model.load_state_dict(torch.load('/home/hawk/Desktop/Heavy-Clutter-Detection/Thesis/doppler_64_IQ_IQ_model.pt', weights_only=True))
         print("Loaded doppler model successfully")
     except FileNotFoundError:
         print("Doppler model not found. Please train the model first.")
