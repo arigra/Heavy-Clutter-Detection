@@ -2,7 +2,7 @@ import math
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-
+from torch.distributions import StudentT
 
 class ConditionalDiffusion(nn.Module):
     def __init__(self, model, scheduler_type="linear", T=1000, beta_start=1e-4, beta_end=0.02):
@@ -37,6 +37,7 @@ class ConditionalDiffusion(nn.Module):
         noise_pred = self.model(model_input, t_norm)
         return F.mse_loss(noise_pred, noise)
     
+    
     @torch.no_grad()
     def p_sample(self, x, t, cond):
         t_int = t.item() if isinstance(t, torch.Tensor) else t
@@ -62,21 +63,15 @@ class ConditionalDiffusion(nn.Module):
             x = self.p_sample(x, t_tensor, cond)
         return x
 
-import math
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-from torch.distributions import StudentT
-
 class StudentTDiffusion(ConditionalDiffusion):
     def __init__(self,
                  model: nn.Module,
                  nu: float = 5.0,
                  gamma: float = 0.5,
-                 scheduler_type: str = "linear",
-                 T: int = 1000,
+                 scheduler_type: str = "cosine",
+                 T: int = 2000,
                  beta_start: float = 1e-4,
-                 beta_end: float = 0.02):
+                 beta_end: float = 0.01):
         """
         ν: degrees of freedom for Student‐T prior
         γ: divergence parameter (γ>0)
@@ -102,43 +97,40 @@ class StudentTDiffusion(ConditionalDiffusion):
         return a_bar * x0 + one_minus * noise, noise
 
     def p_losses(self, x0, t, cond):
-        # forward q: get noisy x and true Student‑T noise
         x_noisy, eps_true = self.q_sample(x0, t)
         t_norm = t.float() / self.T
-        # predict the injected noise
-        eps_pred = self.model(torch.cat([x_noisy, cond], dim=1), t_norm)
+        inp = torch.cat([x_noisy, cond], dim=1)
+        out = self.model(inp, t_norm)
+        # unpack noise prediction only
+        noise_pred, _ = out if isinstance(out, tuple) else (out, None)
 
-        # γ‑divergence weighting:
-        # let σ_t = sqrt(1 - ᾱ_t)
+        # Student-T weighting as before
         sigma_t = (1 - self.alpha_bars[t]).sqrt().view(-1,1,1,1)
-        # normalized squared residual
-        u = (eps_pred - eps_true).pow(2) / (self.nu * sigma_t.pow(2))
-        # weight = (1 + u)^(-γ - 1)
-        w = (1 + u).pow(- (self.gamma + 1))
-        # final loss
-        return (w * (eps_pred - eps_true).pow(2)).mean()
+        u = (noise_pred - eps_true).pow(2) / (self.nu * sigma_t.pow(2))
+        w = (1 + u).pow(-(self.gamma + 1))
+        loss = (w * u).mean()
+        return loss
 
     @torch.no_grad()
     def p_sample(self, x, t, cond):
-        # exactly as in your base, but draw Student‑T noise
-        t_int = int(t.item() if isinstance(t, torch.Tensor) else t)
-        β_t = self.betas[t_int].view(-1,1,1,1)
-        α_t = self.alphas[t_int].view(-1,1,1,1)
-        ᾱ_t = self.alpha_bars[t_int].view(-1,1,1,1)
-        t_norm = (torch.tensor([t_int], device=x.device).float() / self.T).repeat(x.shape[0])
+        # same timestep logic
+        t_int = t.item() if isinstance(t, torch.Tensor) else t
+        betas_t      = self.betas[t_int].view(-1,1,1,1)
+        alphas_t     = self.alphas[t_int].view(-1,1,1,1)
+        alpha_bars_t = self.alpha_bars[t_int].view(-1,1,1,1)
+        t_norm = (torch.tensor([t_int], device=x.device).float() / self.T)
+        t_norm = t_norm.repeat(x.shape[0])
 
-        # predict the noise
-        noise_pred = self.model(torch.cat([x, cond], dim=1), t_norm)
+        inp = torch.cat([x, cond], dim=1)
+        out = self.model(inp, t_norm)
+        noise_pred, _ = out if isinstance(out, tuple) else (out, None)
 
-        # standard DDPM update
-        coef1 = 1 / α_t.sqrt()
-        coef2 = β_t / (1 - ᾱ_t).sqrt()
+        coef1 = 1 / torch.sqrt(alphas_t)
+        coef2 = betas_t / torch.sqrt(1 - alpha_bars_t)
         mean = coef1 * (x - coef2 * noise_pred)
+        noise = torch.randn_like(x) if t_int > 0 else 0
+        return mean + torch.sqrt(betas_t) * noise
 
-        # sample heavy‑tailed noise (zero at t=0)
-        noise = (self.base_dist.sample(x.shape).to(x.device) * β_t.sqrt()
-                 if t_int > 0 else torch.zeros_like(x))
-        return mean + noise
 
     # .sample(...) can remain unchanged
     @torch.no_grad()

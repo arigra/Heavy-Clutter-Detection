@@ -1,0 +1,9 @@
+{"time":"2025-04-29T20:18:44.032691677+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/hawk/Desktop/Heavy-Clutter-Detection/Thesis/wandb/run-20250429_201844-d4j37cpc/logs/debug-core.log"}
+{"time":"2025-04-29T20:18:44.424794979+03:00","level":"INFO","msg":"created new stream","id":"d4j37cpc"}
+{"time":"2025-04-29T20:18:44.424853531+03:00","level":"INFO","msg":"stream: started","id":"d4j37cpc"}
+{"time":"2025-04-29T20:18:44.424882985+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"d4j37cpc"}
+{"time":"2025-04-29T20:18:44.424928221+03:00","level":"INFO","msg":"sender: started","stream_id":"d4j37cpc"}
+{"time":"2025-04-29T20:18:44.425035709+03:00","level":"INFO","msg":"handler: started","stream_id":"d4j37cpc"}
+{"time":"2025-04-29T20:18:44.707936864+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-29T20:18:44.790584469+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-29T20:18:47.086051051+03:00","level":"INFO","msg":"Resuming system monitor"}

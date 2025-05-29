@@ -1,0 +1,15 @@
+{"time":"2025-05-09T10:12:12.723750153+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/hawk/Desktop/Heavy-Clutter-Detection/Thesis/wandb/run-20250509_101212-lw5uk4mz/logs/debug-core.log"}
+{"time":"2025-05-09T10:12:13.045788859+03:00","level":"INFO","msg":"created new stream","id":"lw5uk4mz"}
+{"time":"2025-05-09T10:12:13.045846634+03:00","level":"INFO","msg":"stream: started","id":"lw5uk4mz"}
+{"time":"2025-05-09T10:12:13.045878034+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"lw5uk4mz"}
+{"time":"2025-05-09T10:12:13.046056524+03:00","level":"INFO","msg":"sender: started","stream_id":"lw5uk4mz"}
+{"time":"2025-05-09T10:12:13.046085378+03:00","level":"INFO","msg":"handler: started","stream_id":"lw5uk4mz"}
+{"time":"2025-05-09T10:12:13.333410727+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-09T10:12:13.414463444+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-09T10:12:13.41462008+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-09T10:17:21.007087526+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-09T10:17:21.047380322+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-09T10:17:22.236315831+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-09T10:17:22.240648383+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-09T22:47:58.698838537+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-09T22:48:14.191921402+03:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/ari-granevich/New-Radar-diffusion/lw5uk4mz/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}

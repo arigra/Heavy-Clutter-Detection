@@ -1,0 +1,7 @@
+2025-05-25 11:03:51,528 INFO    MainThread:1182312 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /home/hawk/Desktop/Heavy-Clutter-Detection/Thesis/wandb/run-20250525_110351-4p6m7zvo/logs/debug.log
+2025-05-25 11:03:51,528 INFO    MainThread:1182312 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /home/hawk/Desktop/Heavy-Clutter-Detection/Thesis/wandb/run-20250525_110351-4p6m7zvo/logs/debug-internal.log
+2025-05-25 11:03:51,528 INFO    MainThread:1182312 [wandb_init.py:init():781] calling init triggers
+2025-05-25 11:03:51,528 INFO    MainThread:1182312 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'SNR': [10], 'CNR': [15], 'NU': [0.2, 0.5, 1.0], 'n_targets': 8, 'rand_n_targets': True, 'beta_end': 0.01, 'beta_start': 0.0001, 'batch_size': 16, 'num_epochs': 400, 'noise_steps': 2000, 'num_workers': 4, 'dataset_size': 50000, 'time_emb_dim': 256, 'learning_rate': 0.0001, 'scheduler_type': 'cosine', '_wandb': {}}
+2025-05-25 11:03:51,528 INFO    MainThread:1182312 [wandb_init.py:init():809] starting backend
+2025-05-25 11:03:51,528 INFO    MainThread:1182312 [wandb_init.py:init():813] sending inform_init request

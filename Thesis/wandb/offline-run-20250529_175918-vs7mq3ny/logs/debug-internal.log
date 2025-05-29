@@ -1,0 +1,14 @@
+{"time":"2025-05-29T17:59:18.812398693+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/hawk/Desktop/Heavy-Clutter-Detection/Thesis/wandb/offline-run-20250529_175918-vs7mq3ny/logs/debug-core.log"}
+{"time":"2025-05-29T17:59:18.915222315+03:00","level":"WARN","msg":"GraphQL client is nil, skipping feature loading"}
+{"time":"2025-05-29T17:59:18.915474116+03:00","level":"INFO","msg":"created new stream","id":"vs7mq3ny"}
+{"time":"2025-05-29T17:59:18.915550811+03:00","level":"INFO","msg":"stream: started","id":"vs7mq3ny"}
+{"time":"2025-05-29T17:59:18.915621297+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"vs7mq3ny"}
+{"time":"2025-05-29T17:59:18.915672181+03:00","level":"INFO","msg":"sender: started","stream_id":"vs7mq3ny"}
+{"time":"2025-05-29T17:59:18.915755127+03:00","level":"INFO","msg":"handler: started","stream_id":"vs7mq3ny"}
+{"time":"2025-05-29T17:59:18.924373908+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-29T17:59:19.012387744+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-29T17:59:19.012407754+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-29T18:03:58.054954607+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-29T18:03:58.058117044+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-29T18:03:58.517009991+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-29T18:03:58.520983775+03:00","level":"INFO","msg":"Resuming system monitor"}

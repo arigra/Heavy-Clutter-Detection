@@ -1,0 +1,52 @@
+{"time":"2025-05-24T23:47:49.342977665+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/hawk/Desktop/Heavy-Clutter-Detection/Thesis/wandb/run-20250524_234749-3g6ois2l/logs/debug-core.log"}
+{"time":"2025-05-24T23:47:49.452365723+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-24T23:47:51.682130068+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-24T23:47:55.905246355+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-24T23:48:04.631971337+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-24T23:48:22.189338415+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-24T23:48:56.529987399+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-24T23:49:56.539886146+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-24T23:50:56.540707498+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-24T23:51:56.541585241+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-24T23:52:56.542513263+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-24T23:53:56.543785228+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-24T23:54:56.544678282+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-24T23:55:56.545747447+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-24T23:56:56.547573605+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-24T23:57:56.549072298+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-24T23:58:56.550301726+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-24T23:59:56.55144005+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:00:56.552203104+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:01:56.553785048+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:02:56.555195126+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:03:56.556428733+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:03:56.556569607+03:00","level":"ERROR","msg":"Failed to load features, feature will default to disabled","error":"api: failed sending: POST http://127.0.0.1:8081/graphql giving up after 21 attempt(s): Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:03:56.5655308+03:00","level":"INFO","msg":"created new stream","id":"3g6ois2l"}
+{"time":"2025-05-25T00:03:56.565609557+03:00","level":"INFO","msg":"stream: started","id":"3g6ois2l"}
+{"time":"2025-05-25T00:03:56.56570442+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"3g6ois2l"}
+{"time":"2025-05-25T00:03:56.565727475+03:00","level":"INFO","msg":"sender: started","stream_id":"3g6ois2l"}
+{"time":"2025-05-25T00:03:56.565739405+03:00","level":"INFO","msg":"handler: started","stream_id":"3g6ois2l"}
+{"time":"2025-05-25T00:03:56.568712404+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:03:59.02099325+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:04:03.696425977+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:04:12.522972543+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:04:30.513375714+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:05:06.640513057+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:06:06.641320356+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:07:06.642407201+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:08:06.643008974+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:09:06.644597077+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:10:06.646221063+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:11:06.64744754+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:12:06.648601392+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:13:06.649770559+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:13:56.568641969+03:00","level":"WARN","msg":"sender: taking a long time","seconds":600.00051578,"work":"WorkRecord(*service_go_proto.Record_Run); Control(mailbox_slot:\"r0qn7kq88g9y\" always_send:true connection_id:\"127.0.0.1:50560\")"}
+{"time":"2025-05-25T00:14:06.651602653+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:15:06.652613324+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:16:06.653604776+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:17:06.654586753+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:18:06.655059043+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:19:06.655922448+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:20:06.657302824+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:20:06.657438217+03:00","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: api: failed sending: POST http://127.0.0.1:8081/graphql giving up after 21 attempt(s): Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T00:20:06.65753201+03:00","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":970.089786594,"work":"WorkRecord(*service_go_proto.Record_Run); Control(mailbox_slot:\"r0qn7kq88g9y\" always_send:true connection_id:\"127.0.0.1:50560\")"}

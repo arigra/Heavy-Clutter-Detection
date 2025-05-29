@@ -1,0 +1,5 @@
+{"time":"2025-05-25T11:00:38.760548987+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/hawk/Desktop/Heavy-Clutter-Detection/Thesis/wandb/run-20250525_110038-71e6h2k4/logs/debug-core.log"}
+{"time":"2025-05-25T11:00:38.868239613+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T11:00:40.934636765+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T11:00:45.245948638+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}
+{"time":"2025-05-25T11:00:54.948703039+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"http://127.0.0.1:8081/graphql\": dial tcp 127.0.0.1:8081: connect: connection refused"}

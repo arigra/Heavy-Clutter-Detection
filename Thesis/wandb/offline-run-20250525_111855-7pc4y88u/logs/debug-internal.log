@@ -1,0 +1,10 @@
+{"time":"2025-05-25T11:18:56.046750701+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/hawk/Desktop/Heavy-Clutter-Detection/Thesis/wandb/offline-run-20250525_111855-7pc4y88u/logs/debug-core.log"}
+{"time":"2025-05-25T11:18:56.14973+03:00","level":"WARN","msg":"GraphQL client is nil, skipping feature loading"}
+{"time":"2025-05-25T11:18:56.149885261+03:00","level":"INFO","msg":"created new stream","id":"7pc4y88u"}
+{"time":"2025-05-25T11:18:56.149916431+03:00","level":"INFO","msg":"stream: started","id":"7pc4y88u"}
+{"time":"2025-05-25T11:18:56.150044079+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"7pc4y88u"}
+{"time":"2025-05-25T11:18:56.150130323+03:00","level":"INFO","msg":"sender: started","stream_id":"7pc4y88u"}
+{"time":"2025-05-25T11:18:56.150220325+03:00","level":"INFO","msg":"handler: started","stream_id":"7pc4y88u"}
+{"time":"2025-05-25T11:18:56.158130516+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-25T11:18:56.246602211+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-25T11:18:56.246651373+03:00","level":"INFO","msg":"Resuming system monitor"}

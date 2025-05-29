@@ -1,0 +1,19 @@
+{"time":"2025-04-29T20:19:26.327116651+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/hawk/Desktop/Heavy-Clutter-Detection/Thesis/wandb/run-20250429_201926-uh7rlg8f/logs/debug-core.log"}
+{"time":"2025-04-29T20:19:26.688367883+03:00","level":"INFO","msg":"created new stream","id":"uh7rlg8f"}
+{"time":"2025-04-29T20:19:26.688421493+03:00","level":"INFO","msg":"stream: started","id":"uh7rlg8f"}
+{"time":"2025-04-29T20:19:26.688551726+03:00","level":"INFO","msg":"handler: started","stream_id":"uh7rlg8f"}
+{"time":"2025-04-29T20:19:26.688556606+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"uh7rlg8f"}
+{"time":"2025-04-29T20:19:26.688602964+03:00","level":"INFO","msg":"sender: started","stream_id":"uh7rlg8f"}
+{"time":"2025-04-29T20:19:26.955805933+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-29T20:19:27.047872543+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-29T20:19:27.559163555+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-29T20:24:24.230908346+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-29T20:24:24.271553174+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-29T20:24:24.706281321+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-29T20:24:24.70999066+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-29T23:45:03.962716811+03:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/ari-granevich/New-Radar-diffusion/uh7rlg8f/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-04-30T08:37:27.759703918+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-30T10:47:01.273890532+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-30T10:47:01.314600192+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-30T10:47:01.314613425+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-30T10:47:01.314616452+03:00","level":"INFO","msg":"Pausing system monitor"}

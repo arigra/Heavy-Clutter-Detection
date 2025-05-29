@@ -1,0 +1,14 @@
+{"time":"2025-05-08T10:38:52.490869444+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/hawk/Desktop/Heavy-Clutter-Detection/Thesis/wandb/run-20250508_103852-14i9v5pq/logs/debug-core.log"}
+{"time":"2025-05-08T10:38:52.831699757+03:00","level":"INFO","msg":"created new stream","id":"14i9v5pq"}
+{"time":"2025-05-08T10:38:52.831761279+03:00","level":"INFO","msg":"stream: started","id":"14i9v5pq"}
+{"time":"2025-05-08T10:38:52.831831478+03:00","level":"INFO","msg":"handler: started","stream_id":"14i9v5pq"}
+{"time":"2025-05-08T10:38:52.831854799+03:00","level":"INFO","msg":"sender: started","stream_id":"14i9v5pq"}
+{"time":"2025-05-08T10:38:52.831903143+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"14i9v5pq"}
+{"time":"2025-05-08T10:38:53.153841887+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-08T10:38:53.239686164+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-08T10:38:53.239706372+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-08T10:45:24.245206777+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-08T10:45:24.248424026+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-08T10:45:24.728509506+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-08T10:45:24.733776748+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-08T18:54:23.388461943+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.11:36642->35.186.228.49:443: read: connection reset by peer"}

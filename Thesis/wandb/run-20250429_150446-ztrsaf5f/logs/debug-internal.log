@@ -1,0 +1,9 @@
+{"time":"2025-04-29T15:04:46.895751533+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/hawk/Desktop/Heavy-Clutter-Detection/Thesis/wandb/run-20250429_150446-ztrsaf5f/logs/debug-core.log"}
+{"time":"2025-04-29T15:04:47.265902266+03:00","level":"INFO","msg":"created new stream","id":"ztrsaf5f"}
+{"time":"2025-04-29T15:04:47.265974601+03:00","level":"INFO","msg":"stream: started","id":"ztrsaf5f"}
+{"time":"2025-04-29T15:04:47.266103195+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"ztrsaf5f"}
+{"time":"2025-04-29T15:04:47.26613274+03:00","level":"INFO","msg":"sender: started","stream_id":"ztrsaf5f"}
+{"time":"2025-04-29T15:04:47.266178626+03:00","level":"INFO","msg":"handler: started","stream_id":"ztrsaf5f"}
+{"time":"2025-04-29T15:04:47.632320311+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-29T15:04:47.723659127+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-29T15:04:47.723683567+03:00","level":"INFO","msg":"Resuming system monitor"}

@@ -1,0 +1,14 @@
+{"time":"2025-05-07T20:06:34.113574504+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/hawk/Desktop/Heavy-Clutter-Detection/Thesis/wandb/run-20250507_200634-2fk07r7p/logs/debug-core.log"}
+{"time":"2025-05-07T20:06:34.413874729+03:00","level":"INFO","msg":"created new stream","id":"2fk07r7p"}
+{"time":"2025-05-07T20:06:34.413933692+03:00","level":"INFO","msg":"stream: started","id":"2fk07r7p"}
+{"time":"2025-05-07T20:06:34.414048561+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"2fk07r7p"}
+{"time":"2025-05-07T20:06:34.414149756+03:00","level":"INFO","msg":"handler: started","stream_id":"2fk07r7p"}
+{"time":"2025-05-07T20:06:34.414242301+03:00","level":"INFO","msg":"sender: started","stream_id":"2fk07r7p"}
+{"time":"2025-05-07T20:06:34.741816321+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-07T20:06:34.819700941+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-07T20:06:34.81972549+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-07T20:11:53.849305419+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-07T20:11:53.852946808+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-07T20:11:54.315877132+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-07T20:11:54.319994401+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-08T02:04:05.541976388+03:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/ari-granevich/New-Radar-diffusion/2fk07r7p/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}

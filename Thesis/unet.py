@@ -327,4 +327,87 @@ class ConditionalUNet(nn.Module):
         return output
 
 
+class DetUNet(nn.Module):
+    def __init__(self, in_channels=4, out_channels=2, time_emb_dim=256):
+        """
+        in_channels: e.g. 4 for [x_t_real, x_t_imag, cond_real, cond_imag]
+        out_channels: e.g. 2 for [noise_real, noise_imag]
+        time_emb_dim: dimension of the sinusoidal time embedding
+        """
+        super().__init__()
+        # Time embedding network
+        self.time_emb = nn.Sequential(
+            SinusoidalPosEmb(time_emb_dim),
+            nn.Linear(time_emb_dim, time_emb_dim),
+            nn.SiLU(),
+            nn.Linear(time_emb_dim, time_emb_dim)
+        )
 
+        # Encoder
+        self.inc   = DoubleConv(in_channels, 64)
+        self.down1 = Down(64, 128)
+        self.attn1 = SelfAttention2d(128)
+        self.down2 = Down(128, 256)
+        self.attn2 = SelfAttention2d(256)
+        self.down3 = Down(256, 256)
+
+        # Bottleneck
+        self.bot           = DoubleConv(256, 512)
+        self.time_proj_bot = nn.Linear(time_emb_dim, 512)
+
+        # Decoder
+        self.up1 = Up(512, skip_channels=256, out_channels=256)
+        self.time_proj_up1 = nn.Linear(time_emb_dim, 256)
+        self.up2 = Up(256, skip_channels=256, out_channels=256)
+        self.time_proj_up2 = nn.Linear(time_emb_dim, 256)
+        self.up3 = Up(256, skip_channels=128, out_channels=128)
+        self.time_proj_up3 = nn.Linear(time_emb_dim, 128)
+        self.up4 = Up(128, skip_channels=64,  out_channels=64)
+
+        # Output heads
+        self.outc    = nn.Conv2d(64, out_channels, kernel_size=1)
+        # Detection head: per-pixel logits map
+        #self.detector = nn.Conv2d(64, 1, kernel_size=1)
+        self.detector = nn.Sequential(
+            nn.Conv2d(64, 32, kernel_size=3, padding=1),
+            nn.GroupNorm(8,32), nn.SiLU(),
+            nn.Conv2d(32, 16, kernel_size=3, padding=1),
+            nn.GroupNorm(8,16), nn.SiLU(),
+            nn.Conv2d(16, 1, kernel_size=1)
+        )
+
+    def forward(self, x, t):
+        """
+        x: (B, in_channels, H, W)
+        t: (B,) integer timesteps
+        Returns:
+          noise_pred: (B, out_channels, H, W)
+          det_pred:   (B, 1, H, W) per-pixel logits
+        """
+        # Compute time embedding
+        t_emb = self.time_emb(t.float().unsqueeze(-1))  # (B, time_emb_dim)
+
+        # Encoder
+        x1     = self.inc(x)
+        x2_s, x2 = self.down1(x1); x2_s = self.attn1(x2_s)
+        x3_s, x3 = self.down2(x2); x3_s = self.attn2(x3_s)
+        x4_s, x4 = self.down3(x3)
+
+        # Bottleneck + time
+        x_bot = self.bot(x4)
+        t_bot = self.time_proj_bot(t_emb).view(-1, 512, 1, 1)
+        x_bot = x_bot + t_bot
+
+        # Decoder with skip + time
+        x = self.up1(x_bot, x4_s)
+        x = x + self.time_proj_up1(t_emb).view(-1, 256, 1, 1)
+        x = self.up2(x, x3_s)
+        x = x + self.time_proj_up2(t_emb).view(-1, 256, 1, 1)
+        x = self.up3(x, x2_s)
+        x = x + self.time_proj_up3(t_emb).view(-1, 128, 1, 1)
+        x = self.up4(x, x1)
+
+        # Heads
+        noise_pred = self.outc(x)
+        det_pred   = self.detector(x)
+        return noise_pred, det_pred

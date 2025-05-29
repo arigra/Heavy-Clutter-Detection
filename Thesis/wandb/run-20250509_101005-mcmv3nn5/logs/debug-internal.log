@@ -1,0 +1,9 @@
+{"time":"2025-05-09T10:10:05.940080779+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/hawk/Desktop/Heavy-Clutter-Detection/Thesis/wandb/run-20250509_101005-mcmv3nn5/logs/debug-core.log"}
+{"time":"2025-05-09T10:10:06.289422726+03:00","level":"INFO","msg":"created new stream","id":"mcmv3nn5"}
+{"time":"2025-05-09T10:10:06.289486025+03:00","level":"INFO","msg":"stream: started","id":"mcmv3nn5"}
+{"time":"2025-05-09T10:10:06.289592785+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"mcmv3nn5"}
+{"time":"2025-05-09T10:10:06.289714081+03:00","level":"INFO","msg":"handler: started","stream_id":"mcmv3nn5"}
+{"time":"2025-05-09T10:10:06.289799093+03:00","level":"INFO","msg":"sender: started","stream_id":"mcmv3nn5"}
+{"time":"2025-05-09T10:10:06.600035244+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-09T10:10:06.667640175+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-09T10:10:06.667658722+03:00","level":"INFO","msg":"Resuming system monitor"}

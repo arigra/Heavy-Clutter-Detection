@@ -1,0 +1,13 @@
+{"time":"2025-04-30T10:47:11.760313175+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/hawk/Desktop/Heavy-Clutter-Detection/Thesis/wandb/run-20250430_104711-22f03gyg/logs/debug-core.log"}
+{"time":"2025-04-30T10:47:12.112740581+03:00","level":"INFO","msg":"created new stream","id":"22f03gyg"}
+{"time":"2025-04-30T10:47:12.112810278+03:00","level":"INFO","msg":"stream: started","id":"22f03gyg"}
+{"time":"2025-04-30T10:47:12.112906669+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"22f03gyg"}
+{"time":"2025-04-30T10:47:12.113004431+03:00","level":"INFO","msg":"sender: started","stream_id":"22f03gyg"}
+{"time":"2025-04-30T10:47:12.113110855+03:00","level":"INFO","msg":"handler: started","stream_id":"22f03gyg"}
+{"time":"2025-04-30T10:47:12.418220235+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-30T10:47:12.507651452+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-30T10:47:12.507674147+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-30T10:53:17.261898505+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-30T10:53:17.302588968+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-30T10:53:17.746244077+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-30T10:53:17.749682199+03:00","level":"INFO","msg":"Resuming system monitor"}

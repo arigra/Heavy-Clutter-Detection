@@ -1,0 +1,13 @@
+{"time":"2025-05-07T19:24:25.776559823+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/hawk/Desktop/Heavy-Clutter-Detection/Thesis/wandb/run-20250507_192425-lgupitvp/logs/debug-core.log"}
+{"time":"2025-05-07T19:24:26.077119815+03:00","level":"INFO","msg":"created new stream","id":"lgupitvp"}
+{"time":"2025-05-07T19:24:26.077181805+03:00","level":"INFO","msg":"stream: started","id":"lgupitvp"}
+{"time":"2025-05-07T19:24:26.077231764+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"lgupitvp"}
+{"time":"2025-05-07T19:24:26.077274042+03:00","level":"INFO","msg":"sender: started","stream_id":"lgupitvp"}
+{"time":"2025-05-07T19:24:26.077316599+03:00","level":"INFO","msg":"handler: started","stream_id":"lgupitvp"}
+{"time":"2025-05-07T19:24:26.37960004+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-07T19:24:26.465686868+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-07T19:24:26.46570453+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-07T19:30:02.415873837+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-07T19:30:02.457607466+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-07T19:30:02.888518922+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-07T19:30:02.893416121+03:00","level":"INFO","msg":"Resuming system monitor"}

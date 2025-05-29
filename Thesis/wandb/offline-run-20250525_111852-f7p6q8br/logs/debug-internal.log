@@ -1,0 +1,8 @@
+{"time":"2025-05-25T11:18:52.203132969+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/hawk/Desktop/Heavy-Clutter-Detection/Thesis/wandb/offline-run-20250525_111852-f7p6q8br/logs/debug-core.log"}
+{"time":"2025-05-25T11:18:52.305996271+03:00","level":"WARN","msg":"GraphQL client is nil, skipping feature loading"}
+{"time":"2025-05-25T11:18:52.306037165+03:00","level":"INFO","msg":"created new stream","id":"f7p6q8br"}
+{"time":"2025-05-25T11:18:52.306044284+03:00","level":"INFO","msg":"stream: started","id":"f7p6q8br"}
+{"time":"2025-05-25T11:18:52.306054109+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"f7p6q8br"}
+{"time":"2025-05-25T11:18:52.306107119+03:00","level":"INFO","msg":"handler: started","stream_id":"f7p6q8br"}
+{"time":"2025-05-25T11:18:52.306115571+03:00","level":"INFO","msg":"sender: started","stream_id":"f7p6q8br"}
+{"time":"2025-05-25T11:18:52.307731568+03:00","level":"INFO","msg":"Starting system monitor"}

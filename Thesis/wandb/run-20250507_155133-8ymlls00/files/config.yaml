@@ -1,0 +1,60 @@
+_wandb:
+    value:
+        cli_version: 0.19.9
+        m: []
+        python_version: 3.12.3
+        t:
+            "1":
+                - 1
+                - 55
+            "2":
+                - 1
+                - 55
+            "3":
+                - 2
+                - 13
+                - 16
+                - 23
+                - 55
+            "4": 3.12.3
+            "5": 0.19.9
+            "8":
+                - 1
+                - 5
+            "12": 0.19.9
+            "13": linux-x86_64
+CNR:
+    value:
+        - 15
+NU:
+    value:
+        - 0.2
+        - 0.5
+        - 1
+SNR:
+    value:
+        - 10
+batch_size:
+    value: 16
+beta_end:
+    value: 0.01
+beta_start:
+    value: 0.0001
+dataset_size:
+    value: 500
+learning_rate:
+    value: 0.0001
+n_targets:
+    value: 8
+noise_steps:
+    value: 2000
+num_epochs:
+    value: 400
+num_workers:
+    value: 4
+rand_n_targets:
+    value: true
+scheduler_type:
+    value: cosine
+time_emb_dim:
+    value: 256
